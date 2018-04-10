@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../css/fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),  url('../css/fonts/Lato-Regular.woff') format('woff'), url('../css/fonts/Lato-Regular.ttf')  format('truetype'), url('../css/fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FjallaOne';
+  src: url('../css/fonts/FjallaOne.eot?#iefix') format('embedded-opentype'),  url('../css/fonts/FjallaOne.otf')  format('opentype'),
+	     url('../css/fonts/FjallaOne.woff') format('woff'), url('../css/fonts/FjallaOne.ttf')  format('truetype'), url('../css/fonts/FjallaOne.svg#FjallaOne') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PatuaOne-Regular';
+  src: url('../css/fonts/PatuaOne-Regular.eot?#iefix') format('embedded-opentype'),  url('../css/fonts/PatuaOne-Regular.otf')  format('opentype'),
+       url('../css/fonts/PatuaOne-Regular.woff') format('woff'), url('../css/fonts/PatuaOne-Regular.ttf')  format('truetype'), url('../css/fonts/PatuaOne-Regular.svg#FjallaOne') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+   Typography
+   ========================================================================== */
+
+/* font size */
+$primary-font-size          : 16px;
+$second-font-size           : 26px;
+$readmore-font-size         : 13px;
+
+/* font family */
+$primary-font-family        : 'Lato-Regular';
+
+/*
+   Colors
+   ========================================================================== */
+$header-background-color                 : #1d1d1b;
+$sidemenu-color                : #575756;
+
+$black-color                  : #1d1d1b;
+$gray-color                   : #575756;
+$orange-color                 : #f39200;
+$white-color                  : #fff;
+
+$gray-text-color              : #d9d9d9;
+
+/*
+   Grid
+   ========================================================================== */
+.display-flex{
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+}
+.display-flex-wrap{
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+/*
+   Other
+   ========================================================================== */
+.clear-fix{
+   clear:both;
+}
+/* button slider */
+.carousel-prev,
+.carousel-next{
+   width:30px;
+   height:30px;
+   position:absolute;
+   top:50%;
+   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
+   color:#b2b2b2;
+   font-size:45px;
+   cursor:pointer;
+   .fa{
+      display: block;
+      transition:all 0.3s;
+      -webkit-transition:all 0.3s;
+      -moz-transition:all 0.3s;
+      -o-transition:all 0.3s;
+      transition-delay:0.15s;
+   }
+}
+.carousel-prev{
+   left:20px;
+}
+.carousel-next{
+   right:20px;
+}

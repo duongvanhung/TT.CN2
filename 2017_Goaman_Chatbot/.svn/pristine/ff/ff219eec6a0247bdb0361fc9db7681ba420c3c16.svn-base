@@ -1,0 +1,154 @@
+.process_bar_1,
+.process_bar_2,
+.process_bar_3,
+.process_bar_4,
+.process_bar_5{
+	text-align:center;
+	padding-top:80px;
+	.processbar-header{
+		line-height: 1;
+		&-logo{
+			width:60px;
+			height:60px;
+			margin:0 auto;
+			img{
+				width:100%;
+			}
+		}
+		&-title{
+			font-family: 'SourceSansPro-Regular';
+			font-size:16px;
+			color:#9e9e9e;
+			margin-top:35px;
+		}
+		&-style{
+			font-family: 'Raleway-Regular';
+			font-size:30px;
+			color:#e1b55a;
+			margin-top:5px;
+		}
+	}
+}
+.process_bar_1{
+	padding-bottom:85px;
+	.processbar-header{
+		margin-bottom:85px;
+	}
+	.container > .row > div:last-child .content{
+		border:1px solid #f1f1f1;
+	}
+	.content{
+		padding:15px 20px 15px 35px ;
+		text-align: left;
+		border-style:solid;
+		border-width:1px 1px 0px 1px;
+		border-color:#f1f1f1;
+		@media(max-width:767px){
+			padding:15px;
+		}
+	}
+	.percent{
+		text-align:right;
+	}
+}
+.process_bar_2{
+	background: url('../../images/blocks/processbar/background_4.png') no-repeat;
+    background-size: cover;
+	color:white;
+	padding-bottom:95px;
+	.canvas{
+		position:relative;
+	}
+	.processbar-header{
+		margin-bottom:40px;
+	}
+	.title{
+		font-family: 'SourceSansPro-Regular';
+		font-size:16px;
+		text-align: left;
+	}
+	.content{
+		margin-top:45px;
+	}
+	.percent{
+		font-family: 'SourceSansPro-Regular';
+		font-size:16px;
+		width:40px;
+		height:40px;
+		border-radius:50%;
+		border-style:none;
+		background:white;
+		color:#303030;
+		line-height: 40px;
+		position:absolute;
+		top:-10px;
+		left:-2px;
+	}
+}
+.process_bar_3{
+	padding-bottom:105px;
+	.processbar-header{
+		margin-bottom:50px;
+	}
+	.content{
+		margin-top:40px;
+	}
+	.title{
+		text-align: left;
+	}
+}
+
+
+
+.process_bar_4{
+	background: url('../../images/blocks/processbar/background_4.png');
+	background-repeat: no-repeat;
+   
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 135px;
+    .processbar-header{
+    	padding-bottom:60px;
+    }
+    .canvas{
+    	position:relative;
+    	.percent{
+    		position:absolute;
+    	}
+    }
+    .processbar-content{
+    	padding-top:30px;
+    	color:white;
+    	canvas{
+    		display: block;
+    		margin: 0 auto;
+    	}
+    	.canvas-text{
+    		margin-top: 20px;
+    		text-align: center;
+    	}
+    }
+}
+.process_bar_5{
+	background:white;
+	padding-bottom:145px;
+	.processbar-header{
+		padding-bottom:75px;
+	}
+	.processbar-content{
+    	padding-top:10px;
+    	color:black;
+    	canvas{
+    		display: block;
+    		margin: 0 auto;
+    	}
+    	.canvas-text{
+    		margin-top: 20px;
+    		text-align: center;
+    		@media(max-width:991px){
+    			margin-top:10px;
+    		}
+    	}
+    }
+}

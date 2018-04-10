@@ -1,0 +1,36 @@
+.wrapper-footer{
+	background:$black-color;
+}
+footer{
+	position:relative;
+}
+.container-footer{
+	max-width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.widget-list-link{
+	li a{
+		color:$white-color;
+	}
+}
+
+.logo-footer{
+	display: block;
+	margin-top:20px;
+	text-align:center;
+}
+
+@media(min-width:992px){
+	.logo-footer{
+		position: absolute;
+		top:50%;
+		right:30px;
+		transform:translateY(-50%);
+		-webkit-transform:translateY(-50%);
+		-o-transform:translateY(-50%);
+		-moz-transform:translateY(-50%);
+	}
+}   

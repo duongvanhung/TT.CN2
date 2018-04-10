@@ -1,0 +1,160 @@
+.tooltip-inner {
+    background-color: white !important;
+    color: black !important;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: white !important;
+}
+
+#modal-editor-all .tooltip-edit-font-text {
+    width: 100%;
+}
+
+.tooltip-edit-font-text {
+    width: 500px;
+
+    > div:not(.tooltip), select {
+        margin-right: 5px;
+    }
+
+    .text-align, .text-link {
+        width: 40px;
+        text-align: center;
+        cursor: pointer;
+
+        .fa {
+            padding-top: 11px;
+        }
+    }
+}
+
+.tooltip-edit-menu {
+    width: 255px;
+
+    > div:not(.tooltip), select {
+        width: 40px;
+        margin-right: 1px;
+        text-align: center;
+        cursor: pointer;
+
+        .fa {
+            padding-top: 11px;
+        }
+    }
+
+    > div.edit-link, div.edit-icon {
+        margin-right: 5px;
+    }
+}
+
+.tooltip-edit-button {
+    margin-bottom: 10px;
+    width: 480px;
+
+    > div:not(.tooltip), select {
+        width: 40px;
+        margin-right: 5px;
+        text-align: center;
+        cursor: pointer;
+
+        .fa {
+            padding-top: 11px;
+        }
+    }
+
+    > div.add, div.remove {
+        margin-right: 1px;
+    }
+}
+
+.tooltip-edit-font-text,
+.tooltip-edit-menu,
+.tooltip-edit-button {
+    /*display:flex;*/
+    display: none;
+    height: 50px;
+    background: #282937;
+    font-family: "SourceSansPro-Regular";
+    padding: 5px 0px 5px 0px;
+
+    > div:not(.tooltip), select {
+        display: inline-block;
+        background: #3a3d51;
+        color: white;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .text-select-font {
+        width: 200px !important;
+        height: 40px !important;
+
+        .btn-group {
+            width: 100%;
+            height: 100%;
+
+            button {
+                border-style: none;
+                outline: none;
+                background: #3a3d51;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .text-font-size {
+        background: #3a3d51 !important;
+        height: 40px !important;
+        width: 80px !important;
+
+        .btn-group {
+            width: 100%;
+            height: 100%;
+
+            button {
+                border-style: none;
+                outline: none;
+                background: #3a3d51;
+                height: 100%;
+                width: 100%;
+            }
+
+            .dropdown-menu {
+                min-width: 80px !important;
+            }
+        }
+    }
+
+    .text-color {
+        width: 40px !important;
+        text-align: center;
+        padding-top: 5px;
+
+        input {
+            width: 30px;
+            height: 30px;
+            min-height: 30px;
+            border-style: none;
+        }
+    }
+
+    .btn-group {
+        .dropdown-menu {
+            background: #3a3d51;
+            padding-left: 15px;
+            border-radius: 0px;
+            width: 100%;
+            height: 160px;
+            overflow-y: scroll;
+
+            li {
+                text-align: left;
+                min-height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}

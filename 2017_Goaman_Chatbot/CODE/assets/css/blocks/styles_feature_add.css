@@ -1,0 +1,64 @@
+.box-title{
+	font-family: 'SourceSansPro-Regular';
+	font-size:16px;
+}
+#feature1 .feature-item1 .feature-title1,
+ #feature3 .feature-item1 .feature-title1{
+	font-family: 'SourceSansPro-Light';
+    font-weight: bold;
+ }
+#feature1 .feature-item1 .feature-text1,
+#feature3 .feature-item1 .feature-text1{
+	font-family: 'SourceSansPro-Regular';
+	color:#303030;
+	line-height: 30px;
+	height:114px;
+}
+#feature2 .feature-item2 .feature-title2,
+#feature4 .feature-item2 .feature-title2, 
+#feature5 .feature-item2 .feature-title2{
+	font-family: 'SourceSansPro-Light';
+    font-weight: bold;
+}
+#feature2 .feature-item2 .feature-text2, 
+#feature4 .feature-item2 .feature-text2, 
+#feature5 .feature-item2 .feature-text2{
+	font-family: 'SourceSansPro-Regular';
+	line-height:30px;
+    height: 84px;
+    overflow: hidden;
+}
+
+.blok-slider-feature5 img{
+	max-width:300px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.blok-slider-feature5.owl-theme .owl-controls .owl-page span{
+	width:30px;
+	height:2px;
+	margin: 5px 3px;
+	border-radius:none;
+}
+.blok-slider-feature5.owl-theme .owl-controls .owl-page.active span{
+	height:4px;
+	background-color:#e1b55e;
+}
+@media screen and (min-width:1367px){
+	#feature1 .phone2{
+		max-width:555px;
+	}
+	#feature1 .phone1{max-width:620px;}
+}
+@media screen and (min-width:992px) and (max-width: 1366px){
+	#feature1 .phone1{margin-left:55%;}
+	#feature1 .phone2{top:53%;}
+}
+@media screen and (max-width:767px){
+	.box-title{margin-bottom:40px;}
+	.feature2-img.add-fix img{max-width:320px;margin-bottom:15px;width:100%;padding-left:10px;padding-right:10px;}
+	#feature5 .list-feature5{margin-top:0;}
+	
+}

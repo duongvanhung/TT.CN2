@@ -1,0 +1,78 @@
+<section class="contact_1 padding-top90 row-builder js-dynamic-menu " data-type="bg" menu-name="Contact" data-script-name="block_run_script_contact">
+    <div class="container">
+        <div class="template-header" data-animate="fadeInUp-parent">
+            <div class="template-header-logo">
+                <img  src="assets/images/blocks/contact/logo.png" alt="logo" data-type="image">  
+            </div>
+            <p class="template-header-title" >
+                <span data-type="title">We are going to provide you with actual and important for you information without spam or fluff.</span>
+            </p>
+            <p class="template-header-style" >
+                <span data-type="title">Get in touch right now</span>
+            </p>
+        </div>
+        <div class="form">
+            <div class="row" data-animate="fadeInRight-parent">
+                <div class="col-md-4 col-xs-12">
+                    <input class="input input--border-orange" placeholder="Your name" />
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <input class="input input--border-orange" placeholder="Email"/>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <input class="input input--border-orange" placeholder="Subject"/>
+                </div>
+            </div>
+            <textarea data-animate="fadeInUp" class="textarea textarea--border-orange" placeholder="Your message"></textarea>
+            <button data-animate="fadeInUp" class="button button--border-orange" data-type="button">SEND MESSAGE</button>
+        </div>
+    </div>
+    <div class="section-contact2">
+        <div class="container">
+            <div class="row" data-animate="zoomIn-parent">
+                <div class="col-md-4 col-xs-12" >
+                    <div class="contact">
+                        <div class="contact__image">
+                            <img src="assets/images/blocks/contact/mark1.png" alt="marker" data-type="image">
+                        </div>
+                        <div class="contact__title">
+                            <span data-type="title">Vanue</span>
+                        </div>
+                        <div class="contact__content">
+                            <p data-type="content">Castle Convention Center
+                            214 Awesome Street,NY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="contact">
+                        <div class="contact__image">
+                            <img src="assets/images/blocks/contact/map1.png" alt="map" data-type="image">
+                        </div>
+                        <div class="contact__title">
+                            <span data-type="title">Accomodation</span>
+                        </div>
+                        <div class="contact__content">
+                            <p data-type="content">Castle Resort
+    500 Hotel CircleDiego, CA 92108</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="contact">
+                        <div class="contact__image">
+                            <img src="assets/images/blocks/contact/phone1.png" alt="phone" data-type="image">
+                        </div>
+                        <div class="contact__title">
+                            <span data-type="title">Information</span>
+                        </div>
+                        <div class="contact__content">
+                            <p data-type="content">(0) 123-456-789-00
+    info@eventcastle.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

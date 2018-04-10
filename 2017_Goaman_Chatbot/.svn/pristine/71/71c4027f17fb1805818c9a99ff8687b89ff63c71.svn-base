@@ -1,0 +1,162 @@
+#sample-interface-text {
+    .container {
+        .row {
+            .reponsive {
+                width: 35%;
+
+                @media (max-width: 1024px) {
+                    width: 30%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 24%;
+                }
+
+                @media (max-width: 480px) {
+                    width: 7%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 0%;
+                }
+            }
+
+            .reponsive-fix {
+                width: 30%;
+
+                @media (max-width: 1024px) {
+                    width: 40%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 52%;
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 480px) {
+                    width: 86%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 100%;
+                }
+
+                .content {
+                    border-radius: 10px;
+
+                    .form-group {
+                        border: 1px solid #ccc;
+                        border-radius: 10px;
+
+                        .in-put {
+                            margin-top: 8px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+
+                            .text {
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border: 1px solid rgba(169, 68, 66, 0.47);
+                                border-radius: 10px;
+                                line-height: 40px;
+                            }
+                        }
+
+                        .bu-tton {
+                            border-radius: 0 0 10px 10px;
+                            margin-bottom: 10px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+
+                            .btn-default {
+                                width: 100%;
+                                border-radius: 0px;
+                                border-top: 0px;
+                                height: 40px;
+                                font-weight: bold;
+                                color: #428bca;
+                                background: #f5f5f5;
+                                border-color: transparent;
+
+                                &:hover {
+                                    background: #ccc;
+                                }
+                            }
+                        }
+
+                        .panel {
+                            display: none;
+                            margin-top: 20px;
+                            border-top: 1px dotted #ccc;
+                            border-left: 0;
+                            border-right: 0;
+                            border-radius: 0;
+                            box-shadow: none;
+
+                            .en-ter-bt {
+                                margin-top: 15px;
+
+                                .form-control {
+                                    height: 40px;
+                                    border-radius: 10px 10px 10px 10px;
+                                    margin-left: 10px;
+                                    width: 93%;
+                                    margin-bottom: 8px;
+                                    border: 1px solid rgba(169, 68, 66, 0.53);
+                                }
+                            }
+
+                            .en-ter-block {
+                                border-top: 1px dotted #ccc;
+
+                                .url-link {
+                                    .nav-tabs {
+                                        border: 0px;
+
+                                        .active {
+                                            a {
+                                                background-color: transparent;
+                                                border: 0px;
+                                                border-radius: 0px;
+                                                color: #ee5757;
+
+                                                span {
+                                                    margin-right: 5px;
+                                                }
+                                            }
+                                        }
+
+                                        .color-red {
+                                            color: #ee5757;
+
+                                            span {
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                    }
+
+                                    .clearfix {
+                                        .active {
+                                            display: block;
+                                            border-radius: 10px;
+                                            width: 94%;
+                                            margin-left: 10px;
+
+                                            .form-control {
+                                                border-radius: 10px;
+                                                border: 1px solid rgba(169, 68, 66, 0.52);
+                                                height: 40px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .sticky {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

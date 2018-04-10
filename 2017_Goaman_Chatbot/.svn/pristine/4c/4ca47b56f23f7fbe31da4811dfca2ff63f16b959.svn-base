@@ -1,0 +1,145 @@
+<section class="faq2 row-builder js-dynamic-menu"  menu-name="FAQ"  data-type="bg" data-script-name="block_run_script_faq">
+<header class="header-children-page" data-type="bg">
+				    <div class="container">
+				        <div class="row">
+				        	<div class="col-xs-12">
+				        		<div class="header-children-page-content">
+				        			<div class="header-children-page-logo">
+					        			<img src="assets/images/blocks/style/logo.png" data-type="image"/>
+					        		</div>
+					        		<span class="header-children-page-text1" data-type="title">
+					        			COSMOS
+					        		</span>
+					        		<span class="header-children-page-text2" data-type="title">
+					        			App Landing Page
+					        		</span>
+				        		</div>
+				        		<div class="header-children-page-breadcum">
+				        			<span data-type="title">TIMELINE</span>
+				        			<ul>
+				        				<li><a href="index.html" data-type="link">Homepage</a></li>
+				        				<li><a href="#" data-type="link">FAQ</a></li>
+				        			</ul>
+				        		</div>
+				        	</div>
+				        </div>
+				    </div>
+				    <div class="setting-background-bt" style="display: block; opacity: 1;">
+				    	<button type="button" data-placement="bottom" data-toggle="tooltip" title="Edit image" class="row-edit-bg btn btn-lg" data-dialog="">
+				    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+				    	</button>
+				    </div>
+				</header>
+   <div class="container padding-top90">
+        <p class="title" data-type="title">About WordPress</p>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                Are there any extra fees that I will have to pay on top of the listed price?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                Should I print a receipt to show the tour guide?
+            </div>
+            <div class="faq-answer" data-type="content">
+                We understand that you may not have a printer handy when you’re traveling so it is not necessary to have a printed copy. However, we require that you show ID matching your reservation and also the Order # that is immediately emailed to you after you make your reservation.
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                How much does it cost to do a private tour?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                What should I wear?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                What do I need to bring?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                Are we going hiking even though it’s raining and windy?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                What information can be found in my health record
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                Who has access to my health records
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+               How do I make the text wrap about the pictures?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+                Can WordPress power multiple blogs?
+            </div>
+            <div class="faq-answer" data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+        <!-- item-->
+        <div class="faq-item" data-animate="zoomIn">
+            <div class="faq-question" data-type="content">
+               Can I have a blog in a language other than English?
+            </div>
+            <div class="faq-answer " data-type="content">
+                I don’t know what all the WordPress terms mean: where can I get help?
+                I don’t know what all the WordPress terms mean: where can I get help?
+            </div>
+        </div>
+   </div>
+</section>

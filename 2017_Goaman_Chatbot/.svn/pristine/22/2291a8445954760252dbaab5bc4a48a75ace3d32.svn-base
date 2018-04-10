@@ -1,0 +1,15 @@
+<section class="demo_3 row-builder js-dynamic-menu" menu-name="Demo" data-script-name="block_run_script_demo">
+	<div class="video-youtube" >
+		<img src="assets/images/blocks/demo/option3-background.png" alt="image youtube" data-type="image">
+		<div class="demo-content" data-animate="zoomIn-parent">
+			<a class="fancybox-video fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+				<img src="assets/images/blocks/demo/button-play.png" alt="button play" data-type="image-link">
+			</a>
+			<p class="demo-watch" data-type="title">WATCH VIDEO</p>
+			<p class="demo-text">
+				<span data-type="title">An amazing app template you’ve always been looking for</span>
+			</p>
+		</div>
+		
+	</div>
+</section>

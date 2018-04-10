@@ -1,0 +1,46 @@
+<section class="footer_3 row-builder js-dynamic-menu" menu-name="footer" data-type="bg" data-script-name="block_run_script_footer">
+    <div class="container">
+        <div class="logo" data-animate="zoomIn">
+            <img src="assets/images/blocks/footer/logo2.png" alt="logo" data-type="image"/>
+        </div>
+        <div class="footer-content" data-animate="zoomIn">
+            <span data-type="content">Is amazing, modern and clean landing page for showcase your app anything else. 
+A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free.</span>
+        </div>
+        <div class="footer-app" data-animate="zoomIn-parent">
+            <a href="#" data-type="link">
+                <img src="assets/images/blocks/footer/footer_1.png" alt="google-play" data-type="image-link"/>
+                <div class="footer-app-content">
+                    <span data-type="title">ANDROID APP ON</span>
+                    <span data-type="title">Google Play</span>
+                </div>
+            </a>
+            <a href="#" data-type="link">
+                <img src="assets/images/blocks/footer/footer_2.png" alt="windows" data-type="image-link"/>
+                <div class="footer-app-content">
+                    <span data-type="title">WINDOWS APP ON</span>
+                    <span data-type="title">Windows Store</span>
+                </div>
+            </a>
+            <a href="#" data-type="link">
+                <img src="assets/images/blocks/footer/footer_3.png" alt="apple" data-type="image-link"/>
+                <div class="footer-app-content">
+                    <span data-type="title">IOS APP ON</span>
+                    <span data-type="title">App Store</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="coppy-right">
+        <div class="container">
+            <span data-type="content">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2016 Design by COSMOS</span>
+            <div class="icons-social" data-animate="zoomIn-parent" >
+                <a href="#"><img src="assets/images/blocks/footer/twitter-logo.png" alt="Twitter" data-type="image-link"/></a>
+                <a href="#"><img src="assets/images/blocks/footer/facebook-logo.png" alt="Facebook" data-type="image-link"/></a>
+                <a href="#"><img src="assets/images/blocks/footer/google-logo.png" alt="Google" data-type="image-link"/></a>
+                <a href="#"><img src="assets/images/blocks/footer/pinterest-logo.png" alt="Pinterest" data-type="image-link"/></a>
+                <a href="#"><img src="assets/images/blocks/footer/linkedin-logo.png" alt="In" data-type="image-link"/></a>
+            </div>
+        </div>
+    </div>
+</section>

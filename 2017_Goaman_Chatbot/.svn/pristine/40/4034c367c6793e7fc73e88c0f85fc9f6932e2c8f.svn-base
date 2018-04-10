@@ -1,0 +1,89 @@
+<section class="process_bar_2 js-dynamic-menu" menu-name="Process bar" data-script-name="block_run_script_process_bar">
+        <div class="container">
+            <div class="processbar-header">
+                <div class="processbar-header-logo">
+                    <img  src="assets/images/blocks/processbar/logo.png" alt="logo" data-type="image">  
+                </div>
+                <p class="processbar-header-title" data-type="title">Lets see what say clients about us</p>
+                <p class="processbar-header-style" data-type="title">Progress Bar Style 2</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-xs-12">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-3">
+                                <div class="title" data-type="title">
+                                    Creativity
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-9">
+                                <div class="canvas">
+                                    <canvas id="canvas-style-2-1" class="canvas-style-2 rectangle" height="11" data-perc="50" data-color="#fff"></canvas>
+                                    <div class="percent">
+                                        0%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 col-xs-12">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-3">
+                                <div class="title" data-type="title">
+                                    Applications
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-9">
+                                <div class="canvas">
+                                    <canvas id="canvas-style-2-2" class="canvas-style-2 rectangle" height="11" data-perc="90" data-color="#fff"></canvas>
+                                    <div class="percent">
+                                        0%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 col-xs-12">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-3">
+                                <div class="title" data-type="title">
+                                    UX/UI
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-9">
+                                <div class="canvas">
+                                    <canvas id="canvas-style-2-3" class="canvas-style-2 rectangle" height="11" data-perc="75" data-color="#fff"></canvas>
+                                    <div class="percent">
+                                        0%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 col-xs-12">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-4 col-sm-3">
+                                <div class="title" data-type="title">
+                                    Development
+                                </div>
+                            </div>
+                            <div class="col-xs-8 col-sm-9">
+                                <div class="canvas">
+                                    <canvas id="canvas-style-2-4" class="canvas-style-2 rectangle" height="11" data-perc="33" data-color="#fff"></canvas>
+                                    <div class="percent">
+                                        0%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

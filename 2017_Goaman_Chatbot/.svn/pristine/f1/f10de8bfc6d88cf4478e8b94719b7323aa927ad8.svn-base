@@ -1,0 +1,41 @@
+#map2, #map1, #map3 {
+  width: 100%;
+  height: 450px;
+  display: block;
+  color: black; }
+
+#map1 #content {
+  width: 200px;
+  min-height: 80px;
+  background: white;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 16px; }
+
+#map_3 {
+  position: relative; }
+  #map_3 .content {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    right: 30px;
+    background: white;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 16px;
+    color: black;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px; }
+    @media (max-width: 767px) {
+      #map_3 .content {
+        position: initial;
+        transform: initial; } }
+    #map_3 .content span {
+      display: block;
+      max-width: 250px;
+      line-height: 30px; }
+    #map_3 .content-title {
+      font-family: 'SourceSansPro-Bold';
+      margin-top: 20px; }

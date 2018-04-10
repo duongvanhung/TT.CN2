@@ -1,0 +1,278 @@
+/*--------------- sign up --------------*/
+
+.signup{
+	color:#fff;
+	padding-right:15px;
+	cursor:pointer;
+}
+
+
+.signup-right, .login-right{
+	position:fixed;       
+	top:42px;
+	left:0;
+	right:0;
+	bottom:0;
+	background: #3c3c3b;
+	visibility: hidden;
+	opacity: 0.98;
+
+	@include transform(translateY(-100%));
+	@include transition(all 0.5s);
+	&.active{
+		transform: translateY(0%);
+		visibility: visible;
+		opacity:1;
+	}
+	.container{
+		height: 100%;
+	}
+	.display-table{
+		display: table;
+		width: 100%;
+		height:100%;
+	}
+	.display-table-cell{
+		display:table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}
+	/*---------------------------------------------
+		CSS For right side advertisement
+	-----------------------------------------------*/	
+	.signup-wrap{
+		max-width:980px;
+		padding-left:15px;
+		padding-right:15px;
+		width:100%;
+		height:100%;
+		display:block;
+		position:absolute;
+		top:0;
+		left:50%;
+		@include transform(translateX(-50%));
+	}
+	.signup-form{
+		position:relative;
+		overflow:hidden;
+	}
+	.formget{
+		float:right;
+		margin-top:30px;
+	}
+	.signup-form{
+		height:100%;
+	}
+
+	// style tab
+	.tab-content{
+		color:#fff;
+		height:calc(100% - 42px);
+		overflow:hidden;
+		&>*{
+		    width: calc(100% + 20px);
+		    height:100%;
+		    overflow:auto;
+		    overflow-x:hidden;
+		}
+	}
+	.nav-tabs>li>a{
+		color: white;
+		font-family:FjallaOne;
+		text-transform: uppercase;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+		background-color:transparent;
+		border:none;
+		color: #1d1d1b;
+	}
+	.nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+	    text-decoration: none;
+	    background-color: transparent;
+	}
+	.nav-tabs>li>a:hover{
+		border:none;
+		background-color:none;
+	}
+	.nav-tabs>li>a{
+		border:none;
+	}
+	.nav-tabs > li:last-child > a{
+		color: #f39200;
+	}
+	//////////////////////////////////////
+	.section-form{
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		overflow: auto;
+		background: #3c3c3b;
+		@include transition(all 0.5s);
+		@include transform(translateX(100%));
+		&.active{
+			@include transform(translateX(0%));
+		}
+	}
+	.close-signup, .close-login{
+		float: right;
+		right: 3%;
+	}
+	.title-step{
+		text-transform: uppercase;
+		color: #9d9d9c;
+		margin-left: 70px;
+		font-family:FjallaOne;
+		font-size: 16px;
+		@media (max-width:480px){
+			margin-left: 0;	
+		}	
+	}
+	.title-step.style-1{
+		transform: translateX(45%);
+	}
+	/*----------- step 1 -----------------------*/
+	.step1-wrap{
+		max-width: 260px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.step2-wrap{
+		max-width: 151px;
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+	.step1{
+		text-align: center;
+		max-width: 315px;
+		display: block;
+	}
+	.step1 input{
+		max-width: 260px;
+	    width: 100%;
+	    height: 35px;
+	    color: #303030;	
+	}
+	/*----------- step 2 -----------------------*/
+	.step2{
+		text-transform: uppercase;
+		display: block;
+	}
+	.des-step-2{
+		position: absolute;
+	    left: 40%;
+	    top: 0;
+	    color: #9d9d9c;
+	    @media (max-width:480px){
+	        left: 0;
+    		top: 7%;
+    	}
+	}
+	.step2 ul li{
+	    font-family: FjallaOne;
+	    text-transform: uppercase;
+	}
+	.step2 ul li a{
+	    color: #fff;
+	}
+	.step2 input[type="radio" i] {
+        margin: 3px 5px 0px 5px;
+        
+    }
+    .step2 input[type="radio"] {
+        cursor: pointer;
+    }
+	/*----------- step 3-----------------------*/
+	.step3{
+		overflow: hidden;
+		@media(max-width:768px){
+			margin-right: auto;
+		    margin-left: auto;
+		    max-width: 475px;
+		}
+	}
+	.step3 .step3-input input, .step3 .step3-input textarea{
+	    width: 100%;
+	    height: 35px; 
+	    resize: none;
+	  	color: #000;
+	}
+	.step3 label{
+		text-transform: uppercase;
+    	width: 200px;
+	}
+	.step3 .step3-input{
+		margin-top: 10px;
+	    max-width: 390px; 
+	    margin-right: auto;
+	    margin-left: auto;
+		
+	}
+	
+
+	.signup-save-btn{
+		position: absolute;
+	    right: 6%;
+	    top: 25px;
+	    text-transform: uppercase;
+	    font-family: FjallaOne;
+	    color: #009fe3;
+	    background-color: transparent;
+    	border: none;
+    	outline: none;
+    	width: 70px;
+	    height: 40px;
+	    @media(max-width:480px){
+			top: 20px;
+		}
+	}
+	.signup-next-btn, .signup-pre-btn{
+		color: white;
+	    width: 100px;
+	    height: 40px;
+	    background-color: #f39200;
+	    border: 1px solid transparent;
+	    border-radius: 30px;
+	    outline: none;
+	}
+	.btn-pre-next{
+	    display: block;
+	    text-align:center;
+	    margin-top: 40px;
+	}
+
+	.alert-error{
+	    top: 10%;
+	    text-transform: initial;
+	    color: #f39200;
+	    @media(max-width: 480px){
+	        top: 17%;
+	        left: 0;
+	        text-transform: initial;
+	        color: #f39200;
+    	}
+    }
+    .step2 .alert-error {
+        position: absolute;
+        left: 40%;
+        text-transform: initial;
+        color: #f39200; 
+    }
+    
+    .signup-submit-btn{
+        color: white;
+        width: 100px;
+        height: 40px;
+        background-color: #f39200;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        outline: none;
+        margin-left: 20px;
+    }
+
+}											
+
+
+	

@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="images/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <title>Page Customize 2</title>
+    <!-- jquery CSS -->
+    <link href="libs/jquery/jquery-ui.min.css" rel="stylesheet">
+    <!-- bootstrap CSS -->
+    <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- font CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fonts/fonts.css" rel="stylesheet">
+    <!--carousel-->
+    <link href="libs/carousel/owl.carousel.css" rel="stylesheet">
+    <link href="libs/carousel/owl.theme.css" rel="stylesheet">
+    <!-- fancybox -->
+    <link type="text/css" rel="stylesheet" href="libs/fanxybox/source/jquery.fancybox.css?v=2.1.5" media="screen"/>
+    <link type="text/css" rel="stylesheet" href="libs/fanxybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5"/>
+    <link type="text/css" rel="stylesheet" href="libs/fanxybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7"/>
+    <!-- animate css -->
+    <link href="libs/animatecss/animate.css" rel="stylesheet">
+    <!-- style css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body id="customize2">
+<div class="back-on-top">
+</div>
+<div class="loading-wrap">
+    <div class="cssload-dots">
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+        <div class="cssload-dot"></div>
+    </div>
+
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" ></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0    0 1 0 0 0   0 0 1 0 0   0 0 0 18 -7" result="goo" ></feColorMatrix>
+                <!--<feBlend in2="goo" in="SourceGraphic" result="mix" ></feBlend>-->
+            </filter>
+        </defs>
+    </svg>
+</div>
+<header id="home" class="col-full-hd header-page option-2 js-dynamic-menu">
+<div class="blk-menu-fix template-12-flag">
+  <div class="commont-menu navi-type-2 clor-navi-2 padding-top-30">
+        <a class="logo-company" href="demopage.html" title="Home">
+            <figure><img class="wow fadeInLeft" data-wow-delay="0.3s" src="images/header/logo_2.png" alt="" /></figure>
+            <span class="cosmos-txt clor-type-4 wow fadeInDown">COSMOS</span>
+            <span class="cmos-txt clor-type-4 wow fadeInUp">App Landing Page</span>
+        </a><!-- end logo -->
+        <!-- menu top page -->
+        <nav class="menu-head-page">
+            <ul class="menu-des clor-type-4 js-dynamic-menu-des">
+                    <li class="menu__item clor-type-4"><a href="#home" class="clor-type-4">Home</a></li>
+                    <li class="menu__item clor-type-4"><a href="#feature2" class="clor-type-4">feature</a></li>
+                    <li class="menu__item clor-type-4"><a href="#screenshot_3" class="menu__item--current clor-type-4">screenshots</a></li>
+                    <li class="menu__item clor-type-4"><a href="#demo_2" class="clor-type-4">demo</a></li>
+                    <li class="menu__item clor-type-4"><a href="#testimonial_3" class="clor-type-4">testimonial</a></li>
+                    <li class="menu__item clor-type-4"><a href="#team_2" class="clor-type-4">team</a></li>
+                    <li class="menu__item clor-type-4"><a href="#portfolio_1" class="clor-type-4">portfolio</a></li>
+                    <li class="menu__item clor-type-4"><a href="#pricing5" class="clor-type-4">pricing</a></li>
+                    <li class="menu__item clor-type-4"><a href="#contact_5" class="clor-type-4">contact</a></li>
+            </ul>
+            
+            <ul class="menu-mb">
+                <li><a class="" href="#home">home</a></li>
+                <li><a href="#feature2">feature</a></li>
+                <li><a href="#screenshot_3" >screenshots</a></li>
+                <li><a href="#demo_2">demo</a></li>
+                <li><a href="#testimonial_3">testimonial</a></li>
+                <li><a href="#team_2">team</a></li>
+                <li><a href="#portfolio_1">portfolio</a></li>
+                <li><a href="#pricing5">pricing</a></li>
+                <li><a href="#contact_5">contact</a></li>
+            </ul>
+        </nav><!-- end menu top page -->
+        <div id="nav-toggle" class="page-2-mb" title="menu"><span></span></div>
+   </div><!-- end menu option 2 -->
+</div>
+   <div class="clearAll"></div>
+    
+   <!-- content header -->
+   <div class="block-content-header h-option-2">
+     <div class="col-1555">
+        <figure class="col-left">
+            <img src="images/header/img_hder_2_1.png" alt="" />
+        </figure>
+        
+        <div class="col-right-text">
+            <h2 class="wow zoomInDown" data-wow-duration="2s">
+                ALL <span>YOU NEED IN </span> ONE TOUCH 
+            </h2>
+            <p class="wow zoomInDown" data-wow-duration="2s" data-wow-delay="1s">
+                Is amazing, modern and clean landing page for showcase your app anything else. 
+                A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free
+
+            </p>
+        </div>
+        
+     </div><!-- end col-1555 -->
+   </div><!-- end content header -->
+</header>
+<div class="clearAll"></div>
+<!-- Feature 2 -->
+<section id="feature2" class="group-content row-builder padding-top90 js-dynamic-menu">
+    <div class="container f-ture">
+        <div class="template-header">
+            <div class="template-header-logo">
+                <img  src="images/customize2/logo.png" alt="logo">  
+            </div>
+            <p class="template-header-title" >
+                <span>The best way to show your app to the world</span>
+            </p>
+            <p class="template-header-style" >
+                <span>The best way to show your app to the world</span>
+            </p>
+        </div>
+        <div class="row list-feature2 animatedParent animateOnce" data-sequence='200' data-animate="zoomIn-parent">
+            <div class="feature2-img margin-center add-fix">
+                 <img class="animated margin-center growIn slow" src="images/feature/iphone3.png" alt="" data-id='1' />
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-item2 animated growIn" data-id='2'>
+                    <p class="feature-title2">
+                        <span class="feature-icon2">
+                            <i class="fa fa-gear ico"></i>
+                        </span>
+                       <span> Easy costumize </span>
+                    </p>
+                    <p class="feature-text2">Get to know the easy-to-use App interface for mobile app design and creation, easy to customize browser chosen by 55 million people over the globe.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-item2 animated slow growIn" id="color-scheme" data-id='3'>
+                    <p class="feature-title2">
+                        <span class="feature-icon2">
+                            <i class="fa fa-tint ico2"></i>
+                        </span>
+                        <span> Color Schemes </span>
+                    </p>
+                    <p class="feature-text2">The set of ready made CSS files with different color schemes will help you in quick landing’s adaptation according to your benchmark style.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-item2 animated slow growIn" data-id='4'>
+                    <p class="feature-title2">
+                        <span class="feature-icon2">
+                            <i class="fa fa-clone ico3"></i>
+                        </span>
+                        <span> PSD Is Included </span>
+                    </p>
+                    <p class="feature-text2">The detailed documentation will help you in adjusting the project with little effort according to your requirements.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-item2 animated slow growIn" data-id='5'>
+                    <p class="feature-title2">
+                        <span class="feature-icon2">
+                            <i class="fa fa-file-text-o ico"></i>
+                        </span>
+                        <span> Fully Documented </span>
+                    </p>
+                    <p class="feature-text2">The detailed documentation will help you in adjusting the project with little effort according to your requirements.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-item2 animated slow growIn" id="fully-responsive" data-id='6'>
+                    <p class="feature-title2">
+                        <span class="feature-icon2">
+                            <i class="fa fa-mobile-phone ico1"></i>
+                        </span>
+                        <span> Fully Responsive </span>
+                    </p>
+                    <p class="feature-text2">Your project looks great on any device. Content can be easily read and a user understands freely what you wanted to say him or her.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-item2 animated slow growIn" data-id='7'>
+                    <p class="feature-title2">
+                        <span class="feature-icon2">
+                            <i class="fa fa-magic ico4"></i>
+                        </span>
+                        <span> Multiplatform </span>
+                    </p>
+                    <p class="feature-text2">First of all, it is its friendliness – both for the template’s owner and for his or her future targeted audience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="screenshot_3" class="padding-top90 js-dynamic-menu">
+    <div class="container">
+        <div class="template-header" data-animate="fadeInUp-parent">
+            <div class="template-header-logo">
+                <img  src="images/customize2/logo.png" alt="logo">  
+            </div>
+            <p class="template-header-title" >
+                <span>See some of the screenshots of our awesome app</span>
+            </p>
+            <p class="template-header-style" >
+                <span>Showcase your Screenshots</span>
+            </p>
+        </div>
+        <div class="screenshot-content">
+            <div class="row row-eq-height">
+                <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <div class="carousel">
+                        <div class="carousel-items">
+                            <img data-text="screenshot-tab1" src="images/screenshot/screenshot3_1.png" alt="img"/>
+                            <img data-text="screenshot-tab2" src="images/screenshot/screenshot3_1.png" alt="img"/>
+                            <img data-text="screenshot-tab3" src="images/screenshot/screenshot3_1.png" alt="img"/>
+                        </div>
+                        <div class="carousel-prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="carousel-next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div data-text="screenshot-tab1" class="screenshot-counter active">
+                        <div class="screenshot-counter-count">
+                            <span>1/10: Counters Screeenshot</span>
+                        </div>
+                        <div class="screenshot-counter-description">
+                            <div class="screenshot-counter-description-text1">
+                                <span>DESCRIPTION</span>
+                            </div>
+                            <div class="screenshot-counter-description-text2">
+                                <span>Is a personal counter to let you easily track unlimited things in your life. Large buttons to increase and decrease counters. Option to turn on/off sound effects. No limit to counter value.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-text="screenshot-tab2" class="screenshot-counter">
+                        <div class="screenshot-counter-count">
+                            <span>2/10: Counters </span>
+                        </div>
+                        <div class="screenshot-counter-description">
+                            <div class="screenshot-counter-description-text1">
+                                <span>DESCRIPTION</span>
+                            </div>
+                            <div class="screenshot-counter-description-text2">
+                                <span>Is a personal counter to let you easily track unlimited things in your life. Large buttons </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-text="screenshot-tab3" class="screenshot-counter">
+                        <div class="screenshot-counter-count">
+                            <span>3/10: Counters Screeenshot</span>
+                        </div>
+                        <div class="screenshot-counter-description">
+                            <div class="screenshot-counter-description-text1">
+                                <span>DESCRIPTION</span>
+                            </div>
+                            <div class="screenshot-counter-description-text2">
+                                <span>Is a personal counter to let you easily track unlimited things in your life. Large buttons to increase and decrease counters. Option to turn on/off sound effects. No limit to counter value.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="download_3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="images/customize2/download1.png" alt="window">
+                    </div>
+                    <div class="download-number">
+                        <span>344090</span>
+                    </div>
+                    <div class="download-text">
+                        <span>Windows Phone</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="images/customize2/download2.png" alt="window">
+                    </div>
+                    <div class="download-number">
+                        <span>1795000</span>
+                    </div>
+                    <div class="download-text">
+                        <span>IOS</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="images/customize2/download3.png" alt="window">
+                    </div>
+                    <div class="download-number">
+                        <span>975140</span>
+                    </div>
+                    <div class="download-text">
+                        <span>Google Play Store</span>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="images/customize2/download4.png" alt="window">
+                    </div>
+                    <div class="download-number">
+                        <span>1430250</span>
+                    </div>
+                    <div class="download-text">
+                        <span>BlackBerry app world</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="demo_2" class="js-dynamic-menu">
+    <div class="row margin-0">
+        <div class="col-lg-6 col-xs-12 padding-0">
+            <div class="col-left">
+                <div class="video-youtube">
+                    <img src="images/demo/demo-option2-1.png" alt="image youtube">
+                    <a class="fancybox-video fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                        <img src="images/demo/button-play.png" alt="button play">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-xs-12 padding-0">
+            <div class="col-right">
+                <div class="content">
+                    <p class="demo-description-1" data-animate="fadeInRight"><span>COSMOS</span> Is Perfect Landing Page to Showcase Your Apps</p>
+                    <div class="demo-description-2" data-animate="fadeInRight">
+                        Is amazing, modern and clean landing page for showcase your app anything else. 
+    A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free
+                    </div>
+                    <div class="download-app" data-animate="fadeInRight-parent">
+                        <a href="#"><img class="img-responsive" src="images/demo/google.jpg" alt="video"/></a>
+                        <a href="#"><img class="img-responsive" src="images/demo/windows.jpg" alt="video"/></a>
+                        <a href="#"><img class="img-responsive" src="images/demo/ios.jpg" alt="video"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="testimonial_3" class="padding-top90 js-dynamic-menu">
+    <div class="container">
+        <div class="template-header" data-animate="fadeInUp-parent">
+            <div class="template-header-logo">
+                <img  src="images/customize2/logo.png" alt="logo">  
+            </div>
+            <p class="template-header-title" >
+                <span>Lets see what say clients about us</span>
+            </p>
+            <p class="template-header-style" >
+                <span>Testimonial</span>
+            </p>
+        </div>
+        <div class="testimonial-content" data-animate="zoomIn">
+            <div class="carousel">
+                <div class="carousel-items">
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-name">
+                            <span>Steve Pilley</span>
+                        </div>
+                        <div class="testimonial-item-position">
+                            <span>Project Manager</span>
+                        </div>
+                        <div class="testimonial-item-quote">
+                            <p>“ I like to resolve design problems create smart user interfaces and imagine interactions. I want to create apps that are beautiful, interactive responsive and friendly.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-name">
+                            <span>Steve Pilley</span>
+                        </div>
+                        <div class="testimonial-item-position">
+                            <span>Project Manager</span>
+                        </div>
+                        <div class="testimonial-item-quote">
+                            <p> “ I like to resolve design problems, create smart user interfaces and imagine interactions. 
+            I want to create apps that are beautiful, interactive, responsive and friendly.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-name">
+                            <span>Steve Pilley</span>
+                        </div>
+                        <div class="testimonial-item-position">
+                            <span>Project Manager</span>
+                        </div>
+                        <div class="testimonial-item-quote">
+                            <p> “ I like to resolve design problems, create smart user interfaces and imagine interactions. 
+            I want to create apps that are beautiful, interactive, responsive and friendly.”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-item-name">
+                            <span>Steve Pilley</span>
+                        </div>
+                        <div class="testimonial-item-position">
+                            <span>Project Manager</span>
+                        </div>
+                        <div class="testimonial-item-quote">
+                            <p> “ I like to resolve design problems, create smart user interfaces and imagine interactions. 
+            I want to create apps that are beautiful, interactive, responsive and friendly.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-prev">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="carousel-next">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="team_2" class="padding-top90 js-dynamic-menu">
+  <div class="container">
+    <div class="template-header" data-animate="fadeInUp-parent">
+        <div class="template-header-logo">
+            <img  src="images/customize2/logo.png" alt="logo">  
+        </div>
+        <p class="template-header-title" >
+            <span>We try to provide the best support for my clients.</span>
+        </p>
+        <p class="template-header-style" >
+            <span>Our Team</span>
+        </p>
+    </div>
+    <div class="row rowcarousel" data-animate="zoomIn">
+        <div class="carousel">
+          <div class="carousel-items">
+            <div class="team-wrap">
+                <div class="slide slide-center col-lg-3 ">
+                    <div class="img-slide">
+                      <img class="img-responsive" src="images/team/team-slide2.png" alt="">
+                       <div class="team-link1"><img class="team-icon" src="images/team/team-icon.png" alt="team-icon" /></div>
+                    </div>
+                    <div class="slide-text">
+                      <p class="row-edit" data-type="title">
+                        Mr.Deway Hall
+                      </p>
+                      <span class="row-edit" data-type="title">CEO, Co-Founder</span>
+                      I’m 30-year-old, Cosmos-based CEOO
+                      <div class="social-group">
+                        <div class="row-edit social-item twitter-icon" data-type="image"></div>
+                        <div class="row-edit social-item facebook-icon" data-type="image"></div>
+                        <div class="row-edit social-item google-icon" data-type="image"></div>
+                        <div class="row-edit social-item pinterest-icon" data-type="image"></div>
+                        <div class="row-edit social-item linkedin-icon" data-type="image"></div>
+                      </div>
+                        <div class="team-link2">
+                            <img src="images/customize2/teamlink1.png" alt="team-slide" />
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="team-wrap">
+                <div class="slide slide-center col-lg-3">
+                    <div class="img-slide">
+                      <img class="img-responsive" src="images/team/team-slide1.png" alt="">
+                       <div class="team-link1"><img class="team-icon" src="images/team/team-icon1.png" alt="team-icon" /></div>
+                    </div>
+                    <div class="slide-text">
+                      <p class="row-edit" data-type="title">
+                        Ms.Marry Doe
+                      </p>
+                      <span class="row-edit" data-type="title">Graphic Designer</span>
+                      I’m 25-year-old, Cosmos-based designer.
+                      <div class="social-group">
+                        <div class="row-edit social-item twitter-icon" data-type="image"></div>
+                        <div class="row-edit social-item facebook-icon" data-type="image"></div>
+                        <div class="row-edit social-item google-icon" data-type="image"></div>
+                        <div class="row-edit social-item pinterest-icon" data-type="image"></div>
+                        <div class="row-edit social-item linkedin-icon" data-type="image"></div>
+                      </div>
+                        <div class="team-link2">
+                            <img src="images/customize2/teamlink1.png" alt="team-slide" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-wrap">
+                <div class="slide slide-center col-lg-3">
+                    <div class="img-slide">
+                      <img class="img-responsive" src="images/team/team-slide3.png" alt="">
+                       <div class="team-link1"><img class="team-icon" src="images/team/team-icon2.png" alt="team-icon" /></div>
+                    </div>
+                    <div class="slide-text">
+                      <p class="row-edit" data-type="title">
+                       Mr.Daniel Wilson
+                      </p>
+                      <span class="row-edit" data-type="title">Account</span>
+                      I’m 28-year-old, Cosmos-based Account.
+                      <div class="social-group">
+                        <div class="row-edit social-item twitter-icon" data-type="image"></div>
+                        <div class="row-edit social-item facebook-icon" data-type="image"></div>
+                        <div class="row-edit social-item google-icon" data-type="image"></div>
+                        <div class="row-edit social-item pinterest-icon" data-type="image"></div>
+                        <div class="row-edit social-item linkedin-icon" data-type="image"></div>
+                      </div>
+                      <div class="team-link2">
+                            <img src="images/customize2/teamlink1.png" alt="team-slide" />
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="team-wrap">
+                <div class="slide slide-center col-lg-3">
+                   <div class="img-slide">
+                      <img class="img-responsive" src="images/team/team-slide3.png" alt="">
+                       <div class="team-link1"><img class="team-icon" src="images/team/team-icon.png" alt="team-icon" /></div>
+                    </div>
+                    <div class="slide-text">
+                      <p class="row-edit" data-type="title">
+                       Mr.Daniel Wilson
+                      </p>
+                      <span class="row-edit" data-type="title">Account</span>
+                      I’m 28-year-old, Cosmos-based Account.
+                      <div class="social-group">
+                        <div class="row-edit social-item twitter-icon" data-type="image"></div>
+                        <div class="row-edit social-item facebook-icon" data-type="image"></div>
+                        <div class="row-edit social-item google-icon" data-type="image"></div>
+                        <div class="row-edit social-item pinterest-icon" data-type="image"></div>
+                        <div class="row-edit social-item linkedin-icon" data-type="image"></div>
+                      </div>
+                        <div class="team-link2">
+                            <img src="images/customize2/teamlink1.png" alt="team-slide" />
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+            
+          </div>
+          <div class="carousel-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+          <div class="carousel-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+        </div>
+    </div>
+  </div>
+</section>
+<section id="portfolio_1" class="padding-top90 js-dynamic-menu">
+    <div class="container">
+        <div class="template-header" data-animate="fadeInUp-parent">
+            <div class="template-header-logo">
+                <img  src="images/customize2/logo.png" alt="logo">  
+            </div>
+            <p class="template-header-title" >
+                <span>A world of entertainment, just a download away.</span>
+            </p>
+            <p class="template-header-style" >
+                <span>Our Portfolio</span>
+            </p>
+        </div>
+        <div class="content">
+            <ul class="tabs-menu">
+                <li class="tabs-menu-item active" data-tab="portfolio_1_tab_1">
+                    <span>ALL</span>
+                </li>
+                <li class="tabs-menu-item" data-tab="portfolio_1_tab_2">
+                    <span>Blog apps</span>
+                </li>
+                <li class="tabs-menu-item" data-tab="portfolio_1_tab_3">
+                    <span>LOCAL  Apps</span>
+                </li>
+                <li class="tabs-menu-item" data-tab="portfolio_1_tab_4">
+                    <span>Magazine  Apps</span>
+                </li>
+                <li class="tabs-menu-item" data-tab="portfolio_1_tab_5">
+                    <span>tICKET  Apps</span>
+                </li>
+            </ul>
+            <div class="tabs-content" data-animate="zoomIn">
+                <div class="tabs-content-item active" data-tab="portfolio_1_tab_1">
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1" href="images/portfolio/portfolio_1.jpg">
+                         <img src="images/portfolio/portfolio_1.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_2.jpg">
+                         <img src="images/portfolio/portfolio_2.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_3.jpg">
+                         <img src="images/portfolio/portfolio_3.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_4.jpg">
+                         <img src="images/portfolio/portfolio_4.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_5.jpg">
+                         <img src="images/portfolio/portfolio_5.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_6.jpg">
+                         <img src="images/portfolio/portfolio_6.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_7.jpg">
+                         <img src="images/portfolio/portfolio_7.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_1"  href="images/portfolio/portfolio_8.jpg">
+                         <img src="images/portfolio/portfolio_8.jpg" alt="image" />
+                    </a>
+                </div>
+                <div class="tabs-content-item" data-tab="portfolio_1_tab_2">
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_8.jpg">
+                         <img src="images/portfolio/portfolio_8.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_7.jpg">
+                         <img src="images/portfolio/portfolio_7.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_2.jpg">
+                         <img src="images/portfolio/portfolio_2.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_3.jpg">
+                         <img src="images/portfolio/portfolio_3.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_5.jpg">
+                         <img src="images/portfolio/portfolio_5.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_6.jpg">
+                         <img src="images/portfolio/portfolio_6.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2" href="images/portfolio/portfolio_1.jpg">
+                         <img src="images/portfolio/portfolio_1.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_4.jpg">
+                         <img src="images/portfolio/portfolio_4.jpg" alt="image" />
+                    </a>
+                </div>
+                <div class="tabs-content-item" data-tab="portfolio_1_tab_3">
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_8.jpg">
+                         <img src="images/portfolio/portfolio_8.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_7.jpg">
+                         <img src="images/portfolio/portfolio_7.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_2.jpg">
+                         <img src="images/portfolio/portfolio_2.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_3.jpg">
+                         <img src="images/portfolio/portfolio_3.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_5.jpg">
+                         <img src="images/portfolio/portfolio_5.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_6.jpg">
+                         <img src="images/portfolio/portfolio_6.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2" href="images/portfolio/portfolio_1.jpg">
+                         <img src="images/portfolio/portfolio_1.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_4.jpg">
+                         <img src="images/portfolio/portfolio_4.jpg" alt="image" />
+                    </a>
+                </div>
+                <div class="tabs-content-item" data-tab="portfolio_1_tab_4">
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_8.jpg">
+                         <img src="images/portfolio/portfolio_8.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_7.jpg">
+                         <img src="images/portfolio/portfolio_7.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_2.jpg">
+                         <img src="images/portfolio/portfolio_2.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_3.jpg">
+                         <img src="images/portfolio/portfolio_3.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_5.jpg">
+                         <img src="images/portfolio/portfolio_5.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_6.jpg">
+                         <img src="images/portfolio/portfolio_6.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2" href="images/portfolio/portfolio_1.jpg">
+                         <img src="images/portfolio/portfolio_1.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_4.jpg">
+                         <img src="images/portfolio/portfolio_4.jpg" alt="image" />
+                    </a>
+                </div>
+                <div class="tabs-content-item" data-tab="portfolio_1_tab_5">
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_8.jpg">
+                         <img src="images/portfolio/portfolio_8.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_7.jpg">
+                         <img src="images/portfolio/portfolio_7.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_2.jpg">
+                         <img src="images/portfolio/portfolio_2.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_3.jpg">
+                         <img src="images/portfolio/portfolio_3.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_5.jpg">
+                         <img src="images/portfolio/portfolio_5.jpg" alt="image" />
+                    </a>
+                    <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_6.jpg">
+                         <img src="images/portfolio/portfolio_6.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2" href="images/portfolio/portfolio_1.jpg">
+                         <img src="images/portfolio/portfolio_1.jpg" alt="image" />
+                    </a>
+                     <a class="item__img fancybox" rel="portfolio_1_tab_2"  href="images/portfolio/portfolio_4.jpg">
+                         <img src="images/portfolio/portfolio_4.jpg" alt="image" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- option5 -->
+<section id="pricing5" class="row-builder row-chg-bg padding-top90 js-dynamic-menu" data-type="bg">
+    <div class="pricing-option5">
+        <div class="template-header" data-animate="fadeInUp-parent">
+            <div class="template-header-logo">
+                <img  src="images/customize2/logo.png" alt="logo">  
+            </div>
+            <p class="template-header-title" >
+                <span>We want the template you downloaded look unique and new for such a long time as it is possible</span>
+            </p>
+            <p class="template-header-style" >
+                <span>Prices & Packages</span>
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="option5-content carousel" data-animate="zoomIn">
+                    <div class="option5 slider carousel-items">
+                        <!-- item1 -->
+                        <div class="col-xs-12">
+                            <div class="slide-item">
+                                <div class="row-edit name" data-type="title">PRO</div>
+                                <div class="btn-group">
+                                        <div class="btn1">
+                                            <span class="row-edit" data-type="title"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                                            <span class="row-edit" data-type="title">59.00</span>
+                                        </div>
+                                        <div class="row-edit btn2 sub" data-type="title">Per month</div>
+                                    </div>
+                                <ul class="list-group">
+                                    <li class="row-edit list-group-item" data-type="title">10GB File storage</li>
+                                    <li class="row-edit list-group-item" data-type="title">Unlimited products</li>
+                                    <li class="row-edit list-group-item" data-type="title">24/7 Support</li>
+                                    <li class="row-edit list-group-item" data-type="title">Discount code engine</li>
+                                    <li><button type="button" class="row-edit button btn btn-default btn-lg btn-block" data-type="title">BUY NOW</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end-item1 -->
+
+                        <!-- item2 -->
+                        <div class="col-xs-12">
+                            <div class="slide-item">
+                                <div class="row-edit name" data-type="title">VIP</div>
+                                <div class="btn-group">
+                                        <div class="btn1">
+                                            <span class="row-edit" data-type="title"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                                            <span class="row-edit" data-type="title">69.00</span>
+                                        </div>
+                                        <div class="row-edit btn2 sub" data-type="title">Per month</div>
+                                    </div>
+                                <ul class="list-group">
+                                    <li class="row-edit list-group-item" data-type="title">20GB File storage</li>
+                                    <li class="row-edit list-group-item" data-type="title">Unlimited products</li>
+                                    <li class="row-edit list-group-item" data-type="title">24/7 Support</li>
+                                    <li class="row-edit list-group-item" data-type="title">Discount code engine</li>
+                                    <li><button type="button" class="row-edit button btn btn-default btn-lg btn-block" data-type="title">BUY NOW</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end-item2 -->
+
+                        <!-- item3 -->
+                        <div class="col-xs-12">
+                            <div class="slide-item">
+                                <div class="row-edit name" data-type="title">PRO</div>
+                                <div class="btn-group">
+                                        <div class="btn1">
+                                            <span class="row-edit" data-type="title"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                                            <span class="row-edit" data-type="title">59.00</span>
+                                        </div>
+                                        <div class="row-edit btn2 sub" data-type="title">Per month</div>
+                                    </div>
+                                <ul class="list-group">
+                                    <li class="row-edit list-group-item" data-type="title">10GB File storage</li>
+                                    <li class="row-edit list-group-item" data-type="title">Unlimited products</li>
+                                    <li class="row-edit list-group-item" data-type="title">24/7 Support</li>
+                                    <li class="row-edit list-group-item" data-type="title">Discount code engine</li>
+                                    <li><button type="button" class="row-edit button btn btn-default btn-lg btn-block" data-type="title">BUY NOW</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end-item3 -->
+
+                        <!-- item4 -->
+                        <div class="col-xs-12">
+                            <div class="slide-item">
+                                <div class="row-edit name" data-type="title">CLASSIC</div>
+                                <div class="btn-group">
+                                        <div class="btn1">
+                                            <span class="row-edit" data-type="title"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                                            <span class="row-edit" data-type="title">39.00</span>
+                                        </div>
+                                        <div class="row-edit btn2 sub" data-type="title">Per month</div>
+                                    </div>
+                                <ul class="list-group">
+                                    <li class="row-edit list-group-item" data-type="title">1GB File storage</li>
+                                    <li class="row-edit list-group-item" data-type="title">Unlimited products</li>
+                                    <li class="row-edit list-group-item" data-type="title">24/7 Support</li>
+                                    <li class="row-edit list-group-item" data-type="title">Discount code engine</li>
+                                    <li><button type="button" class="row-edit button btn btn-default btn-lg btn-block" data-type="title">BUY NOW</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end-item4 -->
+
+                        <!-- item5 -->
+                        <div class="col-xs-12">
+                            <div class="slide-item">
+                                <div class="row-edit name" data-type="title">PREMIUM</div>
+                                <div class="btn-group">
+                                        <div class="btn1">
+                                            <span class="row-edit" data-type="title"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                                            <span class="row-edit" data-type="title">49.00</span>
+                                        </div>
+                                        <div class="row-edit btn2 sub" data-type="title">Per month</div>
+                                    </div>
+                                <ul class="list-group">
+                                    <li class="row-edit list-group-item" data-type="title">5GB File storage</li>
+                                    <li class="row-edit list-group-item" data-type="title">Unlimited products</li>
+                                    <li class="row-edit list-group-item" data-type="title">24/7 Support</li>
+                                    <li class="row-edit list-group-item" data-type="title">Discount code engine</li>
+                                    <li><button type="button" class="row-edit button btn btn-default btn-lg btn-block" data-type="title">BUY NOW</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end-item5 -->
+                    </div>
+                    <div class="carousel-prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                    <div class="carousel-next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-option5 -->
+<div class="container">
+    <div id="map_3" class="js-dynamic-menu">
+        <div class="content">
+                <span class="content-title">
+                    ADDRESS OFFICE 1:
+                </span>
+                <span>
+                    1234 King Street, Melbourne, Victoria 3000 Australia
+                </span>
+                <span class="content-title">
+                    ADDRESS OFFICE 2:
+                </span>
+                <span>
+                    421 King Street, Melbourne, Victoria 3000 Australia
+                </span>
+            </div>  
+        <div id="map3"></div>
+    </div>
+</div>
+<section id="contact_5" class="">
+    <div class="container" data-animate="zoomIn-parent">
+        <div class="col-md-4 col-xs-12">
+            <div class="contact" >
+                <div class="contact__image">
+                    <img src="images/customize2/marker4.png" alt="phone">
+                </div>
+                <div class="contact__content">
+                    <p>1234 King Street, Melbourne, Victoria 
+3000 Australia</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="contact">
+                <div class="contact__image">
+                    <img src="images/customize2/map4.png" alt="phone">
+                </div>
+                <div class="contact__content">
+                    <p>Castle Resort
+500 Hotel CircleDiego, CA 92108</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class="contact">
+                <div class="contact__image">
+                    <img src="images/customize2/phone4.png" alt="phone">
+                </div>
+                <div class="contact__content">
+                    <p>(0) 123-456-789-00
+info@eventcastle.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="footer_2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <div class="footer-title" data-animate="zoomIn">
+                    <span>ABOUT US</span>
+                </div>
+                <div class="footer-content" data-animate="zoomIn">
+                    Is amazing, modern and clean landing page for showcase your app anything else.  A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free.
+                </div>
+                <div class="icons-social" data-animate="zoomIn-parent">
+                    <a href="#"><img src="images/footer/twitter-logo.png" alt="Twitter"/></a>
+                    <a href="#"><img src="images/footer/facebook-logo.png" alt="Facebook"/></a>
+                    <a href="#"><img src="images/footer/google-logo.png" alt="Google"/></a>
+                    <a href="#"><img src="images/footer/pinterest-logo.png" alt="Pinterest"/></a>
+                    <a href="#"><img src="images/footer/linkedin-logo.png" alt="In"/></a>
+                </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+                <div class="footer-subscrible">
+                    <div class="footer-title" data-animate="zoomIn">
+                        <span>SUBCRIBLE US TO DOWNLOAD FREE TRIAL APP</span>
+                    </div>
+                    <div class="footer-content" data-animate="zoomIn">
+                        This app does everything you could possibly want it to do and not only that, it is beautifully designed and extremely intuitive to use.  Download it from the App Store for free.
+                    </div>
+                    <div class="footer-group-subscrible" data-animate="zoomIn">
+                        <input type="text" onfocus="this.placeholder = ''" onblur="this.placeholder ='&#xf003;    Email'" placeholder="&#xf003;    Email">
+                        <button>SUBCRIBLE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coppy-right" data-animate="zoomIn">
+        <div class="container" >
+            <span>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2016 Design by COSMOS</span>
+        </div>
+    </div>
+</section>
+<!-- jquery js -->
+<script src="libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="libs/jquery/jquery-ui.min.js"></script>
+<!-- bootstrap js -->
+<script src="libs/bootstrap/bootstrap.min.js"></script>
+<!-- fancybox -->
+<script type="text/javascript" src="libs/fanxybox/source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="libs/fanxybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="libs/fanxybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="libs/fanxybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<!-- carousel js -->
+<script src="libs/carousel/owl.carousel.min.js"></script>
+<!-- trianglify js -->
+<script src="libs/trianglify/trianglify.min.js"></script>
+<!-- header -->
+<script src="js/header/classie.js"></script>
+<script src="js/header/wow.min.js"></script>
+<script src="js/header/header_js.js"></script>
+<script src="js/header/jquery.gallery.js"></script>
+<!-- features -->
+<script src="js/features/css3-animate-it.js"></script>
+<script src="js/features/jquery.easing.min.js"></script>
+<script src="js/features/jquery.responsiveGallery.js"></script>
+<script src="js/features/modernizr.custom.js"></script>
+<script src="js/features/scrolling-nav.js"></script>
+<!-- map -->
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyD8ewqqgR-mGVqUdmZGjyO4pD7qLOjB_Wc&callback=initMap" type="text/javascript"></script>
+<!-- main js -->
+<script src="js/style.js"></script>
+</body>
+</html>

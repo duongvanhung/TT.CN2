@@ -1,0 +1,45 @@
+<section class="process_bar_4 js-dynamic-menu" menu-name="Process bar" data-script-name="block_run_script_process_bar">
+        <div class="container">
+            <div class="processbar-header">
+                <div class="processbar-header-logo">
+                    <img  src="assets/images/blocks/processbar/logo.png" alt="logo" data-type="image">  
+                </div>
+                <p class="processbar-header-title" >Lets see what say clients about us</p>
+                <p class="processbar-header-style" >Progress Bar Style 4</p>
+            </div>
+    	  	<div class="row">
+    	  		<div class="col-lg-3 col-xs-12 col-sm-6">
+                    <div class="processbar-content">
+                        <canvas id="canvas-style-4-1" class="canvas-style-4 circle" width="150" height="150" data-perc="90" data-color="#e1b55a"></canvas>
+                        <div class="canvas-text">
+                            <span data-type="title">UX/UI</span>
+                        </div>
+                    </div>
+    	    	</div>
+    	    	<div class="col-lg-3 col-xs-12 col-sm-6">
+                    <div class="processbar-content">
+                        <canvas id="canvas-style-4-2" class="canvas-style-4 circle" width="150" height="150" data-perc="50" data-color="#e1b55a"></canvas>
+                        <div class="canvas-text">
+                            <span data-type="title">Trending</span>
+                        </div>
+                    </div>
+            	</div>
+            	<div class="col-lg-3 col-xs-12 col-sm-6">
+                    <div class="processbar-content">
+                        <canvas id="canvas-style-4-3" class="canvas-style-4 circle" width="150" height="150"  data-perc="75" data-color="#e1b55a"></canvas>
+                        <div class="canvas-text">
+                            <span data-type="title">App Development</span>
+                        </div>
+                    </div>
+        		</div>
+        		<div class="col-lg-3 col-xs-12 col-sm-6">
+                    <div class="processbar-content">
+                        <canvas id="canvas-style-4-4" class="canvas-style-4 circle" width="150" height="150"  data-perc="63" data-color="#e1b55a"></canvas>
+                        <div class="canvas-text">
+                            <span data-type="title">Social Marketing</span>
+                        </div>
+                    </div>
+        		</div>
+            </div>
+        </div>
+    </section>

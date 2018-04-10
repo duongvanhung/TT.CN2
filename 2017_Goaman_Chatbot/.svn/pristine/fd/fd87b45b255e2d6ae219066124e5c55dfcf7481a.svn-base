@@ -1,0 +1,40 @@
+<section class="footer_2 row-builder js-dynamic-menu" menu-name="footer" data-type="bg" data-script-name="block_run_script_footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <div class="footer-title" data-animate="zoomIn">
+                    <span data-type="title">ABOUT US</span>
+                </div>
+                <div class="footer-content" data-animate="zoomIn">
+                    <span data-type="content">Is amazing, modern and clean landing page for showcase your app anything else.  A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free.</span>
+                </div>
+                <div class="icons-social" data-animate="zoomIn-parent" >
+                    <a href="#"><img src="assets/images/blocks/footer/twitter-logo.png" alt="Twitter" data-type="image-link"/></a>
+                    <a href="#"><img src="assets/images/blocks/footer/facebook-logo.png" alt="Facebook" data-type="image-link"/></a>
+                    <a href="#"><img src="assets/images/blocks/footer/google-logo.png" alt="Google" data-type="image-link"/></a>
+                    <a href="#"><img src="assets/images/blocks/footer/pinterest-logo.png" alt="Pinterest" data-type="image-link"/></a>
+                    <a href="#"><img src="assets/images/blocks/footer/linkedin-logo.png" alt="In" data-type="image-link"/></a>
+                </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+                <div class="footer-subscrible">
+                    <div class="footer-title" data-animate="zoomIn">
+                        <span data-type="title">SUBCRIBLE US TO DOWNLOAD FREE TRIAL APP</span>
+                    </div>
+                    <div class="footer-content" data-animate="zoomIn">
+                        <span data-type="content">This app does everything you could possibly want it to do and not only that, it is beautifully designed and extremely intuitive to use.  Download it from the App Store for free.</span>
+                    </div>
+                    <div class="footer-group-subscrible" data-animate="zoomIn">
+                        <input type="text" onfocus="this.placeholder = ''" onblur="this.placeholder ='&#xf003;    Email'" placeholder="&#xf003;    Email">
+                        <button data-type="button">SUBCRIBLE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="coppy-right" data-animate="zoomIn">
+        <div class="container" >
+            <span data-type="content">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2016 Design by COSMOS</span>
+        </div>
+    </div>
+</section>

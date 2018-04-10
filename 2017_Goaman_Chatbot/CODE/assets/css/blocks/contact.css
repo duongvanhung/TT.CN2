@@ -1,0 +1,642 @@
+.contact_1,
+.section-contact2,
+.contact_3,
+.contact_4,
+.section-contact5,
+.contact_6 {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 16px; }
+  .contact_1 .input,
+  .section-contact2 .input,
+  .contact_3 .input,
+  .contact_4 .input,
+  .section-contact5 .input,
+  .contact_6 .input {
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .contact_1 .input--border-orange,
+    .section-contact2 .input--border-orange,
+    .contact_3 .input--border-orange,
+    .contact_4 .input--border-orange,
+    .section-contact5 .input--border-orange,
+    .contact_6 .input--border-orange {
+      border: 1px solid #e1b55a;
+      background: transparent;
+      color: white; }
+      .contact_1 .input--border-orange:-ms-input-placeholder,
+      .section-contact2 .input--border-orange:-ms-input-placeholder,
+      .contact_3 .input--border-orange:-ms-input-placeholder,
+      .contact_4 .input--border-orange:-ms-input-placeholder,
+      .section-contact5 .input--border-orange:-ms-input-placeholder,
+      .contact_6 .input--border-orange:-ms-input-placeholder {
+        color: white; }
+      .contact_1 .input--border-orange::-moz-placeholder,
+      .section-contact2 .input--border-orange::-moz-placeholder,
+      .contact_3 .input--border-orange::-moz-placeholder,
+      .contact_4 .input--border-orange::-moz-placeholder,
+      .section-contact5 .input--border-orange::-moz-placeholder,
+      .contact_6 .input--border-orange::-moz-placeholder {
+        color: white; }
+      .contact_1 .input--border-orange:-moz-placeholder,
+      .section-contact2 .input--border-orange:-moz-placeholder,
+      .contact_3 .input--border-orange:-moz-placeholder,
+      .contact_4 .input--border-orange:-moz-placeholder,
+      .section-contact5 .input--border-orange:-moz-placeholder,
+      .contact_6 .input--border-orange:-moz-placeholder {
+        color: white; }
+      .contact_1 .input--border-orange::-webkit-input-placeholder,
+      .section-contact2 .input--border-orange::-webkit-input-placeholder,
+      .contact_3 .input--border-orange::-webkit-input-placeholder,
+      .contact_4 .input--border-orange::-webkit-input-placeholder,
+      .section-contact5 .input--border-orange::-webkit-input-placeholder,
+      .contact_6 .input--border-orange::-webkit-input-placeholder {
+        color: white; }
+    .contact_1 .input--border-white,
+    .section-contact2 .input--border-white,
+    .contact_3 .input--border-white,
+    .contact_4 .input--border-white,
+    .section-contact5 .input--border-white,
+    .contact_6 .input--border-white {
+      border: 1px solid white;
+      background: transparent;
+      color: white; }
+      .contact_1 .input--border-white:-ms-input-placeholder,
+      .section-contact2 .input--border-white:-ms-input-placeholder,
+      .contact_3 .input--border-white:-ms-input-placeholder,
+      .contact_4 .input--border-white:-ms-input-placeholder,
+      .section-contact5 .input--border-white:-ms-input-placeholder,
+      .contact_6 .input--border-white:-ms-input-placeholder {
+        color: white; }
+      .contact_1 .input--border-white::-moz-placeholder,
+      .section-contact2 .input--border-white::-moz-placeholder,
+      .contact_3 .input--border-white::-moz-placeholder,
+      .contact_4 .input--border-white::-moz-placeholder,
+      .section-contact5 .input--border-white::-moz-placeholder,
+      .contact_6 .input--border-white::-moz-placeholder {
+        color: white; }
+      .contact_1 .input--border-white:-moz-placeholder,
+      .section-contact2 .input--border-white:-moz-placeholder,
+      .contact_3 .input--border-white:-moz-placeholder,
+      .contact_4 .input--border-white:-moz-placeholder,
+      .section-contact5 .input--border-white:-moz-placeholder,
+      .contact_6 .input--border-white:-moz-placeholder {
+        color: white; }
+      .contact_1 .input--border-white::-webkit-input-placeholder,
+      .section-contact2 .input--border-white::-webkit-input-placeholder,
+      .contact_3 .input--border-white::-webkit-input-placeholder,
+      .contact_4 .input--border-white::-webkit-input-placeholder,
+      .section-contact5 .input--border-white::-webkit-input-placeholder,
+      .contact_6 .input--border-white::-webkit-input-placeholder {
+        color: white; }
+    .contact_1 .input--border-none,
+    .section-contact2 .input--border-none,
+    .contact_3 .input--border-none,
+    .contact_4 .input--border-none,
+    .section-contact5 .input--border-none,
+    .contact_6 .input--border-none {
+      border-style: none;
+      background: white;
+      color: black; }
+      .contact_1 .input--border-none:-ms-input-placeholder,
+      .section-contact2 .input--border-none:-ms-input-placeholder,
+      .contact_3 .input--border-none:-ms-input-placeholder,
+      .contact_4 .input--border-none:-ms-input-placeholder,
+      .section-contact5 .input--border-none:-ms-input-placeholder,
+      .contact_6 .input--border-none:-ms-input-placeholder {
+        color: black; }
+      .contact_1 .input--border-none::-moz-placeholder,
+      .section-contact2 .input--border-none::-moz-placeholder,
+      .contact_3 .input--border-none::-moz-placeholder,
+      .contact_4 .input--border-none::-moz-placeholder,
+      .section-contact5 .input--border-none::-moz-placeholder,
+      .contact_6 .input--border-none::-moz-placeholder {
+        color: black; }
+      .contact_1 .input--border-none:-moz-placeholder,
+      .section-contact2 .input--border-none:-moz-placeholder,
+      .contact_3 .input--border-none:-moz-placeholder,
+      .contact_4 .input--border-none:-moz-placeholder,
+      .section-contact5 .input--border-none:-moz-placeholder,
+      .contact_6 .input--border-none:-moz-placeholder {
+        color: black; }
+      .contact_1 .input--border-none::-webkit-input-placeholder,
+      .section-contact2 .input--border-none::-webkit-input-placeholder,
+      .contact_3 .input--border-none::-webkit-input-placeholder,
+      .contact_4 .input--border-none::-webkit-input-placeholder,
+      .section-contact5 .input--border-none::-webkit-input-placeholder,
+      .contact_6 .input--border-none::-webkit-input-placeholder {
+        color: black; }
+  .contact_1 .textarea,
+  .section-contact2 .textarea,
+  .contact_3 .textarea,
+  .contact_4 .textarea,
+  .section-contact5 .textarea,
+  .contact_6 .textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    outline: none;
+    padding-left: 20px;
+    padding-top: 10px; }
+    .contact_1 .textarea--border-orange,
+    .section-contact2 .textarea--border-orange,
+    .contact_3 .textarea--border-orange,
+    .contact_4 .textarea--border-orange,
+    .section-contact5 .textarea--border-orange,
+    .contact_6 .textarea--border-orange {
+      border: 1px solid #e1b55a;
+      background: transparent;
+      color: white; }
+      .contact_1 .textarea--border-orange:-ms-input-placeholder,
+      .section-contact2 .textarea--border-orange:-ms-input-placeholder,
+      .contact_3 .textarea--border-orange:-ms-input-placeholder,
+      .contact_4 .textarea--border-orange:-ms-input-placeholder,
+      .section-contact5 .textarea--border-orange:-ms-input-placeholder,
+      .contact_6 .textarea--border-orange:-ms-input-placeholder {
+        color: white; }
+      .contact_1 .textarea--border-orange::-moz-placeholder,
+      .section-contact2 .textarea--border-orange::-moz-placeholder,
+      .contact_3 .textarea--border-orange::-moz-placeholder,
+      .contact_4 .textarea--border-orange::-moz-placeholder,
+      .section-contact5 .textarea--border-orange::-moz-placeholder,
+      .contact_6 .textarea--border-orange::-moz-placeholder {
+        color: white; }
+      .contact_1 .textarea--border-orange:-moz-placeholder,
+      .section-contact2 .textarea--border-orange:-moz-placeholder,
+      .contact_3 .textarea--border-orange:-moz-placeholder,
+      .contact_4 .textarea--border-orange:-moz-placeholder,
+      .section-contact5 .textarea--border-orange:-moz-placeholder,
+      .contact_6 .textarea--border-orange:-moz-placeholder {
+        color: white; }
+      .contact_1 .textarea--border-orange::-webkit-input-placeholder,
+      .section-contact2 .textarea--border-orange::-webkit-input-placeholder,
+      .contact_3 .textarea--border-orange::-webkit-input-placeholder,
+      .contact_4 .textarea--border-orange::-webkit-input-placeholder,
+      .section-contact5 .textarea--border-orange::-webkit-input-placeholder,
+      .contact_6 .textarea--border-orange::-webkit-input-placeholder {
+        color: white; }
+    .contact_1 .textarea--border-none,
+    .section-contact2 .textarea--border-none,
+    .contact_3 .textarea--border-none,
+    .contact_4 .textarea--border-none,
+    .section-contact5 .textarea--border-none,
+    .contact_6 .textarea--border-none {
+      border-style: none;
+      background: white;
+      color: black; }
+      .contact_1 .textarea--border-none:-ms-input-placeholder,
+      .section-contact2 .textarea--border-none:-ms-input-placeholder,
+      .contact_3 .textarea--border-none:-ms-input-placeholder,
+      .contact_4 .textarea--border-none:-ms-input-placeholder,
+      .section-contact5 .textarea--border-none:-ms-input-placeholder,
+      .contact_6 .textarea--border-none:-ms-input-placeholder {
+        color: black; }
+      .contact_1 .textarea--border-none::-moz-placeholder,
+      .section-contact2 .textarea--border-none::-moz-placeholder,
+      .contact_3 .textarea--border-none::-moz-placeholder,
+      .contact_4 .textarea--border-none::-moz-placeholder,
+      .section-contact5 .textarea--border-none::-moz-placeholder,
+      .contact_6 .textarea--border-none::-moz-placeholder {
+        color: black; }
+      .contact_1 .textarea--border-none:-moz-placeholder,
+      .section-contact2 .textarea--border-none:-moz-placeholder,
+      .contact_3 .textarea--border-none:-moz-placeholder,
+      .contact_4 .textarea--border-none:-moz-placeholder,
+      .section-contact5 .textarea--border-none:-moz-placeholder,
+      .contact_6 .textarea--border-none:-moz-placeholder {
+        color: black; }
+      .contact_1 .textarea--border-none::-webkit-input-placeholder,
+      .section-contact2 .textarea--border-none::-webkit-input-placeholder,
+      .contact_3 .textarea--border-none::-webkit-input-placeholder,
+      .contact_4 .textarea--border-none::-webkit-input-placeholder,
+      .section-contact5 .textarea--border-none::-webkit-input-placeholder,
+      .contact_6 .textarea--border-none::-webkit-input-placeholder {
+        color: black; }
+    .contact_1 .textarea--border-white,
+    .section-contact2 .textarea--border-white,
+    .contact_3 .textarea--border-white,
+    .contact_4 .textarea--border-white,
+    .section-contact5 .textarea--border-white,
+    .contact_6 .textarea--border-white {
+      border: 1px solid white;
+      background: transparent;
+      color: white; }
+      .contact_1 .textarea--border-white:-ms-input-placeholder,
+      .section-contact2 .textarea--border-white:-ms-input-placeholder,
+      .contact_3 .textarea--border-white:-ms-input-placeholder,
+      .contact_4 .textarea--border-white:-ms-input-placeholder,
+      .section-contact5 .textarea--border-white:-ms-input-placeholder,
+      .contact_6 .textarea--border-white:-ms-input-placeholder {
+        color: white; }
+      .contact_1 .textarea--border-white::-moz-placeholder,
+      .section-contact2 .textarea--border-white::-moz-placeholder,
+      .contact_3 .textarea--border-white::-moz-placeholder,
+      .contact_4 .textarea--border-white::-moz-placeholder,
+      .section-contact5 .textarea--border-white::-moz-placeholder,
+      .contact_6 .textarea--border-white::-moz-placeholder {
+        color: white; }
+      .contact_1 .textarea--border-white:-moz-placeholder,
+      .section-contact2 .textarea--border-white:-moz-placeholder,
+      .contact_3 .textarea--border-white:-moz-placeholder,
+      .contact_4 .textarea--border-white:-moz-placeholder,
+      .section-contact5 .textarea--border-white:-moz-placeholder,
+      .contact_6 .textarea--border-white:-moz-placeholder {
+        color: white; }
+      .contact_1 .textarea--border-white::-webkit-input-placeholder,
+      .section-contact2 .textarea--border-white::-webkit-input-placeholder,
+      .contact_3 .textarea--border-white::-webkit-input-placeholder,
+      .contact_4 .textarea--border-white::-webkit-input-placeholder,
+      .section-contact5 .textarea--border-white::-webkit-input-placeholder,
+      .contact_6 .textarea--border-white::-webkit-input-placeholder {
+        color: white; }
+  .contact_1 .button,
+  .section-contact2 .button,
+  .contact_3 .button,
+  .contact_4 .button,
+  .section-contact5 .button,
+  .contact_6 .button {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-style: none;
+    font-family: 'SourceSansPro-Bold'; }
+    .contact_1 .button--border-orange,
+    .section-contact2 .button--border-orange,
+    .contact_3 .button--border-orange,
+    .contact_4 .button--border-orange,
+    .section-contact5 .button--border-orange,
+    .contact_6 .button--border-orange {
+      background: #e1b55a;
+      color: white; }
+    .contact_1 .button--border-black,
+    .section-contact2 .button--border-black,
+    .contact_3 .button--border-black,
+    .contact_4 .button--border-black,
+    .section-contact5 .button--border-black,
+    .contact_6 .button--border-black {
+      background: #303030;
+      color: white; }
+  .contact_1 .header__title--color-orange,
+  .section-contact2 .header__title--color-orange,
+  .contact_3 .header__title--color-orange,
+  .contact_4 .header__title--color-orange,
+  .section-contact5 .header__title--color-orange,
+  .contact_6 .header__title--color-orange {
+    color: #e1b55a;
+    font-family: 'Raleway-Regular';
+    font-size: 30px; }
+  .contact_1 .header__title--color-white,
+  .section-contact2 .header__title--color-white,
+  .contact_3 .header__title--color-white,
+  .contact_4 .header__title--color-white,
+  .section-contact5 .header__title--color-white,
+  .contact_6 .header__title--color-white {
+    color: #fff;
+    font-family: 'Raleway-Regular';
+    font-size: 30px; }
+  .contact_1 .contact__title,
+  .section-contact2 .contact__title,
+  .contact_3 .contact__title,
+  .contact_4 .contact__title,
+  .section-contact5 .contact__title,
+  .contact_6 .contact__title {
+    color: white;
+    font-size: 24px; }
+  .contact_1 input, .contact_1 textarea, .contact_1 button,
+  .section-contact2 input,
+  .section-contact2 textarea,
+  .section-contact2 button,
+  .contact_3 input,
+  .contact_3 textarea,
+  .contact_3 button,
+  .contact_4 input,
+  .contact_4 textarea,
+  .contact_4 button,
+  .section-contact5 input,
+  .section-contact5 textarea,
+  .section-contact5 button,
+  .contact_6 input,
+  .contact_6 textarea,
+  .contact_6 button {
+    border-radius: 0; }
+  @media (min-width: 992px) {
+    .contact_1 .eq-row-height,
+    .section-contact2 .eq-row-height,
+    .contact_3 .eq-row-height,
+    .contact_4 .eq-row-height,
+    .section-contact5 .eq-row-height,
+    .contact_6 .eq-row-height {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex; } }
+
+.contact_1 {
+  background: url(../../images/blocks/contact/contact_01.jpg) no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+  padding-bottom: 95px; }
+  .contact_1 .template-header-title {
+    color: white; }
+  .contact_1 .header__description {
+    margin-top: 20px; }
+  .contact_1 .form {
+    margin-top: 30px; }
+    .contact_1 .form .input {
+      margin-top: 40px; }
+    .contact_1 .form .textarea {
+      margin-top: 40px; }
+    .contact_1 .form .button {
+      margin-top: 35px; }
+
+.section-contact2 {
+  margin-top: 50px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .section-contact2 .container {
+    position: relative; }
+    @media (min-width: 992px) {
+      .section-contact2 .container:before {
+        content: " ";
+        display: block;
+        height: 50px;
+        width: calc(100% - 30px);
+        background: rgba(77, 75, 70, 0.6);
+        position: absolute;
+        top: 95px;
+        left: 15px; } }
+  .section-contact2 .contact {
+    text-align: center;
+    background: rgba(137, 134, 128, 0.5);
+    padding-top: 30px;
+    padding-bottom: 20px; }
+    @media (max-width: 991px) {
+      .section-contact2 .contact {
+        margin-top: 30px; } }
+    .section-contact2 .contact__image {
+      max-width: 50px;
+      height: 45px;
+      margin-left: auto;
+      margin-right: auto; }
+      .section-contact2 .contact__image img {
+        max-width: 100%;
+        height: 100%; }
+    .section-contact2 .contact__title {
+      height: 50px;
+      line-height: 50px;
+      background: rgba(77, 75, 70, 0.6);
+      margin-top: 20px;
+      text-transform: uppercase; }
+    .section-contact2 .contact__content {
+      margin-top: 30px; }
+      .section-contact2 .contact__content p {
+        white-space: pre-line; }
+
+.contact_3 {
+  color: white; }
+  @media (max-width: 991px) {
+    .contact_3 .container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%; } }
+  .contact_3 .container > .row {
+    margin-left: 0;
+    margin-right: 0; }
+    .contact_3 .container > .row > div {
+      padding-left: 0;
+      padding-right: 0; }
+  .contact_3 .col-left {
+    background: #e1b55a;
+    padding-bottom: 75px; }
+    @media (max-width: 991px) {
+      .contact_3 .col-left {
+        padding-left: 15px;
+        padding-right: 15px; } }
+  .contact_3 .col-right {
+    background: #303030;
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    @media (max-width: 991px) {
+      .contact_3 .col-right {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px; } }
+    @media (max-width: 991px) {
+      .contact_3 .col-right .contact {
+        text-align: center;
+        padding-top: 30px; }
+        .contact_3 .col-right .contact__content {
+          margin-top: 5px; }
+          .contact_3 .col-right .contact__content p {
+            white-space: pre-line;
+            line-height: 30px;
+            text-align: center; } }
+    @media (min-width: 992px) {
+      .contact_3 .col-right .contact {
+        position: absolute;
+        left: 35px;
+        padding-left: 95px; }
+        .contact_3 .col-right .contact:nth-child(1) {
+          top: 75px; }
+        .contact_3 .col-right .contact:nth-child(2) {
+          top: 50%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%); }
+        .contact_3 .col-right .contact:nth-child(3) {
+          bottom: 75px; }
+        .contact_3 .col-right .contact__image {
+          position: absolute;
+          left: 0;
+          width: 55px;
+          height: 55px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%; }
+          .contact_3 .col-right .contact__image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%; }
+        .contact_3 .col-right .contact__title {
+          margin-top: -5px;
+          text-transform: uppercase; }
+        .contact_3 .col-right .contact__content {
+          margin-top: 5px; }
+          .contact_3 .col-right .contact__content p {
+            max-width: 190px;
+            white-space: pre-line;
+            line-height: 30px; } }
+  .contact_3 .header__title--color-white {
+    margin-top: 70px; }
+  .contact_3 .header__description {
+    margin-top: 10px; }
+  .contact_3 .form {
+    margin-top: 10px; }
+    .contact_3 .form .input, .contact_3 .form .textarea {
+      margin-top: 25px; }
+    .contact_3 .form .button {
+      margin-top: 20px; }
+  @media (min-width: 992px) {
+    .contact_3 .button--border-black {
+      max-width: 170px; } }
+
+.contact_4 {
+  background: #303030;
+  text-align: center;
+  color: white;
+  padding-bottom: 65px;
+  padding-top: 35px;
+  position: relative; }
+  @media (min-width: 992px) {
+    .contact_4:before {
+      content: " ";
+      display: block;
+      background: #5d5b58;
+      width: 100%;
+      height: 80px;
+      top: 156px;
+      position: absolute; } }
+  .contact_4 .header {
+    margin-top: 70px; }
+    .contact_4 .header__description {
+      margin-top: 30px; }
+  .contact_4 .contact {
+    width: 235px;
+    height: 195px;
+    border: 1px solid white;
+    margin-left: 32.5px;
+    margin-right: 32.5px;
+    display: inline-block;
+    margin-top: 30px;
+    padding-top: 15px;
+    position: relative; }
+    @media (max-width: 767px) {
+      .contact_4 .contact {
+        margin-left: auto;
+        margin-right: auto; } }
+    .contact_4 .contact__image {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto; }
+      .contact_4 .contact__image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%; }
+    .contact_4 .contact__content {
+      margin-top: 15px;
+      height: 80px;
+      background: #5d5b58;
+      padding-top: 12px;
+      overflow: hidden; }
+      .contact_4 .contact__content p {
+        white-space: pre-line;
+        line-height: 30px;
+        color: #f9f9f9; }
+  .contact_4 .form .input, .contact_4 .form .button, .contact_4 .form .textarea {
+    margin-top: 30px; }
+
+.section-contact5 {
+  padding-bottom: 70px; }
+  .section-contact5 .contact {
+    background: #f9f9f9;
+    margin-top: 70px;
+    position: relative;
+    padding: 45px 15px 25px 15px; }
+    .section-contact5 .contact__image {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: -40px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+      .section-contact5 .contact__image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%; }
+    .section-contact5 .contact__content {
+      text-align: center; }
+      .section-contact5 .contact__content p {
+        white-space: pre-line; }
+
+.contact_6 {
+  color: black;
+  padding-bottom: 70px;
+  background: white; }
+  .contact_6 .content button, .contact_6 .content textarea, .contact_6 .content input {
+    width: 100%; }
+    .contact_6 .content button:-ms-input-placeholder, .contact_6 .content textarea:-ms-input-placeholder, .contact_6 .content input:-ms-input-placeholder {
+      color: black; }
+    .contact_6 .content button::-moz-placeholder, .contact_6 .content textarea::-moz-placeholder, .contact_6 .content input::-moz-placeholder {
+      color: black; }
+    .contact_6 .content button:-moz-placeholder, .contact_6 .content textarea:-moz-placeholder, .contact_6 .content input:-moz-placeholder {
+      color: black; }
+    .contact_6 .content button::-webkit-input-placeholder, .contact_6 .content textarea::-webkit-input-placeholder, .contact_6 .content input::-webkit-input-placeholder {
+      color: black; }
+  .contact_6 input[type="text"] {
+    height: 50px;
+    padding-left: 50px; }
+  .contact_6 .template-header {
+    padding-bottom: 55px; }
+  .contact_6 .textarea {
+    height: 120px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    display: block; }
+    .contact_6 .textarea:focus {
+      border: 1px solid #e1b55a;
+      outline: none; }
+  .contact_6 .input {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0; }
+    .contact_6 .input input {
+      border: 1px solid  #dddddd; }
+      .contact_6 .input input:focus {
+        border: 1px solid  #e1b55a;
+        outline: none; }
+    .contact_6 .input_name .fa {
+      position: absolute;
+      top: 17px;
+      left: 20px;
+      color: #e5c077; }
+    .contact_6 .input_email .fa {
+      position: absolute;
+      top: 17px;
+      left: 20px;
+      color: #e5c077; }
+    .contact_6 .input_subject .fa {
+      position: absolute;
+      top: 17px;
+      left: 20px;
+      color: #e5c077; }
+  .contact_6 .content .button {
+    height: 50px;
+    text-align: center;
+    color: #757575;
+    background: #f5f5f5;
+    margin-top: 20px;
+    font-family: 'SourceSansPro-Bold';
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s; }
+    .contact_6 .content .button:hover {
+      color: #e5c077; }

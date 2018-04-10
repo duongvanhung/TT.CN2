@@ -1,0 +1,136 @@
+.tooltip-inner {
+  background-color: white !important;
+  color: black !important; }
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: white !important; }
+
+#modal-editor-all .tooltip-edit-font-text {
+  width: 100%; }
+
+.tooltip-edit-font-text {
+  width: 500px; }
+  .tooltip-edit-font-text > div:not(.tooltip), .tooltip-edit-font-text select {
+    margin-right: 5px; }
+  .tooltip-edit-font-text .text-align, .tooltip-edit-font-text .text-link {
+    width: 40px;
+    text-align: center;
+    cursor: pointer; }
+    .tooltip-edit-font-text .text-align .fa, .tooltip-edit-font-text .text-link .fa {
+      padding-top: 11px; }
+
+.tooltip-edit-menu {
+  width: 255px; }
+  .tooltip-edit-menu > div:not(.tooltip), .tooltip-edit-menu select {
+    width: 40px;
+    margin-right: 1px;
+    text-align: center;
+    cursor: pointer; }
+    .tooltip-edit-menu > div:not(.tooltip) .fa, .tooltip-edit-menu select .fa {
+      padding-top: 11px; }
+  .tooltip-edit-menu > div.edit-link, .tooltip-edit-menu div.edit-icon {
+    margin-right: 5px; }
+
+.tooltip-edit-button {
+  margin-bottom: 10px;
+  width: 480px; }
+  .tooltip-edit-button > div:not(.tooltip), .tooltip-edit-button select {
+    width: 40px;
+    margin-right: 5px;
+    text-align: center;
+    cursor: pointer; }
+    .tooltip-edit-button > div:not(.tooltip) .fa, .tooltip-edit-button select .fa {
+      padding-top: 11px; }
+  .tooltip-edit-button > div.add, .tooltip-edit-button div.remove {
+    margin-right: 1px; }
+
+.tooltip-edit-font-text,
+.tooltip-edit-menu,
+.tooltip-edit-button {
+  display: flex;
+  height: 50px;
+  background: #282937;
+  font-family: "SourceSansPro-Regular";
+  padding: 5px 0px 5px 0px; }
+  .tooltip-edit-font-text > div:not(.tooltip), .tooltip-edit-font-text select,
+  .tooltip-edit-menu > div:not(.tooltip),
+  .tooltip-edit-menu select,
+  .tooltip-edit-button > div:not(.tooltip),
+  .tooltip-edit-button select {
+    display: inline-block;
+    background: #3a3d51;
+    color: white;
+    font-size: 16px;
+    height: 40px; }
+  .tooltip-edit-font-text .text-select-font,
+  .tooltip-edit-menu .text-select-font,
+  .tooltip-edit-button .text-select-font {
+    width: 200px !important;
+    height: 40px !important; }
+    .tooltip-edit-font-text .text-select-font .btn-group,
+    .tooltip-edit-menu .text-select-font .btn-group,
+    .tooltip-edit-button .text-select-font .btn-group {
+      width: 100%;
+      height: 100%; }
+      .tooltip-edit-font-text .text-select-font .btn-group button,
+      .tooltip-edit-menu .text-select-font .btn-group button,
+      .tooltip-edit-button .text-select-font .btn-group button {
+        border-style: none;
+        outline: none;
+        background: #3a3d51;
+        height: 100%;
+        width: 100%;
+        overflow: hidden; }
+  .tooltip-edit-font-text .text-font-size,
+  .tooltip-edit-menu .text-font-size,
+  .tooltip-edit-button .text-font-size {
+    background: #3a3d51 !important;
+    height: 40px !important;
+    width: 80px !important; }
+    .tooltip-edit-font-text .text-font-size .btn-group,
+    .tooltip-edit-menu .text-font-size .btn-group,
+    .tooltip-edit-button .text-font-size .btn-group {
+      width: 100%;
+      height: 100%; }
+      .tooltip-edit-font-text .text-font-size .btn-group button,
+      .tooltip-edit-menu .text-font-size .btn-group button,
+      .tooltip-edit-button .text-font-size .btn-group button {
+        border-style: none;
+        outline: none;
+        background: #3a3d51;
+        height: 100%;
+        width: 100%; }
+      .tooltip-edit-font-text .text-font-size .btn-group .dropdown-menu,
+      .tooltip-edit-menu .text-font-size .btn-group .dropdown-menu,
+      .tooltip-edit-button .text-font-size .btn-group .dropdown-menu {
+        min-width: 80px !important; }
+  .tooltip-edit-font-text .text-color,
+  .tooltip-edit-menu .text-color,
+  .tooltip-edit-button .text-color {
+    width: 40px !important;
+    text-align: center;
+    padding-top: 5px; }
+    .tooltip-edit-font-text .text-color input,
+    .tooltip-edit-menu .text-color input,
+    .tooltip-edit-button .text-color input {
+      width: 30px;
+      height: 30px;
+      min-height: 30px;
+      border-style: none; }
+  .tooltip-edit-font-text .btn-group .dropdown-menu,
+  .tooltip-edit-menu .btn-group .dropdown-menu,
+  .tooltip-edit-button .btn-group .dropdown-menu {
+    background: #3a3d51;
+    padding-left: 15px;
+    border-radius: 0px;
+    width: 100%;
+    height: 160px;
+    overflow-y: scroll; }
+    .tooltip-edit-font-text .btn-group .dropdown-menu li,
+    .tooltip-edit-menu .btn-group .dropdown-menu li,
+    .tooltip-edit-button .btn-group .dropdown-menu li {
+      text-align: left;
+      min-height: 30px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=edit-font.css.map */

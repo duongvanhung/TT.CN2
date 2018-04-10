@@ -1,0 +1,61 @@
+<section class="contact_4 row-builder js-dynamic-menu" data-type="bg " menu-name="Contact" data-script-name="block_run_script_contact">
+    <div class="container">
+        <div class="contact" data-animate="fadeInUp">
+            <div class="contact__image">
+                <img src="assets/images/blocks/contact/mark3.png" alt="phone" data-type="image">
+            </div>
+            <div class="contact__content">
+                <p data-type="content">Castle Convention Center
+214 Awesome Street,NY</p>
+            </div>
+        </div>
+        <div class="contact" data-animate="fadeInUp">
+            <div class="contact__image">
+                <img src="assets/images/blocks/contact/map3.png" alt="phone" data-type="image">
+            </div>
+            <div class="contact__content">
+                <p data-type="content">Castle Resort
+500 Hotel CircleDiego, CA 92108</p>
+            </div>
+        </div>
+        <div class="contact" data-animate="fadeInUp">
+            <div class="contact__image">
+                <img src="assets/images/blocks/contact/phone3.png" alt="phone" data-type="image">
+            </div>
+            <div class="contact__content">
+                <p data-type="content">(0) 123-456-789-00
+info@eventcastle.com</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <div class="header" data-animate="fadeInUp-parent">
+                    <div class="header__title--color-orange">
+                        <span data-type="title">Send Us A Messenge</span>
+                    </div>
+                    <div class="header__description">
+                        <span data-type="content">If you have any questions about the event, please contact us directly. We will respond for sure.</span>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="row" data-animate="fadeInRight-parent">
+                        <div class="col-md-6 col-xs-12">
+                            <input class="input input--border-white" placeholder="Your name" />
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <input class="input input--border-white" placeholder="Your email" />
+                        </div>
+                        <div class="col-xs-12">
+                            <textarea  class="textarea textarea--border-white" placeholder="Your messenge"></textarea>
+                        </div>
+                        <div class="col-xs-12">
+                            <button class="button button--border-orange" data-type="button">
+                                SEND MESSAGE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

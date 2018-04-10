@@ -1,0 +1,75 @@
+<section class="contact_6 padding-top90 row-builder js-dynamic-menu" data-type="bg " menu-name="Contact" data-script-name="block_run_script_contact">
+    <div class="section-contact5">
+        <div class="container" data-animate="zoomIn-parent">
+            <div class="col-md-4 col-xs-12">
+                <div class="contact" >
+                    <div class="contact__image">
+                        <img src="assets/images/blocks/contact/map4.png" alt="phone" data-type="image">
+                    </div>
+                    <div class="contact__content">
+                        <p data-type="content">Castle Convention Center
+    214 Awesome Street,NY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="contact">
+                    <div class="contact__image">
+                        <img src="assets/images/blocks/contact/map4.png" alt="phone" data-type="image">
+                    </div>
+                    <div class="contact__content">
+                        <p data-type="content">Castle Resort
+    500 Hotel CircleDiego, CA 92108</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="contact">
+                    <div class="contact__image">
+                        <img src="assets/images/blocks/contact/map4.png" alt="phone" data-type="image">
+                    </div>
+                    <div class="contact__content">
+                        <p data-type="content">(0) 123-456-789-00
+    info@eventcastle.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="template-header" data-animate="fadeInUp-parent">
+            <!-- <div class="template-header-logo">
+                <img  src="assets/images/blocks/contact/logo.png" alt="logo" data-type="image">  
+            </div> -->
+            <p class="template-header-style" >
+                <span data-type="title">Get in touch right now</span>
+            </p>
+            <p class="template-header-title" >
+                <span data-type="content">We are going to provide you with actual and important for you information without spam or fluff.</span>
+            </p>
+            
+        </div>
+        <form class="content">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="input input_name" data-animate="zoomIn">
+                        <input type="text" placeholder="Your Name"/>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                    <div class="input input_email" data-animate="zoomIn">
+                        <input type="text" placeholder="Email"/>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="input input_subject" data-animate="zoomIn">
+                        <input type="text" placeholder="Subject"/>
+                        <i class="fa fa-comments" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <textarea class="textarea" placeholder="Your Message" data-animate="zoomIn"></textarea>
+                    <button class="button" data-animate="zoomIn" data-type="button">SEND MESSAGE</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>

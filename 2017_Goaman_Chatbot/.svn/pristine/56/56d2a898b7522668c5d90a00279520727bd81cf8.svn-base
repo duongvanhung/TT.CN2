@@ -1,0 +1,31 @@
+<section class="demo_1 row-builder js-dynamic-menu" menu-name="Demo" data-type="bg">
+	<div class="container padding-top90" data-type="bg" data-script-name="block_run_script_demo">
+		<div class="template-header" data-animate="zoomIn-parent">
+            <div class="template-header-logo">
+                <img src="assets/images/blocks/demo/logo.png" alt="logo" data-type="image">  
+            </div>
+            <p class="template-header-title">
+                <span data-type="title">Is amazing, modern and clean landing page for showcase your app anything else.</span>
+            </p>
+            <p class="template-header-style" >
+                <span data-type="title">Amazing Animations Demo 1</span>
+            </p>
+        </div>
+		<div class="row" data-animate="zoomIn">
+			<div class="col-lg-8 col-lg-offset-2 col-xs-12">
+				<div class="video-youtube">
+					<img src="assets/images/blocks/demo/video-img1.png" alt="image youtube" data-type="image">
+					<a class="fancybox-video fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+						<img src="assets/images/blocks/demo/button-play.png" alt="button play" data-type="image-link">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<p class="row-edit demo-title3" data-type="content" data-animate="fadeInUp">This app does everything you could possibly want it to do and not only that, it is beautifully designed and extremely intuitive to use.  
+Download it from the App Store for free.</p>
+			</div>
+		</div>
+	</div>
+</section>

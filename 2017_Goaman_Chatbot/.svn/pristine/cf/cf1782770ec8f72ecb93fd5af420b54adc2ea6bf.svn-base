@@ -1,0 +1,237 @@
+<section class="blog_detail1 row-builder  js-dynamic-menu" data-type="bg" menu-name="blog detail" data-script-name="block_run_script_blog">
+<header class="header-children-page" data-type="bg">
+				    <div class="container">
+				        <div class="row">
+				        	<div class="col-xs-12">
+				        		<div class="header-children-page-content">
+				        			<div class="header-children-page-logo">
+					        			<img src="assets/images/blocks/style/logo.png" data-type="image"/>
+					        		</div>
+					        		<span class="header-children-page-text1" data-type="title">
+					        			COSMOS
+					        		</span>
+					        		<span class="header-children-page-text2" data-type="title">
+					        			App Landing Page
+					        		</span>
+				        		</div>
+				        		<div class="header-children-page-breadcum">
+				        			<span data-type="title">Blog Detail 1</span>
+				        			<ul>
+				        				<li><a href="index.html" data-type="link">Homepage</a></li>
+				        				<li><a href="#" data-type="link">Blog Detail</a></li>
+				        			</ul>
+				        		</div>
+				        	</div>
+				        </div>
+				    </div>
+				    <div class="setting-background-bt" style="display: block; opacity: 1;">
+				    	<button type="button" data-placement="bottom" data-toggle="tooltip" title="Edit image" class="row-edit-bg btn btn-lg" data-dialog="">
+				    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+				    	</button>
+				    </div>
+				</header>
+    <div class="container padding-top90">
+        <div class="row ">
+            <div class="col-md-9 col-xs-12">
+                <div class="image_posts">
+                    <img class="img-responsive" src="assets/images/blocks/blogs/Untitled-1-b1.png" alt="cannotload" data-type="image">
+                    <div class="date">
+                        <span data-type="title">22</span>
+                        <span data-type="title">Jun</span>
+                    </div>
+                </div>
+                <p class="topic" data-type="title">Technology Category</p>
+                <p class="title" data-type="content">Mobile App Development Technology Blog</p>
+                <div class="blog-detail-content" data-type="all">Another important factor to consider when designing a retail app is how the user will physiologically use the app. Designing your app to ergonomically fit the hands of your user is crucial. If the app design layout makes it uncomfortable for the user, they’ll most likely get irritated which will reflect negatively on the brand and deviate from your overall goal.
+
+    A good blog can be a lifesaver for a developer. Some provide good background reading on the industry being worked on. Some provide code help, hints and tips, and other practical resources, while others just provide a well-earned distraction, which can be vital on a complex or challenging project. Here at Infragistics we provide lots of tools and controls for mobile web and app development. As a result we like to think we know a thing or two when it comes to the mobile development blogosphere. So here are our five favorite mobile development blogs at the moment:<div class="row">
+                    <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="assets/images/blocks/blogs/Untitled-2.png" alt="cannotload" data-type="image" ></div>
+                    <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="assets/images/blocks/blogs/Untitled-3.png" alt="cannotload" data-type=image></div>
+                </div><blockquote data-type="all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet turpis et neque elementum, quis condimentum justo porttitor. Nulla sed nunc ipsum. Quisque pellentesque vel mi et sodales. In id efficitur mi, eget venenatis purus. Curabitur vulputate urna lacus, in semper nisi tincidunt id. Morbi dapibus tellus id justo tincidunt, a suscipit ex pharetra. Sed commodo lectus eu facilisis suscipit. Sed finibus nec sem et dapibus. Sed scelerisque massa a urna scelerisque, ac condimentum velit venenatis.
+                <strong data-type="title">John Doe - CEO</strong>
+                </blockquote>Another important factor to consider when designing a retail app is how the user will physiologically use the app. Designing your app to ergonomically fit the hands of your user is crucial. If the app design layout makes it uncomfortable for the user, they’ll most likely get irritated which will reflect negatively on the brand and deviate from your overall goal.
+
+    A good blog can be a lifesaver for a developer. Some provide good background reading on the industry being worked on. Some provide code help, hints and tips, and other practical resources, while others just provide a well-earned distraction, which can be vital on a complex or challenging project. Here at Infragistics we provide lots of tools and controls for mobile web and app development. As a result we like to think we know a thing or two when it comes to the mobile development blogosphere. 
+                </div>
+                <div class="blog-detail-share">
+                    <strong data-type="title">SHARE:</strong>
+                    <a href="#"><img src="assets/images/blocks/blogs/twitter.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"><img src="assets/images/blocks/blogs/face.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"><img src="assets/images/blocks/blogs/gg.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"><img src="assets/images/blocks/blogs/p.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"> <img src="assets/images/blocks/blogs/in.png" alt="cannotload" data-type="image-link"></a>
+                </div>
+                <div class="blog-detail-leave-comment row">
+                    <p class="col-xs-12" data-type="title">Leave a comment</p>
+                    <div class="col-sm-6 col-xs-12">
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <input type="text" placeholder="Your mail">
+                    </div>
+                    <div class="col-xs-12">
+                        <textarea placeholder="Your comment"></textarea>
+                    </div>
+                    <div class="col-xs-12">
+                        <button data-type="edit-button" class="blog-detail-leave-comment-button" type="button" data-type="button">SEND</button>
+                    </div>
+                </div>
+                <div class="blog-detai-comment">
+                    <p data-type="title">All Comments</p>
+                    <ul>
+                        <li>
+                            <div class="blog-detail-comment-content">
+                                <div><a class="blog-detail-comment-img" href="#"><img class="img-responsive" src="assets/images/blocks/blogs/Avacmt.png" alt="cannotload" data-type="image-link"></a></div>
+                                <div class="blog-detail-comment-body">
+                                    <p >By <a href="#"><strong>Admin</strong></a>  <span>|</span>24 June 2016</p>
+                                    <p data-type="content">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+                                    <a class="blog-detail-comment-reply" heft="#" data-type="link">Reply</a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="blog-detail-comment-content">
+                                        <a class="blog-detail-comment-img" href="#"><img class="img-responsive" src="assets/images/blocks/blogs/Avacm2.png" alt="cannotload" data-type="link"></a>
+                                        <div class="blog-detail-comment-body">
+                                            <p>By <a href="#"><strong>John Doe</strong></a>  <span>|</span>25 June 2016</p>
+                                            <p data-type="content">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+                                            <a class="blog-detail-comment-reply" heft="#" data-type="link">Reply</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="blog-detail-comment-content">
+                                <div><a class="blog-detail-comment-img" href="#"><img class="img-responsive" src="assets/images/blocks/blogs/Avacm3.png" alt="cannotload" data-type="image-link"></a></div>
+                                <div class="blog-detail-comment-body">
+                                    <p>By <a href="#"><strong>Marry Doe</strong></a>  <span>|</span>23 June 2016</p>
+                                    <p data-type="content">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+                                    <a class="blog-detail-comment-reply" heft="#" data-type="link">Reply</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12" >
+                <div class= "search">
+                    <div class="title" data-type="title">
+                        SEARCH BLOG
+                    </div>
+                    <div id="inputkeyword">
+                        <input type="text" placeholder="Keyword..">
+                         <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>  
+                </div>
+                <div class="categories">
+                    <div class="title" data-type="title">
+                        CATEGORIES
+                    </div>
+                    <div id="functions">
+                         <a href="#" data-type="link">Technology</a>
+                         <a href="#" data-type="link">E-commerce Apps</a>
+                         <a href="#" data-type="link">Blogging App</a>
+                         <a href="#" data-type="link">Magazine</a>
+                         <a href="#" data-type="link">Sport</a>
+                         <a href="#" data-type="link">Live TV Show</a>
+                         <a href="#" data-type="link">Education</a>
+                         <a href="#" data-type="link">Beauty Salon</a>
+                    </div>
+                    
+                </div>
+                <div id="feature_posts">
+                    <div class="title" data-type="title">
+                        FEATURED POSTS
+                    </div>
+                    <div>
+                        <div class="row featured">
+                            <div class="col-xs-5">
+                                <img class="img-responsive" src="assets/images/blocks/blogs/blogdetail2-1.jpg" alt="cannotloadimg" data-type="image">
+                            </div>
+                            <div class="col-xs-7">
+                                <a href="#" data-type="link">Free Music Player: What's New in Version 1.2.8</a>
+                            </div>
+                        </div>
+                        <div class="row featured">
+                            <div class="col-xs-5">
+                                <img class="img-responsive" src="assets/images/blocks/blogs/blogdetail2-2.jpg" alt="cannotloadimg" data-type="image">
+                            </div>
+                            <div class="col-xs-7">
+                                <a href="#" data-type="link">How to take a photo by Canvas Lens on smartphone</a>
+                            </div>
+                        </div>
+                        <div class="row featured">
+                            <div class="col-xs-5">
+                                <img class="img-responsive" src="assets/images/blocks/blogs/blogdetail2-3.jpg" alt="cannotloadimg" data-type="image">
+                            </div>
+                            <div class="col-xs-7">
+                                <a href="#" data-type="link">Amazine Editor App new version </a>
+                            </div>
+                        </div>
+                        <div class="row featured">
+                            <div class="col-xs-5">
+                                <img class="img-responsive" src="assets/images/blocks/blogs/blogdetail2-4.jpg" alt="cannotloadimg" data-type="image">
+                            </div>
+                            <div class="col-xs-7">
+                                <a href="#" class="featured_text" data-type="link">Free image for smartphone background</a>
+                            </div>
+                        </div>
+                        <div class="row featured">
+                            <div class="col-xs-5">
+                                <img class="img-responsive" src="assets/images/blocks/blogs/blogdetail2-5.jpg" alt="cannotloadimg" data-type="image">
+                            </div>
+                            <div class="col-xs-7">
+                                <a href="#" data-type="link">Little Visuals: What's New in Version 2.0</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="newsletter">
+                    <div class="title" data-type="title">
+                        NEWSLETTER
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="blog-email-text" placeholder="Your email..." />
+                        <button type="button" data-type="edit-button" class="blog-email-button" data-type="button">Submit</button>
+                    </div>
+                </div>
+                <div class="categories">
+                    <div class="title" data-type="title">
+                        ARCHIVES
+                    </div>
+                    <div id="functions">
+                         <a href="#" data-type="link">June 2016</a>
+                         <a href="#" data-type="link">May 2016</a>
+                         <a href="#" data-type="link">April 2016</a>
+                         <a href="#" data-type="link">March 2016</a>
+                         <a href="#" data-type="link">February 2016</a>
+                         <a href="#" data-type="link">January 2016</a>
+                         <a href="#" data-type="link">Education</a>
+                    </div>
+                </div>
+                <div id="tags_cloud">
+                    <div class="title" data-type="title">
+                        TAGS CLOUD
+                    </div>
+                    <div class="button_cloud">
+                          <button type="button" class="btn btn-default tags" data-type="button">flat</button>
+                          <button type="button" class="btn btn-default tags" data-type="button">builder</button>
+                          <button type="button" class="btn btn-default tags" data-type="button">apps</button>
+                          <button type="button" class="btn btn-default tags" data-type="button">online</button>
+                          <button type="button" class="btn btn-default tags" data-type="button">clubs</button>
+                          <button type="button" class="btn btn-default tags" data-type="button">trens</button>
+                    </div>                          
+                </div>
+                <div id="advertisement">
+                    <div class="title" data-type="title">
+                        ADVERTISEMENT
+                    </div>
+                    <div id="advertise_img">
+                        <img class="img-responsive" src="assets/images/blocks/blogs/ad_here.png" alt="cannotload" data-type="image">
+                    </div>                          
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

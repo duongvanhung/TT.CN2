@@ -1,0 +1,62 @@
+#sample-interface-video {
+    .container {
+        .row {
+            .reponsive {
+                @media (max-width: 1024px) {
+                    width: 30%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 24%;
+                }
+
+                @media (max-width: 480px) {
+                    width: 7%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 0%;
+                }
+            }
+
+            .reponsive-fix {
+                @media (max-width: 1024px) {
+                    width: 40%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 52%;
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 480px) {
+                    width: 86%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 100%;
+                }
+
+                .content {
+                    background: #fafafa;
+                    border: 1px solid #ccc;
+
+
+                    video {
+                        width: 100%;
+                    }
+
+                    .btn-default {
+                        width: 100%;
+                        border-radius: 0;
+                        border-left: 0;
+                        border-right: 0;
+                        border-bottom: 0;
+                        color: #428bca;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

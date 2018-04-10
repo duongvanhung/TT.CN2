@@ -1,0 +1,17 @@
+#list_question_demo {
+    margin-top: 15px;
+
+    .question_box {
+        .container {
+            .row {
+                .fix-col {
+                    border: 1px solid #ccc;
+
+                    @media (max-width: 480px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

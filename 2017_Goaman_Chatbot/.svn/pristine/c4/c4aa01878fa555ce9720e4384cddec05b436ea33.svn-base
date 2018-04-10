@@ -1,0 +1,82 @@
+<section class="feature3 group-content row-builder js-dynamic-menu" menu-name="feature" data-type="bg" data-script-name="block_run_script_feature">
+        <div class="container f-ture">
+            <div class="row">
+                 <div class="col-md-12 animatedParent animateOnce">
+                    <img class="feature-logo margin-bottom-50 margin-top-40 margin-center row-edit" data-type="image" src="assets/images/blocks/feature/logo.png" alt="" />
+                    <h3 class="box-title margin-center animated fadeInUpShort">
+                       <label class="row-edit" data-type="title">  The best way to show your app to the world </label>
+                        <span class="row-edit" data-type="title">Features style</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><img class="wow zoomIn feature3-img img-responsive margin-center row-edit" data-type="image" src="assets/images/blocks/feature/feature3.png" alt=" /"></div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="feature-item1 animated fadeInUp">
+                        <p class="feature-title1">
+                            <span class="feature-icon1" data-type="icon">
+                                <i class="fa fa-gear ico"></i>
+                            </span>
+                            <span class="row-edit" data-type="title">Easy costumize</span>
+                        </p>
+                        <p class="feature-text1 row-edit" data-type="content">Get to know the easy-to-use App interface for mobile app design and creation. App is a flexible, easy to customize browser chosen by 55 million people over the globe. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="feature-item1 animated fadeInUp delay-250">
+                        <p class="feature-title1 ">
+                            <span class="feature-icon1" data-type="icon">
+                                <i class="fa fa-tint ico2"></i>
+                            </span>
+                           <span class="row-edit" data-type="title"> Color Schemes </span>
+                        </p>
+                        <p class="feature-text1 row-edit" data-type="content">The set of ready made CSS files with different color schemes will help you in quick landing’s adaptation according to your benchmark style.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="feature-item1 animated fadeInUp delay-500">
+                        <p class="feature-title1">
+                           <span class="feature-icon1" data-type="icon">
+                                <i class="fa fa-magic ico4"></i>
+                            </span>
+                           <span class="row-edit" data-type="title"> Multiplatform</span>
+                        </p>
+                        <p class="feature-text1 row-edit" data-type="content">So, what is the secret of successful template design? First of all, it is its friendliness – both for the template’s owner and for his or her future targeted audience.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="feature-item1 animated fadeInUp">
+                        <p class="feature-title1">
+                            <span class="feature-icon1" data-type="icon">
+                                <i class="fa fa-mobile-phone ico1"></i>
+                            </span>
+                           <span class="row-edit" data-type="title"> Fully Responsive </span>
+                        </p>
+                        <p class="feature-text1 row-edit" data-type="content">Your project looks great on any device. Content can be easily read and a user understands freely what you wanted to say him or her.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="feature-item1 animated fadeInUp delay-250">
+                        <p class="feature-title1">
+                            <span class="feature-icon1" data-type="icon">
+                                <i class="fa fa-clone ico3"></i>
+                            </span>
+                           <span class="row-edit" data-type="title"> PSD Is Included </span>
+                        </p>
+                        <p class="feature-text1 row-edit" data-type="content">The graphic source file in PSD format is included in the archive. UX and UI are not just empty phrases for us.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="feature-item1 animated fadeInUp delay-500">
+                        <p class="feature-title1">
+                            <span class="feature-icon1" data-type="icon">
+                                <i class="fa fa-file-text-o ico"></i>
+                            </span>
+                           <span class="row-edit" data-type="title"> Fully Documented </span>
+                        </p>
+                        <p class="feature-text1 row-edit" data-type="content">The detailed documentation will help you in adjusting the project with little effort according to your requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

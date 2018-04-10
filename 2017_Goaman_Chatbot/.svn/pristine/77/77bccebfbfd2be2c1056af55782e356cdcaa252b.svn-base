@@ -1,0 +1,309 @@
+.clear-fix {
+    clear: both;
+}
+
+#sample-interface-eight {
+    .container {
+        .row {
+            .reponsive {
+                @media (max-width: 1024px) {
+                    width: 30%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 24%;
+                }
+
+                @media (max-width: 480px) {
+                    width: 7%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 0%;
+                }
+            }
+
+            .reponsive-fix {
+                @media (max-width: 1024px) {
+                    width: 40%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 52%;
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 480px) {
+                    width: 86%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 100%;
+                }
+            }
+
+            .bd-1 {
+                border: 1px solid #ccc;
+                padding: 0px;
+                border-radius: 20px;
+
+                @media (max-width: 767px) {
+                }
+
+                .header {
+                    height: 75px;
+
+                    .logo {
+                        float: left;
+                        padding: 10px;
+                        margin-left: 10px;
+
+                        .fa-border-icon {
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 5;
+                            color: #339dff;
+                            display: inline-block;
+                            border-radius: 100%;
+                            border: 1px solid #339dff;
+
+                            .fa-plane {
+                                font-size: 35px;
+                                color: #339dff;
+                            }
+                        }
+                    }
+
+                    .sky-priority {
+                        float: right;
+                        margin: 15px;
+                        color: #999;
+
+                        .sky-text {
+                            margin: 0;
+                            font-size: 16px;
+                        }
+
+                        .sky-text-bold {
+                            font-weight: bold;
+                            font-size: 16px;
+                            color: #ea543d;
+                        }
+                    }
+                }
+
+                hr {
+                    margin-top: 0px;
+                    clear: both;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                .text-content {
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    .pg {
+                        .left-pg {
+                            float: left;
+                            font-size: 16px;
+                            color: #999;
+                        }
+
+                        .right-pg {
+                            float: right;
+                            font-size: 16px;
+                            color: #999;
+                        }
+                    }
+
+                    .passengers-title {
+                        clear: both;
+                        padding-top: 10px;
+
+                        .left {
+                            float: left;
+
+                            .text {
+                                font-size: 18px;
+                            }
+                        }
+
+                        .right {
+                            float: right;
+                        }
+                    }
+                }
+
+                .part-1 {
+                    margin-top: 15px;
+
+                    .source {
+
+                        .city {
+                            color: #ccc;
+                            font-size: 18px;
+
+                            @media (max-width: 320px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .notation {
+                            color: #3b5898;
+                            font-size: 35px;
+
+                            @media (max-width: 320px) {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+
+                    .distination {
+                        text-align: right;
+
+                        .city {
+                            color: #ccc;
+                            font-size: 18px;
+
+                            @media (max-width: 320px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .notation {
+                            color: #3b5898;
+                            font-size: 35px;
+
+                            @media (max-width: 320px) {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+
+                    .fly {
+                        text-align: center;
+
+                        .fa-border-icon {
+                            .fa-fighter-jet {
+                                font-size: 65px;
+                                color: #3b5898;
+                                margin-top: 15px;
+                                margin-left: -10px;
+
+                                @media (max-width: 480px) {
+                                    margin-left: -20px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 50px;
+                                    padding-top: 24px;
+                                    margin-left: -5px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .part-2 {
+                    margin-top: 15px;
+
+                    .flight {
+                        .flight-title {
+                            color: #999;
+                            font-size: 18px;
+                            letter-spacing: 1px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+
+                        .flight-content {
+                            color: rgba(0, 0, 0, 0.75);
+                            font-weight: bold;
+                            font-size: 18px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .departs {
+                        text-align: center;
+
+                        .departs-title {
+                            color: #999;
+                            font-size: 18px;
+                            letter-spacing: 1px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+
+                        .departs-content {
+                            color: #ea543d;
+                            font-weight: bold;
+                            font-size: 18px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .arrives {
+                        float: right;
+
+                        .arrives-title {
+                            color: #999;
+                            font-size: 18px;
+                            letter-spacing: 1px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+
+                        .arrives-content {
+                            color: #ea543d;
+                            font-weight: bold;
+                            font-size: 18px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

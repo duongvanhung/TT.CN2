@@ -1,0 +1,27 @@
+﻿$(document).ready(function () {
+    var object = $('.accordion');
+    var clearfix = $('.panel');
+    $(object).on('click', function (e) {
+        if ($(clearfix).hasClass("sticky")) {
+            $(clearfix).removeClass("sticky");
+            $(clearfix).hide(300);
+        } else {
+            $(clearfix).addClass("sticky");
+            $(clearfix).css("sticky");
+            $(clearfix).show(300);
+        }
+    });
+});
+function change() {
+    var object = document.getElementById("object");
+    var type = object.type;
+    if (type === "text") {
+
+        object.type = 'button';
+    }
+    else {
+        object.type = "text";
+    }
+}
+
+

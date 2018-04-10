@@ -1,0 +1,7 @@
+{
+    "appSecret": "2fbe05bc712be8d814fcb2cf5d7e62d5",
+    "pageAccessToken": "EAACDj2RJT1MBAO6sfDXbY5qZA5a3zr2r6gTuDwym3ki3PMYipq0DSHtnhQHOq8jmoDptcFhZAw4uGA4ieCCPzZBoYLZBifrU5cTYsSll0UxXfXRgZCVZAwaZCgJCCIkgdZCpZBe0ZAUVhzCOoBynH3atZAkIJv6deoutPMsPKdMP5ETBg4KrMdkeyEa",
+    "validationToken": "fbchatbotvntest",
+    "serverURL": "https://fbchatbot.vn/",
+    "serverPORT": 8080
+}

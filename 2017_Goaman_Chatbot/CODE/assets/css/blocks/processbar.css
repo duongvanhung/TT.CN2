@@ -1,0 +1,142 @@
+.process_bar_1,
+.process_bar_2,
+.process_bar_3,
+.process_bar_4,
+.process_bar_5 {
+  text-align: center;
+  padding-top: 80px; }
+  .process_bar_1 .processbar-header,
+  .process_bar_2 .processbar-header,
+  .process_bar_3 .processbar-header,
+  .process_bar_4 .processbar-header,
+  .process_bar_5 .processbar-header {
+    line-height: 1; }
+    .process_bar_1 .processbar-header-logo,
+    .process_bar_2 .processbar-header-logo,
+    .process_bar_3 .processbar-header-logo,
+    .process_bar_4 .processbar-header-logo,
+    .process_bar_5 .processbar-header-logo {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto; }
+      .process_bar_1 .processbar-header-logo img,
+      .process_bar_2 .processbar-header-logo img,
+      .process_bar_3 .processbar-header-logo img,
+      .process_bar_4 .processbar-header-logo img,
+      .process_bar_5 .processbar-header-logo img {
+        width: 100%; }
+    .process_bar_1 .processbar-header-title,
+    .process_bar_2 .processbar-header-title,
+    .process_bar_3 .processbar-header-title,
+    .process_bar_4 .processbar-header-title,
+    .process_bar_5 .processbar-header-title {
+      font-family: 'SourceSansPro-Regular';
+      font-size: 16px;
+      color: #9e9e9e;
+      margin-top: 35px; }
+    .process_bar_1 .processbar-header-style,
+    .process_bar_2 .processbar-header-style,
+    .process_bar_3 .processbar-header-style,
+    .process_bar_4 .processbar-header-style,
+    .process_bar_5 .processbar-header-style {
+      font-family: 'Raleway-Regular';
+      font-size: 30px;
+      color: #e1b55a;
+      margin-top: 5px; }
+
+.process_bar_1 {
+  padding-bottom: 85px; }
+  .process_bar_1 .processbar-header {
+    margin-bottom: 85px; }
+  .process_bar_1 .container > .row > div:last-child .content {
+    border: 1px solid #f1f1f1; }
+  .process_bar_1 .content {
+    padding: 15px 20px 15px 35px;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-color: #f1f1f1; }
+    @media (max-width: 767px) {
+      .process_bar_1 .content {
+        padding: 15px; } }
+  .process_bar_1 .percent {
+    text-align: right; }
+
+.process_bar_2 {
+  background: url("../../images/blocks/processbar/background_4.png") no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 95px; }
+  .process_bar_2 .canvas {
+    position: relative; }
+  .process_bar_2 .processbar-header {
+    margin-bottom: 40px; }
+  .process_bar_2 .title {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 16px;
+    text-align: left; }
+  .process_bar_2 .content {
+    margin-top: 45px; }
+  .process_bar_2 .percent {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: none;
+    background: white;
+    color: #303030;
+    line-height: 40px;
+    position: absolute;
+    top: -10px;
+    left: -2px; }
+
+.process_bar_3 {
+  padding-bottom: 105px; }
+  .process_bar_3 .processbar-header {
+    margin-bottom: 50px; }
+  .process_bar_3 .content {
+    margin-top: 40px; }
+  .process_bar_3 .title {
+    text-align: left; }
+
+.process_bar_4 {
+  background: url("../../images/blocks/processbar/background_4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 135px; }
+  .process_bar_4 .processbar-header {
+    padding-bottom: 60px; }
+  .process_bar_4 .canvas {
+    position: relative; }
+    .process_bar_4 .canvas .percent {
+      position: absolute; }
+  .process_bar_4 .processbar-content {
+    padding-top: 30px;
+    color: white; }
+    .process_bar_4 .processbar-content canvas {
+      display: block;
+      margin: 0 auto; }
+    .process_bar_4 .processbar-content .canvas-text {
+      margin-top: 20px;
+      text-align: center; }
+
+.process_bar_5 {
+  background: white;
+  padding-bottom: 145px; }
+  .process_bar_5 .processbar-header {
+    padding-bottom: 75px; }
+  .process_bar_5 .processbar-content {
+    padding-top: 10px;
+    color: black; }
+    .process_bar_5 .processbar-content canvas {
+      display: block;
+      margin: 0 auto; }
+    .process_bar_5 .processbar-content .canvas-text {
+      margin-top: 20px;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .process_bar_5 .processbar-content .canvas-text {
+          margin-top: 10px; } }

@@ -1,0 +1,145 @@
+/**
+ *
+ *
+ * @author PIX Interaction
+ * http://pix.com.vn
+ */
+ body{
+    margin:0;
+ }
+ .main-media{
+    border-bottom:1px solid #c5c5c5;
+ }
+  .body-embed-online-media *{
+    box-sizing:border-box;
+  }
+ .body-embed-online-media {
+    margin: 0;
+    padding: 0px;
+    padding-left:10px;
+    padding-right:10px;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-size: 14px;
+    text-shadow: none;
+    float: none;
+    position: static;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    cursor: inherit;
+    -webkit-tap-highlight-color: transparent;
+    line-height: normal;
+    font-weight: normal;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+    direction: ltr;
+    max-width: none;
+}
+
+.body-embed-online-media .area-item {
+	margin-top: 10px;
+}
+
+.body-embed-online-media .area-item .area-child {
+	margin-top: 5px;
+    font-size: 14px;
+}
+
+
+.body-embed-online-media .provider {
+    height: 30px;
+    font-size: 14px;
+}
+
+.body-embed-online-media .source-url {
+    height: 30px;
+    font-size: 14px;
+    width: 90%;
+    min-width: 50%;
+}
+
+.body-embed-online-media-action {
+    float: right;
+    margin-top: 10px;
+	
+}
+
+.body-embed-online-media-action > .button {
+    font-size: 15px;
+    padding: 10px 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.body-embed-online-media-action > .button.button-cancel {
+	background-color: #CCD1D9;
+	color: #FFFFFF;
+	margin-right: 4px;
+}
+
+.body-embed-online-media-action > .button.button-insert {
+	background-color: #4A89DC;
+	color: #FFFFFF;
+}
+.body-embed-online-media .area-item:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.body-embed-online-media .media--title{
+    width:20%;
+    max-width:145px;
+    display: block;
+    line-height: 30px;
+    float:left;
+}
+.body-embed-online-media .media--input{
+    width:75%;
+    height:30px;
+    float:right;
+    outline: none;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.body-embed-online-media .media--input.clear-padding{
+    padding-left:0;
+    padding-right:0;
+}
+.body-embed-online-media .example{
+    width:100%;
+    line-height: 30px;
+    text-align: right;
+    display: block;
+}
+.body-embed-online-media .media--input__text{
+    height:30px;
+    padding-left:15px;
+    padding-right:15px;
+    line-height:30px;
+    max-width:80px;
+    text-align: center;
+    outline: none;
+}
+.body-embed-online-media .media--text__X{
+    margin-left:10px;
+    margin-right:10px;
+}
+.button.button-insert{
+    margin-right:10px;
+}
+.clear-fix{
+    clear:both;
+}

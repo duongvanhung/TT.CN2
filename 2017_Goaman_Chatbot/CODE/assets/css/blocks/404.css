@@ -1,0 +1,138 @@
+.page404_2 input, .page404_2 textarea, .page404_2 button,
+.page404_1 input,
+.page404_1 textarea,
+.page404_1 button {
+  border-radius: 0; }
+
+.page404_1 {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 140px;
+  background: white; }
+  .page404_1 .not-found {
+    font-family: 'Raleway-Bold';
+    font-size: 36px;
+    color: #e1b55a;
+    line-height: 1;
+    margin-top: 115px;
+    text-transform: uppercase; }
+    @media (max-width: 992px) {
+      .page404_1 .not-found {
+        font-size: 25px; } }
+  .page404_1 .error-404 {
+    font-family: 'SourceSansPro-Black';
+    font-size: 250px;
+    color: #e1b55a;
+    line-height: 1; }
+    @media (max-width: 992px) {
+      .page404_1 .error-404 {
+        font-size: 145px; } }
+  .page404_1 .sorry {
+    font-size: 24px; }
+    @media (max-width: 992px) {
+      .page404_1 .sorry {
+        font-size: 20px; } }
+  .page404_1 .link-error {
+    color: #757575;
+    margin-top: 5px; }
+  .page404_1 .search {
+    max-width: 570px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px; }
+    .page404_1 .search button {
+      width: 200px;
+      background: #ddd;
+      border-style: none;
+      outline: none;
+      font-family: 'SourceSansPro-Bold'; }
+    .page404_1 .search input {
+      width: 100%;
+      border: 1px solid #ddd;
+      outline: none;
+      font-family: 'SourceSansPro-It';
+      color: #757575;
+      padding-left: 15px; }
+
+.page404_2 {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 16px;
+  background: white; }
+  .page404_2 .not-found {
+    margin-top: 155px;
+    font-family: 'Raleway-Bold';
+    font-size: 48px;
+    color: #e1b55a;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center; }
+    @media (max-width: 992px) {
+      .page404_2 .not-found {
+        font-size: 25px;
+        margin-top: 30px; } }
+  .page404_2 .error-404 {
+    font-family: 'SourceSansPro-Black';
+    font-size: 200px;
+    color: #e1b55a;
+    text-align: center; }
+    @media (max-width: 992px) {
+      .page404_2 .error-404 {
+        font-size: 160px; } }
+  .page404_2 .search {
+    display: flex;
+    margin-top: 35px;
+    height: 40px; }
+    .page404_2 .search button {
+      width: 130px;
+      background: #ddd;
+      border-style: none;
+      outline: none;
+      font-family: 'SourceSansPro-Bold'; }
+    .page404_2 .search input {
+      width: 100%;
+      border: 1px solid #ddd;
+      outline: none;
+      font-family: 'SourceSansPro-It';
+      color: #757575;
+      padding-left: 15px; }
+  .page404_2 .link-error {
+    margin-top: 85px; }
+    @media (max-width: 992px) {
+      .page404_2 .link-error {
+        margin-top: 0px;
+        text-align: center; } }
+  .page404_2 .link {
+    margin-top: 85px; }
+    @media (max-width: 992px) {
+      .page404_2 .link {
+        margin-top: 30px;
+        text-align: center; } }
+  .page404_2 .link-item ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0; }
+  .page404_2 .link-item ul li {
+    max-width: 200px;
+    padding-left: 18px;
+    position: relative;
+    margin-top: 8px; }
+    .page404_2 .link-item ul li:before {
+      content: "\f105";
+      font: normal normal normal 14px/1 FontAwesome;
+      position: absolute;
+      left: 0;
+      top: 4px; }
+    .page404_2 .link-item ul li:hover {
+      color: #e1b55a; }
+      .page404_2 .link-item ul li:hover a {
+        color: #e1b55a; }
+    @media (max-width: 992px) {
+      .page404_2 .link-item ul li {
+        margin-left: auto;
+        margin-right: auto; } }
+  .page404_2 .link-item a {
+    color: #757575;
+    text-decoration: none;
+    cursor: pointer; }

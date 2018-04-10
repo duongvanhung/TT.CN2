@@ -1,0 +1,16 @@
+body{
+	font-family: $primary-font-family;
+	font-size: $primary-font-size;
+}
+a{
+	&:hover,&:focus{
+		text-decoration: none; 
+		color:$black-color; 
+		outline: none;
+	}
+}
+ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}

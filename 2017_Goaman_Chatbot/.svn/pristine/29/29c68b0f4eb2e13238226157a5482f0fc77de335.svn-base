@@ -1,0 +1,2 @@
+<script type="text/javascript">token_value = '<?=$this->security->get_csrf_hash()?>';</script>
+<a class="no_underline" href="javascript:void(0)" onclick="updateStatus(<?=$id?>,<?=$status?>,'<?=$module?>')"><?php echo ($status==0) ?  '<span class="label label-sm label-default">Blocked</span>' :  '<span class="label label-sm label-success">Approved</span>' ?></a>

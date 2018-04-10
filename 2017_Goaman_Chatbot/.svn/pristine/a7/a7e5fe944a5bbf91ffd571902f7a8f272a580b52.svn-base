@@ -1,0 +1,170 @@
+<section class="faq3 row-builder  js-dynamic-menu"  menu-name="FAQ" data-type="bg" data-script-name="block_run_script_faq">
+<header class="header-children-page" data-type="bg">
+				    <div class="container">
+				        <div class="row">
+				        	<div class="col-xs-12">
+				        		<div class="header-children-page-content">
+				        			<div class="header-children-page-logo">
+					        			<img src="assets/images/blocks/style/logo.png" data-type="image"/>
+					        		</div>
+					        		<span class="header-children-page-text1" data-type="title">
+					        			COSMOS
+					        		</span>
+					        		<span class="header-children-page-text2" data-type="title">
+					        			App Landing Page
+					        		</span>
+				        		</div>
+				        		<div class="header-children-page-breadcum">
+				        			<span data-type="title">TIMELINE</span>
+				        			<ul>
+				        				<li><a href="index.html" data-type="link">Homepage</a></li>
+				        				<li><a href="#" data-type="link">FAQ</a></li>
+				        			</ul>
+				        		</div>
+				        	</div>
+				        </div>
+				    </div>
+				    <div class="setting-background-bt" style="display: block; opacity: 1;">
+				    	<button type="button" data-placement="bottom" data-toggle="tooltip" title="Edit image" class="row-edit-bg btn btn-lg" data-dialog="">
+				    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+				    	</button>
+				    </div>
+				</header>
+        <div class="container padding-top90">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <p class="title" data-type="title">About WordPress</p>
+                    <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question" >
+                            <span data-type="content">I don’t know what all the WordPress terms mean: where can I get help?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question" data-type="content">
+                            <span data-type="content">Can I transfer my blog or website from other services to a self-hosted WordPress installation?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                           Nullam ac diam elit. Ut ultricies ipsum non ex vehicula porttitor. Ut convallis sollicitudin elit, id vestibulum neque cursus nec. Ut aliquet nisl eu pulvinar porttitor. Quisque dolor augue, hendrerit at efficitur id, blandit vel libero. Integer sit amet accumsan magna. Phasellus mauris quam, suscipit eget dapibus finibus, placerat vitae enim. Vestibulum accumsan, augue ut venenatis sodales, leo ante pulvinar turpis, et ullamcorper nisi lectus in nunc. Phasellus eget vulputate nisi, ac dapibus metus. Sed quis sodales diam. Curabitur sed tristique lectus. Vivamus tincidunt mattis auctor.
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">When was WordPress first released?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">What are WordPress’ features?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                           Nullam ac diam elit. Ut ultricies ipsum non ex vehicula porttitor. Ut convallis sollicitudin elit, id vestibulum neque cursus nec. Ut aliquet nisl eu pulvinar porttitor. Quisque dolor augue, hendrerit at efficitur id, blandit vel libero. Integer sit amet accumsan magna. Phasellus mauris quam, suscipit eget dapibus finibus, placerat vitae enim. Vestibulum accumsan, augue ut venenatis sodales, leo ante pulvinar turpis, et ullamcorper nisi lectus in nunc. Phasellus eget vulputate nisi, ac dapibus metus. Sed quis sodales diam. Curabitur sed tristique lectus. Vivamus tincidunt mattis auctor.
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">Why Choose WordPress?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">How can I do a bulk edit of the Status field for all the posts in my database?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">Will my WordPress blog show up in search engines?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                           <span data-type="content">Can I have a blog in a language other than English?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">How do I make the text wrap about the pictures?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">How do I use smilies/smileys in my posts?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">Is your product compactible with WordPress 3.0?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                     <!-- item-->
+                    <div class="faq-item" data-animate="zoomIn">
+                        <div class="faq-question">
+                            <span data-type="content">Can upgrade to premium package?</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="faq-answer" data-type="content">
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                            I don’t know what all the WordPress terms mean: where can I get help?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

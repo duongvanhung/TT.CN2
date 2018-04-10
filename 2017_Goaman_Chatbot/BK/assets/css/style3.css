@@ -1,0 +1,110 @@
+ul.list-side-menu a.side-menu-link {
+  position: relative; }
+  ul.list-side-menu a.side-menu-link:hover .img-mobile-search {
+    right: 65px; }
+    @media (max-width: 480px) {
+      ul.list-side-menu a.side-menu-link:hover .img-mobile-search {
+        right: 65px !important; } }
+    @media (max-width: 320px) {
+      ul.list-side-menu a.side-menu-link:hover .img-mobile-search {
+        right: 65px !important; } }
+  ul.list-side-menu a.side-menu-link .img-mobile-search {
+    right: 15px; }
+    @media (max-width: 480px) {
+      ul.list-side-menu a.side-menu-link .img-mobile-search {
+        right: 25px; } }
+    @media (max-width: 320px) {
+      ul.list-side-menu a.side-menu-link .img-mobile-search {
+        right: 25px; } }
+
+textarea {
+  width: 100%;
+  max-width: 280px; }
+
+.profile-setting-detail .profile-wrap .tab-content .btn-profile .submit-btn-profile {
+  width: 120px; }
+  .profile-setting-detail .profile-wrap .tab-content .btn-profile .submit-btn-profile:hover {
+    box-shadow: 0 0 8px #968d23;
+    transition: .3s; }
+
+.remove-btn-profile:hover {
+  box-shadow: 0 0 8px #968d23;
+  transition: .3s; }
+
+#comment-reply-box {
+  max-width: 700px;
+  width: 100%;
+  color: #222;
+  padding-bottom: 1px;
+  height: 66px; }
+  @media (max-width: 767px) {
+    #comment-reply-box {
+      max-width: 500px; } }
+  @media (max-width: 767px) {
+    #comment-reply-box {
+      max-width: 260px; } }
+
+.comment-reply.clearfix {
+  float: none;
+  clear: both;
+  margin-left: 70px; }
+
+.comment-reply-img {
+  width: 100%;
+  max-width: 76px;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.comment-detail .comment-action {
+  text-align: right;
+  margin-right: 54px;
+  color: #222;
+  margin-top: 5px; }
+  @media (max-width: 480px) {
+    .comment-detail .comment-action {
+      margin-right: 5px; } }
+
+.comment-action input {
+  width: 100px;
+  height: 35px;
+  background-color: #f39200;
+  border: none;
+  margin-left: 5px; }
+
+.comment-action input:hover {
+  background-color: #fff; }
+
+input#btn-update-account {
+  margin-top: 140px;
+  margin-left: -70px; }
+  @media (max-width: 678px) {
+    input#btn-update-account {
+      margin-top: 25px;
+      margin-left: 0px; } }
+  @media (max-width: 320px) {
+    input#btn-update-account {
+      margin-top: 25px;
+      margin-left: 0px; } }
+  @media (max-width: 480px) {
+    input#btn-update-account {
+      margin-top: 25px;
+      margin-left: 0px; } }
+
+.redm-blog .comment-blog .comment-show ol .comment-detail .comment-center {
+  padding: 0px; }
+
+.content {
+  position: absolute;
+  margin-left: 10%; }
+
+.power-off-login {
+  background: url("../images/power.png");
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 22px;
+  text-align: center;
+  background-color: #222 !important; }
+  .power-off-login:hover {
+    background: url("../images/power-hover.png");
+    transition: .5s; }

@@ -1,0 +1,30 @@
+<section class="demo_2 row-builder js-dynamic-menu" menu-name="Demo" data-script-name="block_run_script_demo">
+	<div class="row margin0 row-eq-height">
+		<div class="col-lg-6 col-xs-12 padding0">
+			<div class="col-left">
+				<div class="video-youtube">
+					<img src="assets/images/blocks/demo/demo-option2-1.png" alt="image youtube" data-type="image">
+					<a class="fancybox-video fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+						<img src="assets/images/blocks/demo/button-play.png" alt="button play" data-type="image-link">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-xs-12 padding0">
+			<div class="col-right" data-type="bg">
+				<div class="content">
+					<p class="demo-description-1" data-animate="fadeInRight" data-type="title"><span>COSMOS</span> Is Perfect Landing Page to Showcase Your Apps</p>
+					<div class="demo-description-2" data-animate="fadeInRight" data-type="content">
+						Is amazing, modern and clean landing page for showcase your app anything else. 
+	A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free
+					</div>
+					<div class="download-app" data-animate="fadeInRight-parent">
+						<a href="#"><img class="img-responsive" src="assets/images/blocks/demo/google.jpg" alt="video" data-type="image-link"/></a>
+						<a href="#"><img class="img-responsive" src="assets/images/blocks/demo/windows.jpg" alt="video" data-type="image-link" /></a>
+						<a href="#"><img class="img-responsive" src="assets/images/blocks/demo/ios.jpg" alt="video" data-type="image-link" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

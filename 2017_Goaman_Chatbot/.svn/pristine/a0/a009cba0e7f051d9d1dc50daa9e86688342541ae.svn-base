@@ -1,0 +1,7 @@
+$z-index-menu : 20;
+$z-index-top-menu: 2;
+$z-index-side-menu:2;
+$z-index-wrap-side-menu:1;
+$z-index-mobile-menu:2;
+$z-index-mobile-side-menu:3;
+$z-index-mobile-right-menu:2;

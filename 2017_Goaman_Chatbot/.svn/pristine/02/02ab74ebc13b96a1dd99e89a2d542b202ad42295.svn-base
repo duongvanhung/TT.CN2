@@ -1,0 +1,86 @@
+<section class="contact_3 row-builder js-dynamic-menu" data-type="bg " menu-name="Contact" data-script-name="block_run_script_contact">
+    <div class="container">
+        <div class="row eq-row-height">
+            <div class="col-md-8 col-xs-12">
+                <div class="col-left" data-type="bg">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1 col-xs-12" >
+                            <div class="header" data-animate="fadeInUp-parent">
+                                <div class="header__title--color-white">
+                                    <span data-type="title">Send Us A Messenge</span>
+                                </div>
+                                <div class="header__description">
+                                    <span data-type="content">Itatendam utentotatiat volupta expero ma volorum quiam vel estioreped erae rendipsa
+nulluptur ressunt eatistis etur, eatisti aut militat. Ate reicipid quidestia vent.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form" data-animate="fadeInRight-parent">
+                            <div class="col-md-5 col-md-offset-1 col-xs-12">
+                                <input class="input input--border-none" placeholder="Your name" />
+                            </div>
+                            <div class="col-md-5 col-xs-12">
+                                <input class="input input--border-none" placeholder="Email" />
+                            </div>
+                            <div class="col-md-5 col-md-offset-1 col-xs-12">
+                                <input class="input input--border-none" placeholder="Phone number" />
+                            </div>
+                            <div class="col-md-5 col-xs-12">
+                                <input class="input input--border-none" placeholder="Subject" />
+                            </div>
+                            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                                <textarea class="textarea textarea--border-none" placeholder="Your message"></textarea>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                                <button class="button button--border-black" data-type="button">
+                                    SEND MESSAGE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="col-right" data-type="bg">
+                    <div class="contact" data-animate="zoomIn">
+                        <div class="contact__image">
+                            <img src="assets/images/blocks/contact/mark2.png" alt="marker" data-type="image">
+                        </div>
+                        <div class="contact__title">
+                            <span data-type="title">Vanue</span>
+                        </div>
+                        <div class="contact__content">
+                            <p data-type="content">Castle Convention Center
+                            214 Awesome Street,NY</p>
+                        </div>
+                    </div>
+                    <div class="contact" data-animate="zoomIn">
+                        <div class="contact__image">
+                            <img src="assets/images/blocks/contact/map2.png" alt="map" data-type="image">
+                        </div>
+                        <div class="contact__title">
+                            <span data-type="title">Accomodation</span>
+                        </div>
+                        <div class="contact__content">
+                            <p data-type="content">Castle Resort
+    500 Hotel CircleDiego,
+    CA 92108</p>
+                        </div>
+                    </div>
+                    <div class="contact" data-animate="zoomIn">
+                        <div class="contact__image">
+                            <img src="assets/images/blocks/contact/phone2.png" alt="phone" data-type="image">
+                        </div>
+                        <div class="contact__title">
+                            <span data-type="title">Information</span>
+                        </div>
+                        <div class="contact__content">
+                            <p data-type="content">(0) 123-456-789-00
+    info@eventcastle.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

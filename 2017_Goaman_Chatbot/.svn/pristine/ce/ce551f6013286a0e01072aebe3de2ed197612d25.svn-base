@@ -1,0 +1,70 @@
+<section class="download_1 row-builder js-dynamic-menu" menu-name="Download" data-type="bg" data-script-name="block_run_script_download">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="assets/images/blocks/download/app_gray_1.png" alt="window" data-type="image">
+                    </div>
+                    <div class="download-text">
+                        <span data-type="title">Windows Phone</span>
+                    </div>
+                    <div class="download-number">
+                        <span data-type="title">344090</span>
+                    </div>
+                    <div class="download-dow">
+                        <a href="#" data-type="link">downloads</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="assets/images/blocks/download/app_gray_2.png" alt="window" data-type="image">
+                    </div>
+                    <div class="download-text">
+                        <span data-type="title">IOS</span>
+                    </div>
+                    <div class="download-number">
+                        <span data-type="title">1795000</span>
+                    </div>
+                    <div class="download-dow">
+                        <a href="#" data-type="link">downloads</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="assets/images/blocks/download/app_gray_3.png" alt="window" data-type="image">
+                    </div>
+                    <div class="download-text">
+                        <span data-type="title">Google Play Store</span>
+                    </div>
+                    <div class="download-number">
+                        <span data-type="title">975140</span>
+                    </div>
+                    <div class="download-dow">
+                        <a href="#" data-type="link">downloads</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="download">
+                    <div class="download-img">
+                        <img src="assets/images/blocks/download/app_gray4.png" alt="window" data-type="image">
+                    </div>
+                    <div class="download-text">
+                        <span data-type="title">BlackBerry app world</span>
+                    </div>
+                    <div class="download-number">
+                        <span data-type="title">1430250</span>
+                    </div>
+                    <div class="download-dow">
+                        <a href="#" data-type="link">downloads</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

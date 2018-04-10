@@ -1,0 +1,66 @@
+<section class="page404_2 row-builder js-dynamic-menu" menu-name="404" data-type="bg" data-script-name="block_run_script_page404">
+<header class="header-children-page" data-type="bg">
+				    <div class="container">
+				        <div class="row">
+				        	<div class="col-xs-12">
+				        		<div class="header-children-page-content">
+				        			<div class="header-children-page-logo">
+					        			<img src="assets/images/blocks/style/logo.png" data-type="image"/>
+					        		</div>
+					        		<span class="header-children-page-text1" data-type="title">
+					        			COSMOS
+					        		</span>
+					        		<span class="header-children-page-text2" data-type="title">
+					        			App Landing Page
+					        		</span>
+				        		</div>
+				        		<div class="header-children-page-breadcum">
+				        			<span data-type="title">404</span>
+				        			<ul>
+				        				<li><a href="index.html" data-type="link">Homepage</a></li>
+				        				<li><a href="#" data-type="link">404</a></li>
+				        			</ul>
+				        		</div>
+				        	</div>
+				        </div>
+				    </div>
+				    <div class="setting-background-bt" style="display: block; opacity: 1;">
+				    	<button type="button" data-placement="bottom" data-toggle="tooltip" title="Edit image" class="row-edit-bg btn btn-lg" data-dialog="">
+				    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+				    	</button>
+				    </div>
+				</header>
+    <div class="container padding-top90">
+        <div class="not-found">
+            <span data-type="title">Page Not Found !</span>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
+                <div class="error-404">
+                    <span data-type="title">404</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="link-error">
+                    <span data-type="content">The link you clicked might be corrupted, or the page may have been removed.</span>
+                </div>
+                <div class="search">
+                    <input type="text">
+                    <button data-type="button">SEARCH</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <div class="link">
+                    <span data-type="title">Here Are a Few Helpful Links</span>
+                </div>
+                <div class="link-item"> 
+                    <ul>
+                        <li><a data-type="link">Homepage</a></li>
+                        <li><a data-type="link">Help</a></li>
+                        <li><a data-type="link">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

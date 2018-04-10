@@ -1,0 +1,12 @@
+.h-option-5.header-page {
+    background-image: url(../../images/blocks/head/Slides_5.jpg)!important;
+}
+.form-info-down-app input::-webkit-input-placeholder {
+   color:black;
+}
+.form-info-down-app input::-moz-placeholder {
+   color:black;
+}
+.form-info-down-app input:-ms-input-placeholder {
+   color:black;
+}

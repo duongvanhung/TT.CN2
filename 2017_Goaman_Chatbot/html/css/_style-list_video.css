@@ -1,0 +1,45 @@
+#sample-interface-video .container .row .reponsive {
+  width: 37%; }
+  @media (max-width: 1024px) {
+    #sample-interface-video .container .row .reponsive {
+      width: 37%; } }
+  @media (max-width: 992px) {
+    #sample-interface-video .container .row .reponsive {
+      width: 33%; } }
+  @media (max-width: 991px) {
+    #sample-interface-video .container .row .reponsive {
+      width: 28%; } }
+  @media (max-width: 480px) {
+    #sample-interface-video .container .row .reponsive {
+      width: 7%; } }
+  @media (max-width: 425px) {
+    #sample-interface-video .container .row .reponsive {
+      width: 60%; } }
+  @media (max-width: 320px) {
+    #sample-interface-video .container .row .reponsive {
+      width: 0%; } }
+
+#sample-interface-video .container .row .reponsive-fix {
+  width: 26%; }
+  @media (max-width: 1024px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 26%; } }
+  @media (max-width: 992px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 30%; } }
+  @media (max-width: 991px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 40%;
+      margin: 0 auto; } }
+  @media (max-width: 480px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 60%; } }
+  @media (max-width: 425px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 65%; } }
+  @media (max-width: 375px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 75%; } }
+  @media (max-width: 320px) {
+    #sample-interface-video .container .row .reponsive-fix {
+      width: 85%; } }

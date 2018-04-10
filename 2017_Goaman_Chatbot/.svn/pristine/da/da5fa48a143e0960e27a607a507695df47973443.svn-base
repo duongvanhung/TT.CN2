@@ -1,0 +1,98 @@
+.mobile-menu{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:$z-index-mobile-menu;
+}
+
+.mobile-top-menu{
+	background:$black-color;
+	height:50px;
+	.logo{
+		height:50px;
+		padding-top:0;
+		width:100%;
+	}
+	.text-logo{
+		padding-top:13px;
+		padding-bottom:0;
+		padding-left:10px;
+		padding-right:0;
+		.text-logo-item:before{
+			display: none;
+		}
+	}
+	.wrap-login{
+		padding-top:13px;
+		.signup:after{
+			display: none;
+		}
+	}
+	.icon-show-menu-mobile{
+		width:80px;
+		height:50px;
+	    color: #fff;
+	    font-size: 30px;
+	    line-height: 50px;
+	    text-align: center;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right:0;
+	    cursor: pointer;
+	}
+	.slide-text{
+		margin-left:15px;
+		.run-text{
+			padding-top:13px;
+			padding-bottom:13px;
+			display: inline-block;
+		}
+	}
+}
+
+.mobile-side-menu{
+	position: fixed;
+	top:50px;
+	bottom:0;
+	left:0;
+	width:250px;
+	background:$black-color;
+	overflow:auto;
+	@include transform(translateX(-100%));
+	@include transition(all 0.5s);
+	&.active{
+		@include transform(translateX(0));
+	}
+	ul,li{
+		padding:0;
+		margin:0;
+		list-style-type:none;
+	}
+	ul{
+		width: 100%;
+		overflow:hidden;
+		transition:all 0.5s;
+		-webkit-transition:all 0.5s;
+		-o-transition:all 0.5s;
+		-moz-transition:all 0.5s;
+	}
+	ul.list-side-menu li.side-menu-item{
+		text-align: left;
+	}
+	.wrap-trending .item-trending{
+		opacity: 1;
+	}
+	ul.list-side-menu li.side-menu-item a{
+		opacity: 1;
+	}
+	/* -----scroll bar-------- */
+	&::-webkit-scrollbar{
+		width:5px;
+		background-color:#575756;
+	}
+	&::-webkit-scrollbar-thumb{
+		background-color:#1d1d1b;
+		border-radius:50px;
+	}
+}

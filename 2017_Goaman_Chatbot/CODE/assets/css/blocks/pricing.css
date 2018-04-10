@@ -1,0 +1,324 @@
+.padding0 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.padding-top90 {
+  padding-top: 90px; }
+  @media (max-width: 991px) {
+    .padding-top90 {
+      padding-top: 50px; } }
+
+.pricing1, .pricing2, .pricing3, .pricing4, .pricing5 {
+  padding-bottom: 80px; }
+  .pricing1 .row-edit.button.btn.btn-default.btn-lg.btn-block, .pricing2 .row-edit.button.btn.btn-default.btn-lg.btn-block, .pricing3 .row-edit.button.btn.btn-default.btn-lg.btn-block, .pricing4 .row-edit.button.btn.btn-default.btn-lg.btn-block, .pricing5 .row-edit.button.btn.btn-default.btn-lg.btn-block {
+    padding-top: 15px; }
+  .pricing1 .content, .pricing2 .content, .pricing3 .content, .pricing4 .content, .pricing5 .content {
+    margin-top: 90px; }
+  .pricing1 .template-header, .pricing2 .template-header, .pricing3 .template-header, .pricing4 .template-header, .pricing5 .template-header {
+    text-align: center;
+    line-height: 1; }
+    .pricing1 .template-header-logo, .pricing2 .template-header-logo, .pricing3 .template-header-logo, .pricing4 .template-header-logo, .pricing5 .template-header-logo {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto; }
+      .pricing1 .template-header-logo img, .pricing2 .template-header-logo img, .pricing3 .template-header-logo img, .pricing4 .template-header-logo img, .pricing5 .template-header-logo img {
+        width: 100%; }
+    .pricing1 .template-header-title, .pricing2 .template-header-title, .pricing3 .template-header-title, .pricing4 .template-header-title, .pricing5 .template-header-title {
+      font-family: 'SourceSansPro-Regular';
+      font-size: 16px;
+      color: #9e9e9e;
+      margin-top: 35px; }
+    .pricing1 .template-header-style, .pricing2 .template-header-style, .pricing3 .template-header-style, .pricing4 .template-header-style, .pricing5 .template-header-style {
+      font-family: 'Raleway-Regular';
+      font-size: 30px;
+      color: #e1b55a;
+      margin-top: 15px; }
+  .pricing1 .choice, .pricing2 .choice, .pricing3 .choice, .pricing4 .choice, .pricing5 .choice {
+    position: absolute;
+    top: 0;
+    opacity: 0; }
+    .pricing1 .choice img, .pricing2 .choice img, .pricing3 .choice img, .pricing4 .choice img, .pricing5 .choice img {
+      display: block; }
+  .pricing1 .choice.active, .pricing2 .choice.active, .pricing3 .choice.active, .pricing4 .choice.active, .pricing5 .choice.active {
+    opacity: 1; }
+  .pricing1 .slide-item, .pricing2 .slide-item, .pricing3 .slide-item, .pricing4 .slide-item, .pricing5 .slide-item {
+    height: 100%;
+    box-shadow: 0px 1px 3px 0px #d4d4d4;
+    text-align: center;
+    font-family: SourceSansPro-Regular;
+    font-size: 16px;
+    color: #303030;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px; }
+    .pricing1 .slide-item:hover .button, .pricing2 .slide-item:hover .button, .pricing3 .slide-item:hover .button, .pricing4 .slide-item:hover .button, .pricing5 .slide-item:hover .button {
+      background-color: #e1b55a;
+      color: #fff;
+      border: none; }
+  .pricing1 .carousel .carousel-prev .fa,
+  .pricing1 .carousel .carousel-next .fa, .pricing2 .carousel .carousel-prev .fa,
+  .pricing2 .carousel .carousel-next .fa, .pricing3 .carousel .carousel-prev .fa,
+  .pricing3 .carousel .carousel-next .fa, .pricing4 .carousel .carousel-prev .fa,
+  .pricing4 .carousel .carousel-next .fa, .pricing5 .carousel .carousel-prev .fa,
+  .pricing5 .carousel .carousel-next .fa {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    position: absolute;
+    padding-top: 2px;
+    width: 42px;
+    height: 42px;
+    border: solid 2px #d1d1d1;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #d1d1d1;
+    z-index: 9;
+    cursor: pointer; }
+  .pricing1 .carousel .carousel-next .fa, .pricing2 .carousel .carousel-next .fa, .pricing3 .carousel .carousel-next .fa, .pricing4 .carousel .carousel-next .fa, .pricing5 .carousel .carousel-next .fa {
+    right: -60px;
+    padding-left: 2px; }
+    @media (max-width: 1199px) {
+      .pricing1 .carousel .carousel-next .fa, .pricing2 .carousel .carousel-next .fa, .pricing3 .carousel .carousel-next .fa, .pricing4 .carousel .carousel-next .fa, .pricing5 .carousel .carousel-next .fa {
+        display: none; } }
+  .pricing1 .carousel .carousel-prev .fa, .pricing2 .carousel .carousel-prev .fa, .pricing3 .carousel .carousel-prev .fa, .pricing4 .carousel .carousel-prev .fa, .pricing5 .carousel .carousel-prev .fa {
+    left: -60px;
+    padding-right: 2px; }
+    @media (max-width: 1199px) {
+      .pricing1 .carousel .carousel-prev .fa, .pricing2 .carousel .carousel-prev .fa, .pricing3 .carousel .carousel-prev .fa, .pricing4 .carousel .carousel-prev .fa, .pricing5 .carousel .carousel-prev .fa {
+        display: none; } }
+  .pricing1 .rate, .pricing2 .rate, .pricing3 .rate, .pricing4 .rate, .pricing5 .rate {
+    font-family: Raleway-Regular;
+    font-size: 80px;
+    font-weight: lighter;
+    color: #2c2c2c;
+    line-height: 110px; }
+  .pricing1 .sup, .pricing2 .sup, .pricing3 .sup, .pricing4 .sup, .pricing5 .sup {
+    font-size: 24px;
+    font-family: Raleway-Regular; }
+  .pricing1 .option1-content .sup, .pricing2 .option1-content .sup, .pricing3 .option1-content .sup, .pricing4 .option1-content .sup, .pricing5 .option1-content .sup {
+    top: -10px;
+    left: 40px; }
+  .pricing1 .sub, .pricing2 .sub, .pricing3 .sub, .pricing4 .sub, .pricing5 .sub {
+    color: #757575;
+    font-size: 16px; }
+  .pricing1 .name, .pricing2 .name, .pricing3 .name, .pricing4 .name, .pricing5 .name {
+    font-family: Raleway-Bold;
+    font-size: 24px;
+    padding: 26px 0; }
+  .pricing1 .button, .pricing2 .button, .pricing3 .button, .pricing4 .button, .pricing5 .button {
+    margin: 30px auto;
+    border-radius: 0px;
+    height: 50px;
+    font-weight: bold;
+    width: 73%;
+    color: #757575;
+    border-color: #fff;
+    background-color: #f5f5f5;
+    font-family: SourceSansPro-Bold;
+    font-size: 16px; }
+  .pricing1 ul, .pricing1 li, .pricing2 ul, .pricing2 li, .pricing3 ul, .pricing3 li, .pricing4 ul, .pricing4 li, .pricing5 ul, .pricing5 li {
+    list-style: none; }
+
+.pricing1 .owl-carousel .owl-wrapper-outer, .pricing2 .owl-carousel .owl-wrapper-outer, .pricing4 .owl-carousel .owl-wrapper-outer {
+  padding: 70px 0px 20px; }
+.pricing1 .slide-item:hover, .pricing2 .slide-item:hover, .pricing4 .slide-item:hover {
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  padding: 0;
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08); }
+
+/*--------------------option1------------------------------------*/
+.pricing1 .option1-content .slide-item span {
+  padding-left: 20px; }
+.pricing1 .option1-content .slide-item:hover {
+  -webkit-box-shadow: 0px 17px 40px 1px rgba(210, 210, 210, 0.61);
+  -moz-box-shadow: 0px 17px 40px 1px rgba(210, 210, 210, 0.61);
+  box-shadow: 0px 17px 40px 1px rgba(210, 210, 210, 0.61);
+  opacity: 1; }
+  .pricing1 .option1-content .slide-item:hover .rate {
+    color: #e1b55a;
+    background: #e1b55a; }
+  .pricing1 .option1-content .slide-item:hover .row-edit.sup, .pricing1 .option1-content .slide-item:hover .row-edit.sub, .pricing1 .option1-content .slide-item:hover .row-edit.number {
+    color: #fff; }
+.pricing1 .option1-content .sub {
+  top: 10px;
+  left: -20px; }
+.pricing1 .option1-content .list-group {
+  padding: 0 45px; }
+.pricing1 .option1-content .list-group-item {
+  border-width: 1px 0;
+  line-height: 30px; }
+.pricing1 .option1-content .rate {
+  background-color: #f5f5f5; }
+
+/*------------------end option1--------------------------------*/
+/*--------------------------option2---------------------------*/
+.pricing2 {
+  background: url(../../images/blocks/pricing/option2-bg.png) center no-repeat;
+  background-size: cover; }
+  .pricing2 .pricing-option2 .list-group-item {
+    padding: 5px 15px;
+    border-width: 0; }
+  .pricing2 .option2-content .slide-item {
+    background-color: #fff;
+    box-shadow: none; }
+    .pricing2 .option2-content .slide-item:hover .rate {
+      color: #e1b55a; }
+    .pricing2 .option2-content .slide-item span {
+      color: #6b6b6b; }
+    .pricing2 .option2-content .slide-item p {
+      margin: 0 20px 0 0;
+      display: inline-block; }
+  .pricing2 .option2-content .name {
+    padding-bottom: 20px;
+    padding-top: 32px; }
+  .pricing2 .option2-content .list-group {
+    padding: 16px 45px 0; }
+  .pricing2 .option2-content .sub {
+    bottom: 15px; }
+  .pricing2 .option2-content .sup {
+    left: 15px;
+    top: -20px; }
+
+/*--------------------------end option2---------------------------*/
+/*----------------------------option3---------------------------*/
+.pricing3 .option3-content .option3 .slide-item:hover .name {
+  background-color: #e1b55a;
+  color: #fff; }
+.pricing3 .option3-content .option3 .slide-item:hover .button {
+  background-color: #e1b55a;
+  color: #fff; }
+.pricing3 .option3-content .option3 .name {
+  background-color: #f5f5f5;
+  padding: 18px 0; }
+.pricing3 .option3-content .option3 .list-group {
+  padding-top: 40px; }
+.pricing3 .option3-content .option3 .list-group-item {
+  padding: 5px 15px;
+  border-width: 0; }
+.pricing3 .option3-content .option3 .btn-group {
+  width: 100%;
+  padding: 0;
+  height: 70px;
+  margin-top: 40px; }
+  .pricing3 .option3-content .option3 .btn-group button {
+    width: 50%;
+    height: 70px;
+    border-radius: 0; }
+  .pricing3 .option3-content .option3 .btn-group > .btn:nth-child(1) {
+    border-left-width: 0; }
+  .pricing3 .option3-content .option3 .btn-group > .btn:nth-child(2) {
+    border-right-width: 0; }
+
+.pricing3 .btn1, .pricing5 .btn1 {
+  border: 1px solid #ddd;
+  border-left: 0;
+  width: 50%;
+  height: 71px;
+  line-height: 71px;
+  float: left; }
+  .pricing3 .btn1 span, .pricing5 .btn1 span {
+    font-family: SourceSansPro-Bold;
+    font-size: 24px;
+    color: #2c2c2c; }
+.pricing3 .btn2, .pricing5 .btn2 {
+  border: 1px solid #ddd;
+  border-right: 0;
+  border-left: 0;
+  width: 50%;
+  height: 71px;
+  line-height: 71px;
+  float: left; }
+
+/*--------------------------end option3---------------------------*/
+/*----------------------------option4---------------------------*/
+.pricing4 {
+  background: url(../../images/blocks/pricing/option4-bg.png) center no-repeat;
+  background-size: cover; }
+  .pricing4 .option4-content .slide-item {
+    background-color: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: none; }
+  .pricing4 .option4-content .name {
+    padding-bottom: 20px;
+    padding-top: 32px; }
+  .pricing4 .option4-content .rate {
+    color: inherit; }
+  .pricing4 .option4-content .slide-item span {
+    color: inherit; }
+  .pricing4 .option4-content .slide-item p {
+    margin: 0 20px 0 0;
+    display: inline-block; }
+  .pricing4 .option4-content .sub {
+    bottom: 15px;
+    color: inherit; }
+  .pricing4 .option4-content .sup {
+    left: 15px;
+    top: -20px; }
+  .pricing4 .option4-content .list-group {
+    padding: 16px 45px 0; }
+  .pricing4 .option4-content .list-group-item {
+    padding: 5px 15px;
+    border-width: 0;
+    background-color: inherit; }
+  .pricing4 .option4-content .button {
+    background-color: inherit;
+    color: inherit; }
+
+/*--------------------------end option4---------------------------*/
+/*----------------------------option5---------------------------*/
+.pricing5 .template-header {
+  padding-bottom: 100px; }
+  @media (max-width: 991px) {
+    .pricing5 .template-header {
+      padding-bottom: 50px; } }
+.pricing5 .option5-content .option5 .slide-item ul {
+  margin: 0; }
+.pricing5 .option5-content .option5 .slide-item:hover > .name {
+  background-color: #e1b55a;
+  color: #fff; }
+.pricing5 .option5-content .option5 .slide-item:hover .button {
+  background-color: #e1b55a;
+  color: #fff; }
+.pricing5 .option5-content .option5 .slide-item:hover .list-group {
+  background-color: #fff; }
+.pricing5 .option5-content .name {
+  background-color: #fff;
+  padding: 18px 0; }
+.pricing5 .option5-content .list-group {
+  padding-top: 52px;
+  padding-bottom: 30px;
+  background-color: #f5f5f5; }
+.pricing5 .option5-content .list-group-item {
+  padding: 5px 15px;
+  border-width: 0;
+  background-color: inherit; }
+.pricing5 .option5-content .button {
+  margin: 54px auto 0;
+  background-color: #fff; }
+.pricing5 .option5-content .btn-group {
+  width: 100%;
+  padding: 0;
+  height: 70px; }
+  .pricing5 .option5-content .btn-group button {
+    width: 50%;
+    height: 70px;
+    border-radius: 0; }
+  .pricing5 .option5-content .btn-group > .btn:nth-child(1) {
+    border-left-width: 0; }
+  .pricing5 .option5-content .btn-group > .btn:nth-child(1) {
+    border-right-width: 0; }
+
+/*--------------------------end option5---------------------------*/

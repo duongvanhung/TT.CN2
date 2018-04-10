@@ -1,0 +1,16 @@
+.items-text-h-8 li:nth-child(1) p:first-child{
+	background:url(../../images/blocks/head/icon_1.png) no-repeat;
+}
+.items-text-h-8 li:nth-child(2) p:first-child{
+	background:url(../../images/blocks/head/icon_3.png) no-repeat;
+}
+.items-text-h-8 li:nth-child(3) p:first-child{
+	background:url(../../images/blocks/head/icon_2.png) no-repeat;
+}
+.items-text-h-8 li:nth-child(4) p:first-child{
+	background:url(../../images/blocks/head/icon_4.png) no-repeat;
+}
+.slider-head-8-left{
+	background:url('../../images/blocks/head/bg_mob_8_1.png') no-repeat;
+	background-size:100%;
+}

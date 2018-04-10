@@ -1,0 +1,16 @@
+﻿@import "style-list_template_1.scss";
+@import "style-list_template_2.scss";
+@import "style-list_template_3.scss";
+@import "style-list_template_4.scss";
+@import "style-list_template_5.scss";
+@import "style-list_template_6.scss";
+@import "style-list_template_7.scss";
+@import "style-list_template_8.scss";
+@import "style-list_template_9.scss";
+@import "style-list_text.scss";
+@import "style-list_img.scss";
+@import "style-list_audio.scss";
+@import "style-list_video.scss";
+.slide.slide-center.col-lg-3{
+    border-radius: 15px;
+}

@@ -1,0 +1,200 @@
+CSS Document @font-face {
+	font-family: 'open-sans.extrabold';
+	/*src: url('../fonts/open-sans.extrabold.ttf');*/
+	src: url('../fonts/open-sans.extrabold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+.template_logo {
+	display: none;
+}
+body {
+	background: #FFF;
+}
+img.bg-footer, img.bg-banner {
+	width: 100%;
+}
+img.bg-footer{
+	/*min-height:1302px;*/
+}
+.head-project{
+	margin-bottom:8%;
+}
+.digiword {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 35%;
+	margin-left: 4.6%;
+	margin-top: 4%;
+}
+.digiword .head {
+	background: url(../images/project/bg1.png);
+	width: 100%;
+	height: 100%;
+	padding-top: 14%;
+	padding-bottom: 14%;
+	padding-left: 11%;
+}
+.digiword span.date {
+	font-size: 11px;
+	font-weight: bold;
+	display: block
+}
+
+.digiword .digi {
+	margin-bottom:40px;
+}
+.digiword .desc{
+	font-size:11px;
+	width:66%;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.foot-project{
+	position:relative;
+}
+.foot-project  .right{
+	width:18%;
+	position:absolute;
+	top:-4%; 
+	right:0;
+	margin-right:6%;
+}
+.foot-project .services1{
+	color:#f37a21;
+	font-size:14px;
+	font-weight:bold;
+}
+.foot-project .services1 h4.heading{
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:1px solid #000;
+	margin-top:30px;
+	padding-bottom:5px;
+}
+.foot-project .services2 ul.works li{
+	list-style:none;
+	font-size:14px;
+	line-height:25px;
+}
+
+/*part2*/
+.part2 .digiword .head {
+	background: url(../images/project/bg2.png);
+}
+.part2 .digiword .head{
+	color:#b5cd40;
+}
+.part2 .foot-project .services1{
+	color:#2e6c0b;
+}
+.part2 .foot-project img.chiecla{
+	position:absolute;
+	top:-24%;
+	left:0;
+	width:17%;
+}
+
+/*part3*/
+.part3 .digiword .head {
+	background: url(../images/project/bg3.png);
+}
+.part3 .foot-project .services1{
+	color:#0087de;
+}
+/*part4*/
+.part4 .digiword .head {
+	background: url(../images/project/bg4.png);
+}
+.part4 .foot-project .services1{
+	color:#9d967a;
+}
+
+/*part5*/
+.part5 .digiword .head {
+	background: url(../images/project/bg5.png);
+}
+.part5 .foot-project .services1{
+	color:#5695b1;
+}
+/*part6*/
+.part6 .digiword .head {
+	background: url(../images/project/bg6.png);
+}
+.part6 .foot-project .services1{
+	color:#0087de;
+}
+/*part7*/
+.part7 .digiword .head {
+	background: url(../images/project/bg6.png);
+}
+.part7 .foot-project .services1{
+	color:#0087de;
+}
+
+/*part8*/
+.part8 .digiword .head {
+	background: url(../images/project/bg8.png);
+}
+.part8 .foot-project .services1{
+	color:#0087de;
+}
+/*part9*/
+.part9 .digiword .head {
+	background: url(../images/project/bg8.png);
+}
+.part9 .foot-project .services1{
+	color:#0087de;
+}
+/*part10*/
+.part10 .digiword .head {
+	background: url(../images/project/bg8.png);
+}
+.part10 .foot-project .services1{
+	color:#0087de;
+}
+/*part11*/
+.part11 .digiword .head {
+	background: url(../images/project/bg11.png);
+}
+.part11 .digiword .head .date, 
+.part11 .digiword .head .desc,
+.part11 .digiword .head .project_name, 
+.part11 .foot-project .services1{
+	color:#53ca00;
+}
+/*part12*/
+.part12 .digiword .head {
+	background: url(../images/project/bg12.png);
+}
+.part12 .foot-project .services1{
+	color:#e50000;
+}
+/*part13*/
+.part13 .digiword .head {
+	background: url(../images/project/bg13.png);
+}
+.part13 .foot-project .services1{
+	color:#000;
+}
+
+.owl-controls{
+	position:absolute;
+	top:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

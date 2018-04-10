@@ -1,0 +1,183 @@
+<section class="blog_detail2 row-builder js-dynamic-menu" menu-name="blog detail" data-type="bg" data-script-name="block_run_script_blog">
+<header class="header-children-page" data-type="bg">
+				    <div class="container">
+				        <div class="row">
+				        	<div class="col-xs-12">
+				        		<div class="header-children-page-content">
+				        			<div class="header-children-page-logo">
+					        			<img src="assets/images/blocks/style/logo.png" data-type="image"/>
+					        		</div>
+					        		<span class="header-children-page-text1" data-type="title">
+					        			COSMOS
+					        		</span>
+					        		<span class="header-children-page-text2" data-type="title">
+					        			App Landing Page
+					        		</span>
+				        		</div>
+				        		<div class="header-children-page-breadcum">
+				        			<span data-type="title">Blog Detail 2</span>
+				        			<ul>
+				        				<li><a href="index.html" data-type="link">Homepage</a></li>
+				        				<li><a href="#" data-type="link">Blog Detail</a></li>
+				        			</ul>
+				        		</div>
+				        	</div>
+				        </div>
+				    </div>
+				    <div class="setting-background-bt" style="display: block; opacity: 1;">
+				    	<button type="button" data-placement="bottom" data-toggle="tooltip" title="Edit image" class="row-edit-bg btn btn-lg" data-dialog="">
+				    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+				    	</button>
+				    </div>
+				</header>
+		<div class="container padding-top90">
+			<div class="col-main">
+				<p class="topic" data-type="title">Technology Category</p>
+                <p class="title margin" data-type="title">Mobile App Development Technology Blog</p>
+ 				<div class="image_posts">
+                    <img class="img-responsive" src="assets/images/blocks/blogs/Untitled-1-b1.png" alt="cannotload" data-type="image">
+                    <div class="date">
+                        <span data-type="title">22</span>
+                        <span data-type="title">Jun</span>
+                    </div>
+                </div>
+ 				<div class="blog-detail-share">
+                    <strong data-type="title">SHARE:</strong>
+                    <a href="#"><img src="assets/images/blocks/blogs/twitter.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"><img src="assets/images/blocks/blogs/face.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"><img src="assets/images/blocks/blogs/gg.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"><img src="assets/images/blocks/blogs/p.png" alt="cannotload" data-type="image-link"></a>
+                    <a href="#"> <img src="assets/images/blocks/blogs/in.png" alt="cannotload" data-type="image-link"></a>
+                </div>
+                <div class="blog-detail-content"><p data-type="content">Another important factor to consider when designing a retail app is how the user will physiologically use the app. Designing your app to ergonomically fit the hands of your user is crucial. If the app design layout makes it uncomfortable for the user, they’ll most likely get irritated which will reflect negatively on the brand and deviate from your overall goal.
+
+    A good blog can be a lifesaver for a developer. Some provide good background reading on the industry being worked on. Some provide code help, hints and tips, and other practical resources, while others just provide a well-earned distraction, which can be vital on a complex or challenging project. Here at Infragistics we provide lots of tools and controls for mobile web and app development. As a result we like to think we know a thing or two when it comes to the mobile development blogosphere. So here are our five favorite mobile development blogs at the moment:</p><div class="row">
+                    <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="assets/images/blocks/blogs/Untitled-2.png" alt="cannotload" data-type="image"></div>
+                    <div class="col-sm-6 col-xs-12"><img class="img-responsive" src="assets/images/blocks/blogs/Untitled-3.png" alt="cannotload" data-type="image"></div>
+                </div><blockquote><p data-type="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam laoreet turpis et neque elementum, quis condimentum justo porttitor. Nulla sed nunc ipsum. Quisque pellentesque vel mi et sodales. In id efficitur mi, eget venenatis purus. Curabitur vulputate urna lacus, in semper nisi tincidunt id. Morbi dapibus tellus id justo tincidunt, a suscipit ex pharetra. Sed commodo lectus eu facilisis suscipit. Sed finibus nec sem et dapibus. Sed scelerisque massa a urna scelerisque, ac condimentum velit venenatis.</p>
+                <strong data-type="title">John Doe - CEO</strong>
+                </blockquote>
+                <p data-type="content">Another important factor to consider when designing a retail app is how the user will physiologically use the app. Designing your app to ergonomically fit the hands of your user is crucial. If the app design layout makes it uncomfortable for the user, they’ll most likely get irritated which will reflect negatively on the brand and deviate from your overall goal.
+
+    A good blog can be a lifesaver for a developer. Some provide good background reading on the industry being worked on. Some provide code help, hints and tips, and other practical resources, while others just provide a well-earned distraction, which can be vital on a complex or challenging project. Here at Infragistics we provide lots of tools and controls for mobile web and app development. As a result we like to think we know a thing or two when it comes to the mobile development blogosphere. </p>
+                </div>
+                <div class="blog-detail-related">
+                	<p class="blog-detail-related-title" data-type="title">Related Posts:</p>
+                    <div class="carousel">
+                        <div class="blog-detail-related-slider">
+                            <div class="blog-detail-related-slideshow">
+                                <div class="carousel-items">
+                        	
+                        		<!--slide show-->
+                        		
+                        			<!--item slide-->
+                        			<div class="blog-detail-related-slider-item row">
+                        				<div class="col-md-6 col-xs-12">
+                        					<div class="img-slider"><img class="img-responsive" src="assets/images/blocks/blogs/carousel.png" alt="loadfail" data-type="image"/></div>
+                        				</div>
+                        				<div class="col-md-6 col-xs-12 padding">
+                        					<p class="topic" data-type="title">Technology Category</p>
+                        					<p class="title" data-type="content">Mobile App Development Technology Blog</p>
+                        					<p class="text" data-type="content">Another important factor to consider when design app is how the user will physiologically ...</p>
+                        					<a class="link_posts" href="#" data-type="link">READ MORE</a>
+                        				</div>
+                        			</div>
+                        			<!--end item slide-->
+                        			<!--item slide-->
+                        			<div class="blog-detail-related-slider-item row">
+                        				<div class="col-md-6 col-xs-12">
+                        					<div class="img-slider"><img class="img-responsive" src="assets/images/blocks/blogs/carousel.png" alt="loadfail" data-type="image"/></div>
+                        				</div>
+                        				<div class="col-md-6 col-xs-12 padding">
+                        					<p class="topic" data-type="title">Technology Category</p>
+                        					<p class="title" data-type="content">Mobile App Development Technology Blog</p>
+                        					<p class="text" data-type="content">Another important factor to consider when design app is how the user will physiologically ...</p>
+                        					<a class="link_posts" href="#" data-type="link">READ MORE</a>
+                        				</div>
+                        			</div>
+                        			<!-- end item slide-->
+                        		</div>
+                            </div>
+                        </div>
+                		<!--end slide show -->
+                		<div class="carousel-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                 		<div class="carousel-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                	</div>
+                </div>
+                <div class="blog-detail-quote">
+                	<img class="img-responsive" src="assets/images/blocks/blogs/cmt1.png" alt="cannotload" data-type="image" />
+                	<p class="topic" data-type="title">Muhammad Subel</p>
+                	<div class="blog-detail-quote-content" data-type="content">
+                	Hello Everybody! My name is Virgiawan Listanto, my nickname is Virgi, my friends call me Mas Kodook. I work at ID-Webmaster as a Web Developer and also Founder of ID-Webmaster.
+                	</div>
+                	<div class="blog-detail-quote-share">
+                		 <a href="#"><img src="assets/images/blocks/blogs/twb.png" alt="cannotload" data-type="image-link"></a>
+                          <a href="#"><img src="assets/images/blocks/blogs/fbb.png" alt="cannotload" data-type="image-link"></a>
+                          <a href="#"><img src="assets/images/blocks/blogs/ggb.png" alt="cannotload" data-type="image-link"></a>
+                          <a href="#"><img src="assets/images/blocks/blogs/pb.png" alt="cannotload" data-type="image-link"></a>
+                          <a href="#"> <img src="assets/images/blocks/blogs/inb.png" alt="cannotload" data-type="image-link"></a>
+                	</div>
+                </div>
+                <div class="row blog-detail-pre-next-post">
+                	<div class="col-sm-6 col-xs-12">
+                		<a href="#" class="blog-detail-pre-post" data-type="button"><i class="fa fa-angle-left" aria-hidden="true"></i>Previous Post</a>
+                	</div>
+                	<div class="col-sm-6 col-xs-12">
+                		<a href="#" class="blog-detail-next-post" data-type="button">Next Post<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                	</div>
+                </div>
+                <div class="blog-detail-leave-comment row">
+                    <p class="col-xs-12" data-type="title">Leave a comment</p>
+                    <div class="col-sm-6 col-xs-12">
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <input type="text" placeholder="Your mail">
+                    </div>
+                    <div class="col-xs-12">
+                        <textarea placeholder="Your comment"></textarea>
+                    </div>
+                    <div class="col-xs-12 ">
+                        <button class="blog-detail-leave-comment-button" type="button" data-type="button">SEND</button>
+                    </div>
+                </div>
+                <div class="blog-detai-comment">
+                    <p data-type="title">All Comments</p>
+                    <ul>
+                        <li>
+                            <div class="blog-detail-comment-content">
+                                <div><a class="blog-detail-comment-img" href="#"><img class="img-responsive" src="assets/images/blocks/blogs/Avacmt.png" alt="cannotload" data-type="image-link"></a></div>
+                                <div class="blog-detail-comment-body">
+                                    <p>By <a href="#"><strong>Admin</strong></a><span>|</span>    24 June 2016</p>
+                                    <p data-type="content">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+                                    <a class="blog-detail-comment-reply" heft="#" data-type="link">Reply</a>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="blog-detail-comment-content">
+                                        <a class="blog-detail-comment-img" href="#"><img class="img-responsive" src="assets/images/blocks/blogs/Avacm2.png" alt="cannotload" data-type="image-link"></a>
+                                        <div class="blog-detail-comment-body">
+                                            <p>By <a href="#"><strong>John Doe</strong></a><span>|</span>  25 June 2016</p>
+                                            <p data-type="content">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+                                            <a class="blog-detail-comment-reply" heft="#" data-type="link">Reply</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="blog-detail-comment-content">
+                                <div><a class="blog-detail-comment-img" href="#"><img class="img-responsive" src="assets/images/blocks/blogs/Avacm3.png" alt="cannotload" data-type="image-link"></a></div>
+                                <div class="blog-detail-comment-body">
+                                    <p>By <a href="#"><strong>Marry Doe</strong></a> <span>|</span>  23 June 2016</p>
+                                    <p data-type="content">“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, nonummy  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+                                    <a class="blog-detail-comment-reply" heft="#" data-type="link">Reply</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+			</div>
+        </div>
+	</section>

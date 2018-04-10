@@ -1,0 +1,142 @@
+.download_1 input, .download_1 textarea, .download_1 button, .download_2 input, .download_2 textarea, .download_2 button, .download_3 input, .download_3 textarea, .download_3 button, .download_4 input, .download_4 textarea, .download_4 button, .download_5 input, .download_5 textarea, .download_5 button {
+  border-radius: 0; }
+.download_1 .download-img img, .download_2 .download-img img, .download_3 .download-img img, .download_4 .download-img img, .download_5 .download-img img {
+  width: 100%; }
+.download_1 .download-text, .download_2 .download-text, .download_3 .download-text, .download_4 .download-text, .download_5 .download-text {
+  font-family: 'Raleway-Regular';
+  font-size: 18px;
+  line-height: 1; }
+.download_1 .download-number, .download_2 .download-number, .download_3 .download-number, .download_4 .download-number, .download_5 .download-number {
+  font-family: 'SourceSansPro-Bold';
+  font-size: 30px;
+  line-height: 1; }
+
+.clearboth {
+  display: block;
+  height: 60px; }
+
+.download_1 {
+  background: #f5f5f5;
+  padding-top: 60px;
+  padding-bottom: 90px; }
+  @media (max-width: 991px) {
+    .download_1 {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  .download_1 .download {
+    text-align: center;
+    margin-top: 30px; }
+    .download_1 .download-img {
+      width: 55px;
+      height: 55px;
+      display: block;
+      margin: 0 auto; }
+    .download_1 .download-text {
+      margin-top: 35px;
+      color: #e1b55a; }
+    .download_1 .download-number {
+      margin-top: 20px; }
+
+.download_2, .download_3 {
+  background: #e1b55a;
+  padding: 130px 0; }
+  @media (min-width: 992px) {
+    .download_2 .container, .download_3 .container {
+      padding: 0; } }
+  @media (max-width: 991px) {
+    .download_2, .download_3 {
+      padding: 50px 0; } }
+  .download_2 .download, .download_3 .download {
+    margin-top: 30px; }
+    @media (max-width: 992px) {
+      .download_2 .download, .download_3 .download {
+        text-align: center; } }
+    .download_2 .download-img, .download_3 .download-img {
+      width: 70px;
+      height: 70px;
+      padding: 5px;
+      float: left;
+      background: white; }
+      .download_2 .download-img img, .download_3 .download-img img {
+        width: 100%;
+        height: 100%; }
+    .download_2 .download-text, .download_3 .download-text {
+      color: white;
+      margin-top: 10px; }
+      .download_2 .download-text span, .download_3 .download-text span {
+        padding-left: 20px; }
+    .download_2 .download-number, .download_3 .download-number {
+      padding-top: 5px; }
+      .download_2 .download-number span, .download_3 .download-number span {
+        padding-left: 20px; }
+
+.download_3 {
+  background: url(../../images/blocks/download/background3.png) no-repeat;
+  background-size: cover; }
+  .download_3 .download-number {
+    color: white; }
+  .download_3 .download-text {
+    color: #f9f9f9; }
+  .download_3 .download-img {
+    background: transparent; }
+
+.download_4 {
+  background: url(../../images/blocks/download/background4.png) no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 100px; }
+  @media (max-width: 991px) {
+    .download_4 {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  .download_4 .download {
+    text-align: center;
+    margin-top: 30px; }
+    .download_4 .download-img {
+      width: 70px;
+      height: 70px;
+      display: block;
+      margin: 0 auto; }
+    .download_4 .download-text {
+      margin-top: 50px;
+      color: #927a48; }
+    .download_4 .download-number {
+      color: white;
+      width: 150px;
+      height: 45px;
+      background: #927a48;
+      margin: 0 auto;
+      line-height: 45px;
+      -webkit-border-radius: 25px 25px 25px 25px;
+      -moz-border-radius: 25px 25px 25px 25px;
+      border-radius: 25px 25px 25px 25px;
+      margin-top: 40px; }
+
+.download_5 {
+  background: url(../../images/blocks/download/background5.png) no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 80px; }
+  @media (max-width: 991px) {
+    .download_5 {
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  .download_5 .download {
+    text-align: center;
+    margin-top: 30px; }
+    .download_5 .download-img {
+      width: 88px;
+      height: 88px;
+      display: block;
+      margin: 0 auto;
+      padding: 15px;
+      background: rgba(160, 132, 79, 0.6);
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+    .download_5 .download-text {
+      color: #e1b55a;
+      margin-top: 25px; }
+    .download_5 .download-number {
+      color: white;
+      margin-top: 50px; }

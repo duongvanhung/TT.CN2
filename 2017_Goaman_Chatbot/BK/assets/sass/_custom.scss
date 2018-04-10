@@ -1,0 +1,220 @@
+/*-----------------------------------------------------------------------------
+							MENU
+	-- GRID
+	-- SPACING
+---------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------
+							GRID
+---------------------------------------------------------------------------------*/
+
+/*---------------------------
+		default
+---------------------------*/
+@for $i from 1 through 8{
+	.pix-col-#{$i} > .item{
+		width: percentage(1/$i);  
+	}
+}
+
+@media(max-width:1199px){
+	@for $i from 7 through 8{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/6);   
+		}
+	}
+	@for $i from 5 through 6{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/4);   
+		}
+	}
+	@for $i from 3 through 4{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/3);   
+		}
+	}
+	/*---------------------------
+		setting for small laptop
+	---------------------------*/
+	@for $i from 1 through 8{
+		.pix-col-md-#{$i} > .item{
+			width: percentage(1/$i);   
+		}
+	}
+}
+@media(max-width:991px){
+	@for $i from 7 through 8{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/4);
+		}
+	}
+	@for $i from 5 through 6{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/3);
+		}
+	}
+	@for $i from 3 through 4{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/2);
+		}
+	}
+	/*---------------------------
+		setting for tablet
+	---------------------------*/
+	@for $i from 1 through 8{
+		.pix-col-sm-#{$i} > .item{
+			width: percentage(1/$i);   
+		}
+	}
+}
+@media(max-width:767px){
+	@for $i from 5 through 8{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/2); 
+		}
+	}
+	@for $i from 1 through 4{
+		.pix-col-#{$i} > .item{
+			width: percentage(1); 
+		}
+	}
+	/*---------------------------
+		setting for mobile
+	---------------------------*/
+	@for $i from 1 through 8{
+		.pix-col-xs-#{$i} > .item{
+			width: percentage(1/$i);   
+		}
+	}
+}
+@media(max-width:480px){
+	@for $i from 1 through 8{
+		.pix-col-#{$i} > .item{
+			width: percentage(1/1); 
+		}
+	}
+	/*---------------------------
+		setting for small mobile
+	---------------------------*/
+	@for $i from 1 through 8{
+		.pix-col-xss-#{$i} > .item{
+			width: percentage(1/$i);    
+		}
+	}
+}
+.pix-col{
+	margin-left:-15px;
+	margin-right:-15px;
+	&> .item{
+		display:inline-block;
+		padding-left:15px;
+		padding-right:15px;
+		box-sizing:border-box;
+		vertical-align: top;
+	}
+}
+
+
+/*--------------------------------------------------------------------------------
+							SPACING
+---------------------------------------------------------------------------------*/
+@for $i from 0 through 15{
+    .pd-t#{$i*10}{
+        padding-top:#{$i*10}px;
+    }
+    .pd-b#{$i*10}{
+        padding-bottom:#{$i*10}px;
+    }
+    .mg-t#{$i*10}{
+        margin-top:#{$i*10}px;
+    }
+    .mg-b#{$i*10}{
+        margin-bottom:#{$i*10}px;
+    }
+}
+/*--------------------------------------
+	setting spacing for small laptop
+----------------------------------------*/
+@media(max-width:1199px){
+	@for $i from 0 through 10{
+	    .pd-md-t#{$i*10}{
+	        padding-top:#{$i*10}px;
+	    }
+	    .pd-md-b#{$i*10}{
+	        padding-bottom:#{$i*10}px;
+	    }
+	    .mg-md-t#{$i*10}{
+	        margin-top:#{$i*10}px;
+	    }
+	    .mg-md-b#{$i*10}{
+	        margin-bottom:#{$i*10}px;
+	    }
+	}
+}
+/*--------------------------------------
+	setting spacing for tablet
+----------------------------------------*/
+@media(max-width:991px){
+	@for $i from 0 through 5{
+	    .pd-sm-t#{$i*10}{
+	        padding-top:#{$i*10}px;
+	    }
+	    .pd-sm-b#{$i*10}{
+	        padding-bottom:#{$i*10}px;
+	    }
+	    .mg-sm-t#{$i*10}{
+	        margin-top:#{$i*10}px;
+	    }
+	    .mg-sm-b#{$i*10}{
+	        margin-bottom:#{$i*10}px;
+	    }
+	}
+}
+/*--------------------------------------
+	setting spacing for mobile
+----------------------------------------*/
+@media(max-width:767px){
+	@for $i from 0 through 5{
+	    .pd-xs-t#{$i*10}{
+	        padding-top:#{$i*10}px;
+	    }
+	    .pd-xs-b#{$i*10}{
+	        padding-bottom:#{$i*10}px;
+	    }
+	    .mg-xs-t#{$i*10}{
+	        margin-top:#{$i*10}px;
+	    }
+	    .mg-xs-b#{$i*10}{
+	        margin-bottom:#{$i*10}px;
+	    }
+	}
+}
+/*--------------------------------------
+	setting spacing for small mobile
+----------------------------------------*/
+@media(max-width:480px){
+	@for $i from 0 through 5{
+	    .pd-xss-t#{$i*10}{
+	        padding-top:#{$i*10}px;
+	    }
+	    .pd-xss-b#{$i*10}{
+	        padding-bottom:#{$i*10}px;
+	    }
+	    .mg-xss-t#{$i*10}{
+	        margin-top:#{$i*10}px;
+	    }
+	    .mg-xss-b#{$i*10}{
+	        margin-bottom:#{$i*10}px;
+	    }
+	}
+}
+.padding0{
+	padding-left:0;
+	padding-right:0;
+}
+.margin0{
+	margin-left:0;
+	margin-right:0;
+}

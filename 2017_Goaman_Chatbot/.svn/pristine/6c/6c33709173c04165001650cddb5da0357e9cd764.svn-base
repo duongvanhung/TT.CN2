@@ -1,0 +1,148 @@
+<section class="team_1 padding-top90 js-dynamic-menu row-builder" data-type="bg" menu-name="Team" data-script-name="block_run_script_team">
+  <div class="container">
+        <div class="template-header" data-animate="zoomIn-parent">
+            <div class="template-header-logo">
+                <img  src="assets/images/blocks/team/logo.png" alt="logo" data-type="image">  
+            </div>
+            <p class="template-header-title" >
+                <span data-type="title">We try to provide the best support for my clients.</span>
+            </p>
+            <p class="template-header-style" >
+                <span data-type="title">Team Behind Cosmos</span>
+            </p>
+        </div>      
+      <div class="carousel">
+        <div class="carousel-items">
+          <!--Item 1-->
+          <div class="row">
+            <div class="col-lg-6 col-xs-12 pos">
+              <div class="slide slide-center">
+                <div class="img-slide">
+                    <img class="img-responsive" src="assets/images/blocks/team/team-slide2.png" alt="" data-type="image">
+                    <div class="team-link1"><img class="team-icon" src="assets/images/blocks/team/team-icon1.png" alt="team-icon" data-type="image"/></div>
+                </div>
+                <div class="slide-text">
+                  <p data-type="title">
+                    Mr.Deway Hall
+                  </p>
+                  <span data-type="title">CEO, Co-Founder</span>
+                  <span data-type="title">I’m 30-year-old, Cosmos-based CEOO</span>
+                  
+                  <div class="social-group">
+                    <a class="row-edit social-item twitter-icon">
+                        <img src="assets/images/blocks/team/twitter.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item facebook-icon">
+                      <img src="assets/images/blocks/team/facebook.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item google-icon">
+                      <img src="assets/images/blocks/team/google.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item pinterest-icon">
+                      <img src="assets/images/blocks/team/pinterest.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item linkedin-icon">
+                      <img src="assets/images/blocks/team/linkedin.png" data-type="image-link">
+                    </a>
+                  </div>
+                  <div class="team-link2">
+                      <img src="assets/images/blocks/team/team-link1.png" alt="team-slide" data-type="image"/>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-12 info-text" >
+              <span data-type="title">INFORMATION</span>
+              <div data-type="content">
+                “ I like to resolve design problems, create smart user interfaces and imagine useful interactions.
+                I want to create apps that are beautiful, interactive, responsive and friendly.”
+              </div>
+              <div class="social-group">
+                    <a class="row-edit social-item twitter-icon">
+                        <img src="assets/images/blocks/team/twitter.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item facebook-icon">
+                      <img src="assets/images/blocks/team/facebook.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item google-icon">
+                      <img src="assets/images/blocks/team/google.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item pinterest-icon">
+                      <img src="assets/images/blocks/team/pinterest.png" data-type="image-link">
+                    </a>
+                    <a class="row-edit social-item linkedin-icon">
+                      <img src="assets/images/blocks/team/linkedin.png" data-type="image-link">
+                    </a>
+              </div>
+            </div>
+          </div>
+          <!--End item 1-->
+          <!--Item 2-->
+          <div class="row">
+            <div class="col-lg-6 col-xs-12 pos">
+              <div class="slide slide-center">
+                <div class="img-slide">
+                    <img class="img-responsive" src="assets/images/blocks/team/team-slide1.png" alt="" data-type="image">
+                    <div class="team-link1"><img class="team-icon" src="assets/images/blocks/team/team-icon.png" alt="team-icon" data-type="image"/></div>
+                </div>
+                <div class="slide-text">
+                  <p data-type="title">
+                    Ms.Marry Doe
+                  </p>
+                  <span data-type="title">Graphic Designer</span>
+                  <span data-type="title">I’m 25-year-old, Cosmos-based designer.</span>
+                  <div class="social-group">
+                      <a class="row-edit social-item twitter-icon">
+                          <img src="assets/images/blocks/team/twitter.png" data-type="image-link">
+                      </a>
+                      <a class="row-edit social-item facebook-icon">
+                        <img src="assets/images/blocks/team/facebook.png" data-type="image-link">
+                      </a>
+                      <a class="row-edit social-item google-icon">
+                        <img src="assets/images/blocks/team/google.png" data-type="image-link">
+                      </a>
+                      <a class="row-edit social-item pinterest-icon">
+                        <img src="assets/images/blocks/team/pinterest.png" data-type="image-link">
+                      </a>
+                      <a class="row-edit social-item linkedin-icon">
+                        <img src="assets/images/blocks/team/linkedin.png" data-type="image-link">
+                      </a>
+                  </div>
+                   <div class="team-link2">
+                        <img src="assets/images/blocks/team/team-link1.png" alt="team-slide" data-type="image"/>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+            <div class="col-lg-6 col-xs-12 info-text">
+              <span data-type="title">INFORMATION</span>
+              <div data-type="content">
+                “ I like to resolve design problems, create smart user interfaces and imagine useful interactions.
+                I want to create apps that are beautiful, interactive, responsive and friendly.”
+              </div>
+              <div class="social-group">
+                  <a class="row-edit social-item twitter-icon">
+                      <img src="assets/images/blocks/team/twitter.png" data-type="image-link">
+                  </a>
+                  <a class="row-edit social-item facebook-icon">
+                    <img src="assets/images/blocks/team/facebook.png" data-type="image-link">
+                  </a>
+                  <a class="row-edit social-item google-icon">
+                    <img src="assets/images/blocks/team/google.png" data-type="image-link">
+                  </a>
+                  <a class="row-edit social-item pinterest-icon">
+                    <img src="assets/images/blocks/team/pinterest.png" data-type="image-link">
+                  </a>
+                  <a class="row-edit social-item linkedin-icon">
+                    <img src="assets/images/blocks/team/linkedin.png" data-type="image-link">
+                  </a>
+              </div>
+            </div>
+          </div>
+          <!--End item 2-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

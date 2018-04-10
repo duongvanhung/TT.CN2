@@ -1,0 +1,63 @@
+.header-children-page{
+	background:url(../../images/blocks/style/bg_01.jpg) no-repeat;
+	background-size:100% 100%;
+	height:300px;
+	width:100%;
+	padding:0 50px;
+	padding-top:25px;
+	position: relative;
+}
+@media(max-width:767px){
+	.header-children-page{
+		padding-left:0;
+	}
+}
+.header-children-page-content{
+	position:relative;
+}
+.header-children-page-logo{
+	float:left;
+	width:65px;
+}
+.header-children-page-logo img{
+	width:100%;
+}
+.header-children-page-text1{
+	font-size:30px;
+	color:white;
+	position:absolute;
+	top:0;
+	left:100px;
+}
+.header-children-page-text2{
+	font-size:18px;
+	color:white;
+	position:absolute;
+	top:35px;
+	left:100px;
+}
+.header-children-page-breadcum{
+	text-align: center;
+	padding-top:150px;
+}
+.header-children-page-breadcum span{
+	color:#e1b55a;
+	font-size:30px;
+	text-transform: uppercase;
+}
+.header-children-page-breadcum > ul{
+	color:white;
+	list-style-type:none;
+	padding:0;
+}
+.header-children-page-breadcum > ul > li{
+	display: inline-block;
+}
+.header-children-page-breadcum > ul > li a{
+	color:white;
+	text-decoration: none;
+}
+.header-children-page-breadcum > ul > li:nth-child(1n+2):before{
+	content:"|";
+	padding-right:5px;
+}

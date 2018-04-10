@@ -1,0 +1,92 @@
+.clear-fix {
+  clear: both; }
+
+#sample-interface-six .container .row .header {
+  background-color: #339dff;
+  height: 75px; }
+  #sample-interface-six .container .row .header .logo {
+    float: left;
+    padding: 10px; }
+    #sample-interface-six .container .row .header .logo .fa-plane {
+      font-size: 35px;
+      color: #fff; }
+  #sample-interface-six .container .row .header .sky-priority {
+    float: right;
+    margin: 15px;
+    color: #fff; }
+    #sample-interface-six .container .row .header .sky-priority .sky-text {
+      margin: 0; }
+
+#sample-interface-six .container .row .part-1 {
+  margin-top: 15px; }
+  #sample-interface-six .container .row .part-1 .source .city {
+    color: #e3e3e3; }
+  #sample-interface-six .container .row .part-1 .source .notation {
+    color: #0099CC;
+    font-size: 35px; }
+  #sample-interface-six .container .row .part-1 .distination {
+    float: right; }
+    #sample-interface-six .container .row .part-1 .distination .city {
+      color: #e3e3e3; }
+    #sample-interface-six .container .row .part-1 .distination .notation {
+      color: #0099CC;
+      font-size: 35px; }
+  #sample-interface-six .container .row .part-1 .fly {
+    text-align: center; }
+    #sample-interface-six .container .row .part-1 .fly .fa-plane {
+      font-size: 60px;
+      margin-top: 15px;
+      color: #0099CC; }
+
+#sample-interface-six .container .row .part-2 {
+  margin-top: 15px; }
+  #sample-interface-six .container .row .part-2 .flight .flight-title {
+    color: #e3e3e3; }
+  #sample-interface-six .container .row .part-2 .flight .flight-content {
+    color: #000;
+    font-weight: bold; }
+  #sample-interface-six .container .row .part-2 .departs {
+    text-align: center; }
+    #sample-interface-six .container .row .part-2 .departs .departs-title {
+      color: #e3e3e3; }
+    #sample-interface-six .container .row .part-2 .departs .departs-content {
+      color: #000;
+      font-weight: bold; }
+  #sample-interface-six .container .row .part-2 .arrives {
+    float: right; }
+    #sample-interface-six .container .row .part-2 .arrives .arrives-title {
+      color: #e3e3e3; }
+    #sample-interface-six .container .row .part-2 .arrives .arrives-content {
+      color: #000;
+      font-weight: bold; }
+
+#sample-interface-six .container .row .part-3 {
+  margin-top: 15px; }
+  #sample-interface-six .container .row .part-3 .date .date-title {
+    color: #e3e3e3; }
+  #sample-interface-six .container .row .part-3 .date .date-content {
+    color: #000;
+    font-weight: bold; }
+  #sample-interface-six .container .row .part-3 .aircraft {
+    float: right; }
+    #sample-interface-six .container .row .part-3 .aircraft .aircraft-title {
+      color: #e3e3e3; }
+    #sample-interface-six .container .row .part-3 .aircraft .aircraft-content {
+      color: #000;
+      font-weight: bold; }
+
+#sample-interface-six .container .row .part-4 {
+  margin-top: 15px; }
+  #sample-interface-six .container .row .part-4 .passengers {
+    color: #e3e3e3; }
+  #sample-interface-six .container .row .part-4 .text-content {
+    color: #e3e3e3; }
+    #sample-interface-six .container .row .part-4 .text-content .passengers-title {
+      font-weight: bold;
+      color: #000; }
+  #sample-interface-six .container .row .part-4 .seat {
+    color: #e3e3e3;
+    float: right; }
+    #sample-interface-six .container .row .part-4 .seat .seat-content {
+      color: #000;
+      font-weight: bold; }

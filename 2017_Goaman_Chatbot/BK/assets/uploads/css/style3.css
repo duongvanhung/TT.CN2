@@ -1,0 +1,151 @@
+ul.list-side-menu a.side-menu-link {
+  position: relative; }
+  ul.list-side-menu a.side-menu-link:hover .img-mobile-search {
+    right: 65px; }
+    @media (max-width: 480px) {
+      ul.list-side-menu a.side-menu-link:hover .img-mobile-search {
+        right: 65px !important; } }
+    @media (max-width: 320px) {
+      ul.list-side-menu a.side-menu-link:hover .img-mobile-search {
+        right: 65px !important; } }
+  ul.list-side-menu a.side-menu-link .img-mobile-search {
+    right: 15px; }
+    @media (max-width: 480px) {
+      ul.list-side-menu a.side-menu-link .img-mobile-search {
+        right: 25px; } }
+    @media (max-width: 320px) {
+      ul.list-side-menu a.side-menu-link .img-mobile-search {
+        right: 25px; } }
+
+textarea {
+  width: 100%;
+  max-width: 280px; }
+
+.profile-setting-detail .profile-wrap .tab-content .btn-profile .submit-btn-profile {
+  width: 120px;
+  display: inline-block;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  width: 120px; }
+  .profile-setting-detail .profile-wrap .tab-content .btn-profile .submit-btn-profile:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
+
+.remove-btn-profile {
+  display: inline-block;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+  .remove-btn-profile:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
+
+#comment-reply-box {
+  max-width: 700px;
+  width: 100%;
+  color: #222;
+  padding-bottom: 1px;
+  height: 66px;
+  font-size: 14px; }
+  @media (max-width: 767px) {
+    #comment-reply-box {
+      max-width: 500px; } }
+  @media (max-width: 480px) {
+    #comment-reply-box {
+      max-width: 408px;
+      margin-top: 10px; } }
+
+.comment-reply.clearfix {
+  float: none;
+  clear: both;
+  margin-left: 70px; }
+  @media (max-width: 480px) {
+    .comment-reply.clearfix {
+      margin-left: 0px; } }
+
+.comment-reply-img {
+  width: 100%;
+  max-width: 76px;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px; }
+  @media (max-width: 480px) {
+    .comment-reply-img {
+      display: none; } }
+
+.comment-detail .comment-action {
+  text-align: right;
+  margin-right: 54px;
+  color: #222;
+  margin-top: 5px; }
+  @media (max-width: 480px) {
+    .comment-detail .comment-action {
+      margin-right: 1px; } }
+
+.comment-action input {
+  width: 100px;
+  height: 35px;
+  background-color: #f39200;
+  border: none;
+  margin-left: 5px; }
+
+.comment-action input:hover {
+  background-color: #fff; }
+
+input#btn-update-account {
+  margin-top: 140px;
+  margin-left: -70px; }
+  @media (max-width: 678px) {
+    input#btn-update-account {
+      margin-top: 25px;
+      margin-left: 0px; } }
+  @media (max-width: 320px) {
+    input#btn-update-account {
+      margin-top: 25px;
+      margin-left: 0px; } }
+  @media (max-width: 480px) {
+    input#btn-update-account {
+      margin-top: 25px;
+      margin-left: 0px; } }
+
+.redm-blog .comment-blog .comment-show ol .comment-detail .comment-center {
+  padding: 0px; }
+
+.content {
+  position: absolute;
+  margin-left: 10%; }
+  @media (max-width: 767px) {
+    .content {
+      margin-left: 12%; } }
+  @media (max-width: 480px) {
+    .content {
+      margin-left: 0px; } }
+
+.redm-blog .comment-blog .comment-show ol .comment-detail .comment-detail-img {
+  max-width: 75px; }
+
+.redm-blog .comment-blog .comment-show ol .comment-detail .avatar .userPanel {
+  top: -3px; }
+
+.profile-tickets-detail, .profile-view-detail, .profile-setting-detail {
+  z-index: 3; }
+
+@media (max-width: 767px) {
+  .redm-blog .comment-blog .comment-write textarea {
+    height: 70px;
+    max-width: 615px; } }

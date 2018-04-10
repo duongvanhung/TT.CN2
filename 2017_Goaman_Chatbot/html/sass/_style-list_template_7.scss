@@ -1,0 +1,530 @@
+.clear-fix {
+    clear: both;
+}
+
+#sample-interface-seven {
+    .container {
+        .row {
+            .reponsive {
+                @media (max-width: 1024px) {
+                    width: 30%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 24%;
+                }
+
+                @media (max-width: 480px) {
+                    width: 7%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 0%;
+                }
+            }
+
+            .reponsive-fix {
+                @media (max-width: 1024px) {
+                    width: 40%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 52%;
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 480px) {
+                    width: 86%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 100%;
+                }
+            }
+
+            .bd-1 {
+                border: 1px solid #ccc;
+                padding: 0px;
+
+                @media (max-width: 767px) {
+                }
+
+                .header {
+                    background-color: #339dff;
+                    height: 75px;
+
+                    .logo {
+                        float: left;
+                        padding: 10px;
+
+                        .fa-border-icon {
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 5;
+                            color: #969595;
+                            display: inline-block;
+                            border-radius: 100%;
+                            border: 1px solid #fff;
+
+                            .fa-plane {
+                                font-size: 35px;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .sky-priority {
+                        float: right;
+                        margin: 15px;
+                        color: #fff;
+
+                        .sky-text {
+                            margin: 0;
+                            font-size: 16px;
+                        }
+
+                        .sky-text-bold {
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .item-info {
+                    .part-1 {
+                        margin-top: 15px;
+
+                        .source {
+
+                            .city {
+                                color: #ccc;
+                                font-size: 18px;
+
+                                @media (max-width: 375px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .notation {
+                                color: #0099CC;
+                                font-size: 35px;
+
+                                @media (max-width: 320px) {
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+
+                        .distination {
+                            text-align: right;
+
+                            .city {
+                                color: #ccc;
+                                font-size: 18px;
+
+                                @media (max-width: 375px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .notation {
+                                color: #0099CC;
+                                font-size: 35px;
+
+                                @media (max-width: 320px) {
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+
+                        .fly {
+                            text-align: center;
+
+                            .fa-border-icon {
+                                .fa-fighter-jet {
+                                    font-size: 60px;
+                                    color: #339dff;
+
+                                    @media (max-width: 1024px) {
+                                        margin-left: -10px;
+                                        margin-top: 25px;
+                                    }
+
+                                    @media (max-width: 480px) {
+                                        margin-left: -10px;
+                                        margin-top: 25px;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        font-size: 50px;
+                                        padding-top: 0px;
+                                        margin-left: -5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .part-2 {
+                        margin-top: 15px;
+
+                        .flight {
+                            .flight-title {
+                                color: #999;
+                                font-size: 17px;
+                                letter-spacing: 1px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .flight-content {
+                                color: rgba(0, 0, 0, 0.75);
+                                font-weight: bold;
+                                font-size: 17px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 375px) {
+                                    font-size: 15px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        .departs {
+                            text-align: center;
+
+                            .departs-title {
+                                color: #999;
+                                font-size: 17px;
+                                letter-spacing: 1px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .departs-content {
+                                color: rgba(0, 0, 0, 0.75);
+                                font-weight: bold;
+                                font-size: 17px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 375px) {
+                                    font-size: 15px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        .arrives {
+                            float: right;
+
+                            .arrives-title {
+                                color: #999;
+                                font-size: 17px;
+                                letter-spacing: 1px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .arrives-content {
+                                color: rgba(0, 0, 0, 0.75);
+                                font-weight: bold;
+                                font-size: 17px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 375px) {
+                                    font-size: 15px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                    .part-3 {
+                        margin-top: 15px;
+
+                        .date {
+                            .date-title {
+                                color: #999;
+                                font-size: 17px;
+                                letter-spacing: 1px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .date-content {
+                                color: rgba(0, 0, 0, 0.75);
+                                font-weight: bold;
+                                font-size: 17px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 375px) {
+                                    font-size: 15px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        .aircraft {
+                            float: right;
+
+                            .aircraft-title {
+                                color: #999;
+                                font-size: 17px;
+                                letter-spacing: 1px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+
+                            .aircraft-content {
+                                color: rgba(0, 0, 0, 0.75);
+                                font-weight: bold;
+                                font-size: 17px;
+
+                                @media (max-width: 480px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 375px) {
+                                    font-size: 15px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+
+                    .part-4 {
+                        margin-top: 15px;
+
+                        .passengers {
+                            color: #999;
+                            font-size: 17px;
+                            letter-spacing: 1px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+
+                            .pg {
+                                .left-pg {
+                                    float: left;
+
+                                    @media (max-width: 480px) {
+                                        font-size: 16px;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        font-size: 14px;
+                                    }
+                                }
+
+                                .right-pg {
+                                    float: right;
+
+                                    @media (max-width: 480px) {
+                                        font-size: 16px;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .text-content {
+                            color: #999;
+                            clear: both;
+
+                            .passengers-title {
+                                font-weight: bold;
+                                color: rgba(0, 0, 0, 0.75);
+                                font-size: 17px;
+
+                                .left {
+                                    float: left;
+
+                                    @media (max-width: 480px) {
+                                        font-size: 16px;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        font-size: 15px;
+                                    }
+                                }
+
+                                .right {
+                                    float: right;
+
+                                    @media (max-width: 480px) {
+                                        font-size: 16px;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        font-size: 15px;
+                                    }
+                                }
+                            }
+
+                            .info {
+                                clear: both;
+                                font-size: 15px;
+                                padding-top: 5px;
+
+                                @media (max-width: 320px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        .seat {
+                            color: #999;
+                            float: right;
+
+                            .seat-content {
+                                color: rgba(0, 0, 0, 0.75);
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+
+                .line {
+                    background: #ccc;
+                    height: 10px;
+                }
+
+                .total-info {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    margin-top: 15px;
+
+                    .title {
+                        color: #999;
+                    }
+
+                    .left {
+                        float: left;
+
+                        .service {
+                            font-size: 16px;
+                            color: #222;
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .right {
+                        float: right;
+
+                        .price {
+                            font-size: 16px;
+                            color: #222;
+
+                            @media (max-width: 320px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+
+                    .total {
+                        clear: both;
+
+                        .left {
+                            float: left;
+                            font-size: 16px;
+                            color: #222;
+                            font-weight: bold;
+
+                            @media (max-width: 320px) {
+                                font-size: 15px;
+                            }
+                        }
+
+                        .right {
+                            float: right;
+                            font-size: 16px;
+                            color: #222;
+                            font-weight: bold;
+
+                            @media (max-width: 320px) {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

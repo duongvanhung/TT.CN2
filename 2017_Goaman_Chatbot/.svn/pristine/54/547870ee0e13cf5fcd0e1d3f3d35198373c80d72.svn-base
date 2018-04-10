@@ -1,0 +1,10 @@
+﻿function block_run_script_quick(block_jele, block_selector) {
+    $(block_selector + " .accordion-quick").on('click', function (e) {
+        $(block_selector + " .add-box").before("<div class='fix-col bu-tton-1-quick'><button data-type='title' class='btn btn-default accordion-quick'>Enter button name</button><span class='glyphicon glyphicon-trash delete-bt-remove-quick' aria-hidden='true'></span></div>");
+        var button = $(block_selector + ' span.delete-bt-remove-quick');
+        button.on('click', function (e) {
+            var parent = $(this).parent();
+            parent.remove();
+        });
+    });
+}

@@ -1,0 +1,30 @@
+<section class="footer_1 padding-top90 row-builder js-dynamic-menu" menu-name="footer" data-type="bg" data-script-name="block_run_script_footer">
+    <div class="container">
+        <div class="logo" data-animate="zoomIn">
+            <img src="assets/images/blocks/footer/logo1.png" alt="logo" data-type="image">
+        </div>
+        <div class="title" data-animate="zoomIn-parent">
+            <p>
+                <span data-type="title">COSMOS</span>
+            </p>
+            <p>
+                <span data-type="title">Is Perfect Landing Page to Showcase Your Apps</span>
+            </p>
+            <p>
+                <span data-type="content">Is amazing, modern and clean landing page for showcase your app anything else.
+                 A  valuable experience only COSMOS users can enjoy a variety of domestic and international premium services for free.
+                </span>
+            </p>
+        </div>
+        <div class="icons-social" data-animate="zoomIn-parent" >
+            <a href="#"><img src="assets/images/blocks/footer/twitter-logo.png" alt="Twitter" data-type="image-link"/></a>
+            <a href="#"><img src="assets/images/blocks/footer/facebook-logo.png" alt="Facebook" data-type="image-link"/></a>
+            <a href="#"><img src="assets/images/blocks/footer/google-logo.png" alt="Google" data-type="image-link"/></a>
+            <a href="#"><img src="assets/images/blocks/footer/pinterest-logo.png" alt="Pinterest" data-type="image-link"/></a>
+            <a href="#"><img src="assets/images/blocks/footer/linkedin-logo.png" alt="In" data-type="image-link"/></a>
+        </div>
+        <div class="coppy-right" data-animate="zoomIn">
+            <span data-type="content">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2016 Design by COSMOS</span>
+        </div>
+    </div>
+</section>

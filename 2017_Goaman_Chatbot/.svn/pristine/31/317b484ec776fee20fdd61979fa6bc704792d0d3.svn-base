@@ -1,0 +1,120 @@
+<section class="timeline1 row-builder js-dynamic-menu" menu-name="Timeline" data-type="bg" data-script-name="block_run_script_timeline">
+<header class="header-children-page" data-type="bg">
+				    <div class="container">
+				        <div class="row">
+				        	<div class="col-xs-12">
+				        		<div class="header-children-page-content">
+				        			<div class="header-children-page-logo">
+					        			<img src="assets/images/blocks/style/logo.png" data-type="image"/>
+					        		</div>
+					        		<span class="header-children-page-text1" data-type="title">
+					        			COSMOS
+					        		</span>
+					        		<span class="header-children-page-text2" data-type="title">
+					        			App Landing Page
+					        		</span>
+				        		</div>
+				        		<div class="header-children-page-breadcum">
+				        			<span data-type="title">TIMELINE 1</span>
+				        			<ul>
+				        				<li><a href="index.html" data-type="link">Homepage</a></li>
+				        				<li><a href="#" data-type="link">Timeline</a></li>
+				        			</ul>
+				        		</div>
+				        	</div>
+				        </div>
+				    </div>
+				    <div class="setting-background-bt" style="display: block; opacity: 1;">
+				    	<button type="button" data-placement="bottom" data-toggle="tooltip" title="Edit image" class="row-edit-bg btn btn-lg" data-dialog="">
+				    		<i class="fa fa-picture-o" aria-hidden="true"></i>
+				    	</button>
+				    </div>
+				</header>
+	<div class="container ">
+		<div class="row frame_row">
+			<div class="col-lg-6 col-md-6 col-md-offset-0 col-sm-10 col-xs-11 col-xs-offset-1 box box1 box-border-right">
+			<img class="point_left" src="assets/images/blocks/timeline/point.jpg" alt="point" data-type="image">
+				<div class="contact" data-animate="zoomIn">
+					<div class="img-box margin-top-left box-img-padding-left">
+						<img class="image_left " data-type="image" src="assets/images/blocks/timeline/timeline_1.jpg" alt="img_box1">
+						<div class="date left " data-type="title">21 Jun</div>
+						
+					</div>
+						
+						<div class="tit_left " ><h3 data-type="title">Mobile App Development Technology Blog</h3></div>
+						<div class="text_left " data-type="content"> Another important factor to consider when designing a retail app is how the user will physiologically use the app.Designing your app...</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-0 col-sm-10 col-xs-11 col-xs-offset-1 box box2  box-border-left">
+				<img class="point_right" src="assets/images/blocks/timeline/point.jpg" alt="point" data-type="image">
+				<div class="contact" data-animate="zoomIn">
+					<div class="img-box margin-top-right box-img-padding-right  ">
+						<div class="carousel posts-slider">
+	                     	<div class="carousel-items image_posts posts-slider-items">
+	                     			<div>
+	                     				<img class=" img-responsive row-edit" data-type="image" src="assets/images/blocks/timeline/time-slider-3.png" alt="cannotload">
+	                     				<div class="date " data-type="title">20 Jun</div>
+										
+	                     			</div>
+	                     			<div>
+	                     				<img class=" img-responsive row-edit" data-type="image" src="assets/images/blocks/timeline/time-slider-3.png" alt="cannotload">
+	                     				<div class="date " data-type="title">20 Jun</div>
+									
+	                     			</div>
+	                     			<div>
+	                     				<img class=" img-responsive row-edit" data-type="image" src="assets/images/blocks/timeline/time-slider-3.png" alt="cannotload">
+	                     				<div class="date " data-type="title">20 Jun</div>
+										
+	                     			</div>
+	                     			<div>
+	                     				<img class=" img-responsive row-edit" data-type="image" src="assets/images/blocks/timeline/time-slider-3.png" alt="cannotload">
+	                     				<div class="date " data-type="title">20 Jun</div>
+										
+	                     			</div>			
+	                     	</div>
+	                     
+	                     	<div class="carousel-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                    		<div class="carousel-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+	                 	</div>
+							
+				</div>
+						<div class="tit_right " ><h3 data-type="title">10 Best EcommerceApp Builder</h3></div>
+						<div class="text_right " data-type="content"> Your bussiness can benifit from the growing populartiy of online shopping with eComerce platforms readily available for your Commerce website... </div>
+				</div> <!-- content-box -->
+			</div> <!-- list-col -->
+				<div class="col-xs-11  col-sm-10  col-md-6 col-lg-6 col-md-offset-0 col-xs-offset-1 box3 box-border-right">
+					<img class="point_left" src="assets/images/blocks/timeline/point.jpg" alt="point">
+					<div class="contact box-position-relative" data-animate="zoomIn">
+						<div class="img-box box-img-padding-left">
+							<div class="video">
+								<a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">	
+									<img class="image_left" src="assets/images/blocks/timeline/timeline_2.png" alt="youtube" data-type="image-link">
+									<img class="icon_play" src="assets/images/blocks/timeline/tl_icon_play.png" alt="icon_play" data-type="image-link">
+								</a>
+							</div>
+							<div class="date left " data-type="title">19 Jun</div>
+							
+						</div>
+					<!-- 	<div style="clear:both;"></div> -->
+						<div class="tit_left " ><h3 data-type="title">How to choose The best bloging app for Your smartphone</h3></div>
+						<div class="text_left " data-type="content"> If uou participate in the digital information age through blogging, then you know how difficult it is to keep up with your daily posts...</div>
+					</div>
+				</div> <!-- list-col -->
+					<div class="col-xs-11  col-sm-10  col-md-6 col-lg-6  col-md-offset-0 col-xs-offset-1 box4 box-border-left">
+					<img class="point_right " src="assets/images/blocks/timeline/point.jpg" alt="point">
+					 <div class="contact" data-animate="zoomIn">
+						<div class="img-box box-img-padding-right">
+							<img class="image_right " data-type="image" src="assets/images/blocks/timeline/timeline_4.jpg" alt="img_box4">
+							<div class="date " data-type="title">18 Jun</div>
+							
+						</div>
+						
+						<div class="tit_right " data-type="content"><h3>How to take a photo by Canvas Lens on smart phone</h3></div>
+						<div class="text_right " data-type="content"> Another important factor to consider when designing a retail app is how the user will physiologically use the app.Designing your app...</div>
+					</div>
+				</div>
+				</div> <!-- div col-6 -->	
+			
+			<div class="row readmore"><button class="button" data-type="button">SHOW MORE</div></div>
+		</div>
+	</section>

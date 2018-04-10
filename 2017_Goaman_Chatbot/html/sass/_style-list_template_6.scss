@@ -1,0 +1,465 @@
+#sample-interface-six {
+    .container {
+        .row {
+            .reponsive {
+                @media (max-width: 1024px) {
+                    width: 30%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 24%;
+                }
+
+                @media (max-width: 480px) {
+                    width: 7%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 0%;
+                }
+            }
+
+            .reponsive-fix {
+                @media (max-width: 1024px) {
+                    width: 40%;
+                }
+
+                @media (max-width: 991px) {
+                    width: 52%;
+                    margin: 0 auto;
+                }
+
+                @media (max-width: 480px) {
+                    width: 86%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 100%;
+                }
+            }
+
+            .bg-blue {
+                background: #0084ff;
+
+                @media (max-width: 767px) {
+                }
+
+                .header {
+                    .logo {
+                        float: left;
+                        margin-top: 15px;
+
+                        .fa-border-icon {
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 5;
+                            color: #969595;
+                            display: inline-block;
+                            border-radius: 100%;
+                            border: 1px solid #fff;
+
+                            .fa-plane {
+                                font-size: 35px;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .sky-priority {
+                        float: right;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+
+                        .label-primary {
+                            padding: 15px;
+                            line-height: 4;
+                            background-color: #339dff;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .part-1 {
+                    clear: both;
+                    padding-top: 15PX;
+
+                    .left {
+                        float: left;
+
+                        .passenger {
+                            color: #d9edf7;
+                        }
+
+                        .font-16 {
+                            font-size: 16px;
+                        }
+
+                        .name {
+                            color: #fff;
+                            font-weight: bold;
+                        }
+                    }
+
+                    .right {
+                        float: right;
+
+                        .add-time {
+                            color: #d9edf7;
+                            text-align: right;
+                        }
+
+                        .font-16 {
+                            font-size: 16px;
+                        }
+
+                        .time {
+                            color: #fff;
+                            font-weight: bold;
+                        }
+                    }
+                }
+
+                hr {
+                    clear: both;
+                }
+
+                .part-2 {
+                    .pd-0 {
+                        padding: 0px;
+
+                        .source {
+                            .city {
+                                color: #d9edf7;
+
+                                .mg-0 {
+                                    margin: 0px;
+                                }
+                            }
+
+                            .font-18 {
+                                font-size: 18px;
+
+                                @media (max-width: 375px) {
+                                    font-size: 16px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .notation {
+                                font-size: 40px;
+                                color: #fff;
+
+                                @media (max-width: 1024px) {
+                                    font-size: 38px;
+                                }
+
+                                @media (max-width: 991px) {
+                                    font-size: 35px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+
+                    .icon {
+                        .fa-border-icon {
+                            .fa-fighter-jet {
+                                font-size: 65px;
+                                color: #fff;
+                                margin-left: -10px;
+                                margin-top: 10px;
+
+                                @media (max-width: 480px) {
+                                    margin-left: -20px;
+                                }
+
+                                @media (max-width: 320px) {
+                                    font-size: 60px;
+                                    padding-top: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    .distination {
+                        text-align: right;
+
+                        .city {
+                            color: #d9edf7;
+
+                            .mg-0 {
+                                margin: 0px;
+                            }
+                        }
+
+                        .font-18 {
+                            font-size: 18px;
+
+                            @media (max-width: 375px) {
+                                font-size: 16px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 16px;
+                            }
+                        }
+
+                        .notation {
+                            font-size: 40px;
+                            color: #fff;
+
+                            @media (max-width: 1024px) {
+                                font-size: 38px;
+                            }
+
+                            @media (max-width: 991px) {
+                                font-size: 35px;
+                            }
+
+                            @media (max-width: 320px) {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+
+                .part-3 {
+                    clear: both;
+
+                    .title {
+                    }
+
+                    .color-gray {
+                        color: #d9edf7;
+                    }
+
+                    .info {
+                    }
+
+                    .color-white {
+                        color: #fff;
+                    }
+
+                    .font-16 {
+                        font-size: 16px;
+                        letter-spacing: 1px;
+
+                        @media (max-width: 1024px) {
+                            font-size: 18px;
+                        }
+
+                        @media (max-width: 991px) {
+                            font-size: 16px;
+                        }
+
+                        @media (max-width: 425px) {
+                            letter-spacing: 0px;
+                        }
+
+                        @media (max-width: 375px) {
+                            font-size: 15px;
+                        }
+
+                        @media (max-width: 320px) {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .font-13 {
+                        font-size: 13px;
+
+                        @media (max-width: 991px) {
+                            font-size: 14px;
+                        }
+
+                        @media (max-width: 375px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .part-4 {
+                    clear: both;
+                    padding-top: 25px;
+
+                    .title {
+                    }
+
+                    .color-gray {
+                        color: #d9edf7;
+                    }
+
+                    .font-13 {
+                        @media (max-width: 375px) {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .info {
+                    }
+
+                    .color-white {
+                        color: #fff;
+                    }
+
+                    .font-16 {
+                        font-size: 16px;
+                        letter-spacing: 1px;
+
+                        @media (max-width: 1024px) {
+                            font-size: 18px;
+                        }
+
+                        @media (max-width: 991px) {
+                            font-size: 16px;
+                        }
+
+                        @media (max-width: 425px) {
+                            letter-spacing: 0px;
+                        }
+
+                        @media (max-width: 375px) {
+                            font-size: 15px;
+                        }
+
+                        @media (max-width: 320px) {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .font-16 {
+                        font-size: 16px;
+
+                        @media (max-width: 991px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .part-5 {
+                    clear: both;
+
+                    .status {
+                        text-align: center;
+                        padding-top: 30px;
+
+                        @media (max-width: 767px) {
+                            margin: 0 auto;
+                        }
+
+                        @media (max-width: 425px) {
+                            width: 100%;
+                            margin: 0 auto;
+                        }
+
+                        .mg-0 {
+                            background: #339dff;
+                            line-height: 2;
+                        }
+
+                        .font-16 {
+                            font-size: 16px;
+                        }
+
+                        .color-white {
+                            color: #fff;
+                        }
+                    }
+
+                    .barcode {
+                        #blocks {
+                            list-style-type: none;
+
+                            .img-content {
+                                border-radius: 20px;
+                                height: 100%;
+
+                                @media (max-width: 767px) {
+                                    margin: 0 auto;
+                                }
+
+                                @media (max-width: 425px) {
+                                    margin: 0 auto;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .part-6 {
+                    clear: both;
+                    padding-top: 20px;
+
+                    .list-group {
+                        margin-bottom: -1px;
+
+                        .list-group-item {
+                            background-color: transparent;
+                            border-radius: 0px;
+                            border-left: 0px;
+                            border-right: 0px;
+                        }
+
+                        .color-white {
+                            color: #fff;
+                        }
+
+                        .font-16 {
+                            font-size: 16px;
+
+                            @media (max-width: 480px) {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+
+                .part-7 {
+                    clear: both;
+                    background: #fff;
+
+                    .carousel-indicators {
+                        position: relative;
+                    }
+                }
+            }
+        }
+
+        .row {
+            .pd-0 {
+                padding: 0px;
+
+                .carousel-indicators {
+                    position: relative;
+                    margin: 0px;
+                    left: 0px;
+                    bottom: 0px;
+                    width: 100%;
+                    line-height: 3;
+
+                    .active {
+                        background: #339dff;
+                    }
+
+                    li {
+                        background: #d9edf7;
+                    }
+                }
+            }
+
+            .bd-1 {
+                border: 1px solid #ccc;
+
+                @media (max-width: 767px) {
+                }
+            }
+        }
+    }
+}

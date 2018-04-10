@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Language" content="EN" />
+    <link rel="shortcut icon" type="img/png" href="" />
+    <title>Mẫu Template 1.html</title>
+    <!-- LIBRARY CSS-->
+    <link type="text/css" rel="stylesheet"
+          href="bootstrap/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/animate.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <section id="sample-interface-quick-reply">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 reponsive"></div>
+                <div class="col-sm-4 col-md-4 reponsive-fix">
+                    <div class="content">
+                        <div class="form-group">
+                            <div class="bu-tton-quick">
+                                <button class="btn btn-default accordion-quick">+ ADD BUTTON</button>
+                            </div>
+                            <div class="panel">
+                                <div class="en-ter-bt">
+                                    <input placeholder="Enter text" type="text" class="form-control">
+                                </div>
+                                <div class="en-ter-block">
+                                    <div class=url-link>
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="#"><span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>Block</a></li>
+                                            <li><a class="color-red" href="#a"><span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>URL</a></li>
+                                            <li><a class="color-red" href="#b"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Phone call</a></li>
+                                        </ul>
+                                        <div class="tab-content clearfix">
+                                            <div class="tab-pane active" id="a">
+                                                <input placeholder="Enter text" type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 reponsive"></div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main-hq-quick-rp.js"></script>
+</body>
+</html>

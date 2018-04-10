@@ -1,0 +1,119 @@
+<!-- --------screenhot-2-------- -->
+<!-- include css: screenshot.css  -->
+<!-- include js: screenshot.js  -->
+
+<section class="screenshot_2 padding-top90 js-dynamic-menu row-builder" data-type="bg" menu-name="Screenshot" data-script-name="block_run_script_screenshot">
+    <div class="container">
+        <div class="screenshot-header">
+            <div class="screenshot-header-logo">
+                <img  src="assets/images/blocks/screenshot/logo.png" alt="logo" data-type="image">  
+            </div>
+            <p class="screenshot-header-title" >
+                <span data-type="title">See some of the screenshots of our awesome app</span>
+            </p>
+            <p class="screenshot-header-style" >
+                <span data-type="title">Screenshots Style 2</span>
+            </p>
+        </div>
+
+        <div class="screenshot-content">
+            <div class="carousel">
+                <div class="carousel-items">
+                    <img src="assets/images/blocks/screenshot/screenshot_1.png" alt="img" data-type="image"/>
+                    <img src="assets/images/blocks/screenshot/screenshot_2.png" alt="img" data-type="image"/>
+                    <img src="assets/images/blocks/screenshot/screenshot_3.png" alt="img" data-type="image"/>
+                    <img src="assets/images/blocks/screenshot/screenshot_4.png" alt="img" data-type="image"/>
+                    <img src="assets/images/blocks/screenshot/screenshot_1.png" alt="img" data-type="image"/>
+                    <img src="assets/images/blocks/screenshot/screenshot_2.png" alt="img" data-type="image"/>
+                    <img src="assets/images/blocks/screenshot/screenshot_3.png" alt="img" data-type="image"/>
+                </div>
+                <div class="carousel-prev">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="carousel-next">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- -----------------------SCREENHOT-2--------------------- -->
+
+<section class="screenshot_3 padding-top90 js-dynamic-menu row-builder" data-type="bg" menu-name="Screenshot" data-script-name="block_run_script_screenshot_3">
+    <div class="container">
+        <div class="screenshot-header">
+            <div class="screenshot-header-logo">
+                <img  src="assets/images/blocks/screenshot/logo.png" alt="logo" data-type="image">  
+            </div>
+            <p class="screenshot-header-title">
+                <span data-type="title">See some of the screenshots of our awesome app</span>
+            </p>
+            <p class="screenshot-header-style" >
+                <span data-type="title">Screenshots Style 3</span>
+            </p>
+        </div>
+        <div class="screenshot-content">
+            <div class="row row-eq-height">
+                <div class="col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                    <div class="carousel">
+                        <div class="carousel-items">
+                            <img data-text="screenshot-tab1" src="assets/images/blocks/screenshot/screenshot3_1.png" alt="img" data-type="image"/>
+                            <img data-text="screenshot-tab2" src="assets/images/blocks/screenshot/screenshot3_1.png" alt="img" data-type="image"/>
+                            <img data-text="screenshot-tab3" src="assets/images/blocks/screenshot/screenshot3_1.png" alt="img" data-type="image"/>
+                        </div>
+                        <div class="carousel-prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="carousel-next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div data-text="screenshot-tab1" class="screenshot-counter active">
+                        <div class="screenshot-counter-count">
+                            <span data-tyle="title">1/10: Counters Screeenshot</span>
+                        </div>
+                        <div class="screenshot-counter-description">
+                            <div class="screenshot-counter-description-text1">
+                                <span data-type="title">DESCRIPTION</span>
+                            </div>
+                            <div class="screenshot-counter-description-text2">
+                                <span data-type="content">Is a personal counter to let you easily track unlimited things in your life. Large buttons to increase and decrease counters. Option to turn on/off sound effects. No limit to counter value.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-text="screenshot-tab2" class="screenshot-counter">
+                        <div class="screenshot-counter-count">
+                            <span data-type="title">2/10: Counters </span>
+                        </div>
+                        <div class="screenshot-counter-description">
+                            <div class="screenshot-counter-description-text1">
+                                <span data-type="title">DESCRIPTION</span>
+                            </div>
+                            <div class="screenshot-counter-description-text2">
+                                <span data-type="content">Is a personal counter to let you easily track unlimited things in your life. Large buttons </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-text="screenshot-tab3" class="screenshot-counter">
+                        <div class="screenshot-counter-count">
+                            <span data-type="title">3/10: Counters Screeenshot</span>
+                        </div>
+                        <div class="screenshot-counter-description">
+                            <div class="screenshot-counter-description-text1">
+                                <span data-type="title">DESCRIPTION</span>
+                            </div>
+                            <div class="screenshot-counter-description-text2">
+                                <span data-type="content">Is a personal counter to let you easily track unlimited things in your life. Large buttons to increase and decrease counters. Option to turn on/off sound effects. No limit to counter value.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

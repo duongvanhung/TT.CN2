@@ -1,0 +1,229 @@
+.clear-fix {
+    clear: both;
+}
+
+#sample-interface-nine {
+    .container {
+        .row {
+            .bd-1 {
+                border: 1px solid #ccc;
+                padding: 0px;
+                border-radius: 20px;
+
+                @media (max-width: 767px) {
+                    width: 100%;
+                }
+
+                .header {
+                    height: 75px;
+                    background-color: #339dff;
+                    border-radius: 20px 20px 0px 0px;
+
+                    .logo {
+                        float: left;
+                        padding: 10px;
+                        margin-left: 10px;
+
+                        .fa-border-icon {
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 5;
+                            color: #339dff;
+                            display: inline-block;
+                            border-radius: 100%;
+                            border: 1px solid #fff;
+
+                            .fa-plane {
+                                font-size: 35px;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    .sky-priority {
+                        float: right;
+                        margin: 15px;
+                        color: #fff;
+
+                        .sky-text {
+                            margin: 0;
+                            font-size: 16px;
+                        }
+
+                        .sky-text-bold {
+                            font-weight: bold;
+                            font-size: 16px;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                hr {
+                    margin-top: 0px;
+                    clear: both;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+
+                .text-content {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    margin-top: 20px;
+
+                    .pg {
+                        .left-pg {
+                            float: left;
+                            font-size: 16px;
+                            color: #999;
+                        }
+
+                        .right-pg {
+                            float: right;
+                            font-size: 16px;
+                            color: #999;
+                        }
+                    }
+
+                    .passengers-title {
+                        clear: both;
+                        padding-top: 10px;
+
+                        .text {
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                .content-info {
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    .time {
+                        font-size: 18px;
+                    }
+
+                    .part-1 {
+                        margin-top: 15px;
+
+                        .pd-0 {
+                            padding: 0px;
+
+                            .source {
+
+                                .city {
+                                    color: #ccc;
+                                    font-size: 18px;
+
+                                    @media (max-width: 320px) {
+                                        font-size: 16px;
+                                    }
+                                }
+
+                                .notation {
+                                    color: #0099CC;
+                                    font-size: 35px;
+
+                                    @media (max-width: 320px) {
+                                        font-size: 30px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .pd-0 {
+                            padding: 0px;
+
+                            .distination {
+                                text-align: right;
+
+                                .city {
+                                    color: #ccc;
+                                    font-size: 18px;
+
+                                    @media (max-width: 320px) {
+                                        font-size: 16px;
+                                    }
+                                }
+
+                                .notation {
+                                    color: #0099CC;
+                                    font-size: 35px;
+
+                                    @media (max-width: 320px) {
+                                        font-size: 30px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .fly {
+                            text-align: center;
+
+                            .fa-border-icon {
+                                .fa-fighter-jet {
+                                    font-size: 85px;
+                                    color: #339dff;
+
+                                    @media (max-width: 480px) {
+                                        margin-left: -20px;
+                                    }
+
+                                    @media (max-width: 320px) {
+                                        font-size: 50px;
+                                        padding-top: 24px;
+                                        margin-left: -5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .total {
+                    clear: both;
+                    padding-left: 20px;
+                    padding-right: 20px;
+
+                    .left {
+                        float: left;
+                        font-size: 16px;
+                        color: #222;
+                        font-weight: bold;
+                        padding-bottom: 20px;
+
+                        @media (max-width: 320px) {
+                            font-size: 15px;
+                        }
+                    }
+
+                    .right {
+                        float: right;
+                        font-size: 16px;
+                        color: #222;
+                        font-weight: bold;
+
+                        @media (max-width: 320px) {
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .end-line {
+                    margin: 0px;
+                }
+
+                .text-center {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+
+                    .view-more {
+                        text-decoration: none;
+                        font-weight: bold;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
